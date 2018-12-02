@@ -14,7 +14,7 @@ public class Q2_add_two_numbers {
 
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         /**
-         * 思入: 依次相加,直到某个链表先没有,然后拼接到l1上. 假设l1总是长链,或者等链. 若出现意外的情况,将后序的链交换
+         * 思入: 依次相加,直到某个链表先没有,然后拼接到l1上. 假设l1总是长链,或者等链. 若出现l2长链的情况,将l1和l2的后面的链交换
          * 复杂度: 时间复杂度(O(max(m,n))),空间复杂度:O(1)
          */
 
@@ -35,13 +35,13 @@ public class Q2_add_two_numbers {
                 head2.next = null;
             }
 
-            //用来拼接最后新增那个
-            last = head1;
+
+            last = head1;//用来拼接最后新增那个
             head1 = head1.next;
             head2 = (head2 != null) ? head2.next : null;
         }
 
-        // 处理剩下的carry,此时last表示算完的最后一个
+        // 处理剩下的carry
         if (carry != 0) last.next = new ListNode(carry);
         return l1;
 
