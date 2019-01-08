@@ -19,13 +19,8 @@ public class Q451_sort_characters_by_frequency {
          */
         int total = 128;
         tuple[] fucker = new tuple[total];
-        for (int i = 0; i < total; i++) {
-            fucker[i] = new tuple((char) i);
-        }
-
-        for (char c : s.toCharArray()) {
-            fucker[c].count++;
-        }
+        for (int i = 0; i < total; i++) fucker[i] = new tuple((char) i);
+        for (char c : s.toCharArray()) fucker[c].count++;
 
         //排序
         Arrays.sort(fucker, new Comparator<tuple>() {
@@ -41,13 +36,12 @@ public class Q451_sort_characters_by_frequency {
             int size = fucker[i].count;
             if (size != 0) {
                 char key = fucker[i].key;
-                for (int j = 0; j < size; j++) {
-                    result.append(key);
-                }
+                for (int j = 0; j < size; j++) result.append(key);
             }
         }
         return result.toString();
     }
+
 
     public static void main(String[] args) {
         Q451_sort_characters_by_frequency s = new Q451_sort_characters_by_frequency();
