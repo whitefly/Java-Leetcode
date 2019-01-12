@@ -11,18 +11,14 @@ public class Q289_game_of_life {
         int[][] changes = {{0, -1}, {0, 1}, {-1, 0}, {1, 0}, {-1, -1}, {-1, 1}, {1, -1}, {1, 1}};
         int m = board.length, n = board[0].length;
         int[][] clone = new int[m][n];
-
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) clone[i][j] = board[i][j];
-        }
+        for (int i = 0; i < m; i++) System.arraycopy(board[i], 0, clone[i], 0, n);
 
 
         for (int x = 0; x < m; x++) {
             for (int y = 0; y < n; y++) {
                 int count = 0;
                 for (int[] change : changes) {
-                    int new_x = change[0] + x;
-                    int new_y = change[1] + y;
+                    int new_x = change[0] + x, new_y = change[1] + y;
                     if (new_x < 0 || new_y < 0 || new_x >= m || new_y >= n) continue;
                     if (clone[new_x][new_y] == 1) count++;
                 }

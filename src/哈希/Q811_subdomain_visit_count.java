@@ -15,15 +15,13 @@ public class Q811_subdomain_visit_count {
             for (int i = 0; i < s.length(); i++) {
                 if (s.charAt(i) == '.') {
                     String key = s.substring(i + 1);
-                    map.put(key, map.containsKey(key) ? map.get(key) + count : count);
+                    map.merge(key, count, Integer::sum);
                 }
             }
         }
         //返回结果
-        ArrayList<String> r = new ArrayList();
-        for (Map.Entry<String, Integer> entry : map.entrySet()) {
-            r.add(entry.getValue() + " " + entry.getKey());
-        }
+        LinkedList<String> r = new LinkedList();
+        map.forEach((k, v) -> r.add(v + " " + k));
         return r;
     }
 
