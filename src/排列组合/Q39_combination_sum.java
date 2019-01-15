@@ -17,8 +17,10 @@ public class Q39_combination_sum {
     }
 
     private void helper(int[] candidates, int index, int target, int sum) {
-        if (target < sum) return;
-        if (target == sum) r.add((List<Integer>) temp.clone());
+        if (target <= sum) {
+            if (target == sum) r.add((List<Integer>) temp.clone());
+            return;
+        }
 
         for (int i = index; i < candidates.length; i++) {
             int num = candidates[i];
