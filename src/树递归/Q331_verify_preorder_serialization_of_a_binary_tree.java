@@ -9,31 +9,24 @@ public class Q331_verify_preorder_serialization_of_a_binary_tree {
          * 规则: 若顶上为# ,且又碰上#,则叶节点已经遍历完. 消去叶节点,且再加一个#,表示其左枝已经遍历完.
          */
         Stack<String> stack = new Stack<>();
-        try {
-            for (String c : preorder.split(",")) {
-                if (c.equals(",")) continue;
+        for (String c : preorder.split(",")) {
+            if (c.equals(",")) continue;
 
-                if (!c.equals("#")) stack.push(c);
+            if (!c.equals("#")) stack.push(c);
+            else {
+                if (stack.isEmpty() || stack.peek().equals("#")) stack.push("#");
                 else {
-                    if (stack.isEmpty() || stack.peek().equals("#")) stack.push("#");
-                    else {
-                        while (stack.peek().equals("#")) {
-                            stack.pop();  //去掉#
-                            String second = stack.pop();//去掉最近顶点
-                            // if (second.equals("#")) return false;
-                            if (stack.size() == 0) break;
-                        }
-                        stack.push("#");  //加上节点
+                    while (stack.peek().equals("#")) {
+                        stack.pop();  //去掉#
+                        String second = stack.pop();//去掉最近顶点
+                        if (second.equals("#")) return false;
+                        if (stack.size() == 0) break;
                     }
+                    stack.push("#");  //加上节点
                 }
             }
-
-            return stack.size() == 1 && stack.peek().equals("#");  //最后stask已经只剩下一个#
-        } catch (Exception e) {
-            return false;
         }
-
-
+        return stack.size() == 1 && stack.peek().equals("#");  //最后stask已经只剩下一个#
     }
 
     public boolean isValidSerialization2(String preorder) {
