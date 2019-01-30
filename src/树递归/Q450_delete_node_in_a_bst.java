@@ -6,7 +6,7 @@ public class Q450_delete_node_in_a_bst {
          * 思入:  删除一个节点,需要取一个节点来代替它. 要不取左子的最大,要不取右子的最小(取右子的即可)
          * 若取右子的最小,需要将最小取出,并且将该点从右子删除,并且返回右子
          */
-        if (root == null) return null;
+        if (root == null) return null;  //防止出现key找不到的情况
 
         if (root.val == key) {
             if (root.left == null) return root.right;

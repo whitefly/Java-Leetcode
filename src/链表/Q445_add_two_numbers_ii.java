@@ -10,6 +10,11 @@ class ListNode {
     ListNode(int x) {
         val = x;
     }
+
+    @Override
+    public String toString() {
+        return String.format("%d-->%d", val, next == null ? null : next.val);
+    }
 }
 
 public class Q445_add_two_numbers_ii {
