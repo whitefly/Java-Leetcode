@@ -1,6 +1,4 @@
-package 重复元素;
-
-import java.util.Arrays;
+package 有限范围数组;
 
 public class Q41_first_missing_positive {
     public int firstMissingPositive(int[] nums) {
