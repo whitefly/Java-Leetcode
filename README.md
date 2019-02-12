@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>156</font>
+Java已刷题目 :<font color=red>158</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -59,9 +59,11 @@ Java已刷题目 :<font color=red>156</font>
 | 49 | group anagrams | [答案链接](src/哈希/Q49_group_anagrams.java) | 哈希 |
 | 50 | powx n | [答案链接](src/二分/Q50_powx_n.java) | 二分 |
 | 53 | maximum subarray | [答案链接](src/动态规划/Q53_maximum_subarray.java) | 动态规划 |
+| 54 | spiral matrix | [答案链接](src/排版题/Q54_spiral_matrix.java) | 排版题 |
 | 55 | jump game | [答案链接](src/动态规划/Q55_jump_game.java) | 动态规划 |
 | 56 | merge intervals | [答案链接](src/图形学/Q56_merge_intervals.java) | 图形学 |
 | 57 | insert interval | [答案链接](src/图形学/Q57_insert_interval.java) | 图形学 |
+| 59 | spiral matrix ii | [答案链接](src/排版题/Q59_spiral_matrix_ii.java) | 排版题 |
 | 60 | permutation sequence | [答案链接](src/排列组合/Q60_permutation_sequence.java) | 排列组合 |
 | 67 | add binary | [答案链接](src/字符串/Q67_add_binary.java) | 字符串 |
 | 70 | climbing stairs | [答案链接](src/动态规划/Q70_climbing_stairs.java) | 动态规划 |
