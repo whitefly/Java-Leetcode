@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>158</font>
+Java已刷题目 :<font color=red>162</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -63,8 +63,10 @@ Java已刷题目 :<font color=red>158</font>
 | 55 | jump game | [答案链接](src/动态规划/Q55_jump_game.java) | 动态规划 |
 | 56 | merge intervals | [答案链接](src/图形学/Q56_merge_intervals.java) | 图形学 |
 | 57 | insert interval | [答案链接](src/图形学/Q57_insert_interval.java) | 图形学 |
+| 58 | length of last word | [答案链接](src/字符串/Q58_length_of_last_word.java) | 字符串 |
 | 59 | spiral matrix ii | [答案链接](src/排版题/Q59_spiral_matrix_ii.java) | 排版题 |
 | 60 | permutation sequence | [答案链接](src/排列组合/Q60_permutation_sequence.java) | 排列组合 |
+| 61 | rotate list | [答案链接](src/链表/Q61_rotate_list.java) | 链表 |
 | 67 | add binary | [答案链接](src/字符串/Q67_add_binary.java) | 字符串 |
 | 70 | climbing stairs | [答案链接](src/动态规划/Q70_climbing_stairs.java) | 动态规划 |
 | 77 | combinations | [答案链接](src/排列组合/Q77_combinations.java) | 排列组合 |
@@ -105,6 +107,7 @@ Java已刷题目 :<font color=red>158</font>
 | 153 | find minimum in rotated sorted array | [答案链接](src/二分/Q153_find_minimum_in_rotated_sorted_array.java) | 二分 |
 | 165 | compare version numbers | [答案链接](src/字符串/Q165_compare_version_numbers.java) | 字符串 |
 | 169 | majority element | [答案链接](src/重复元素/Q169_majority_element.java) | 重复元素 |
+| 189 | rotate array | [答案链接](src/数学结论/Q189_rotate_array.java) | 数学结论 |
 | 190 | reverse bits | [答案链接](src/字符串/Q190_reverse_bits.java) | 字符串 |
 | 198 | house robber | [答案链接](src/动态规划/Q198_house_robber.java) | 动态规划 |
 | 199 | binary tree right side view | [答案链接](src/树递归/Q199_binary_tree_right_side_view.java) | 树递归 |
@@ -164,6 +167,7 @@ Java已刷题目 :<font color=red>158</font>
 | 669 | trim a binary search tree | [答案链接](src/树递归/Q669_trim_a_binary_search_tree.java) | 树递归 |
 | 671 | second minimum node in a binary tree | [答案链接](src/树递归/Q671_second_minimum_node_in_a_binary_tree.java) | 树递归 |
 | 700 | search in a binary search tree | [答案链接](src/树递归/Q700_search_in_a_binary_search_tree.java) | 树递归 |
+| 725 | split linked list in parts | [答案链接](src/链表/Q725_split_linked_list_in_parts.java) | 链表 |
 | 746 | min cost climbing stairs | [答案链接](src/动态规划/Q746_min_cost_climbing_stairs.java) | 动态规划 |
 | 765 | couples holding hands | [答案链接](src/有限范围数组/Q765_couples_holding_hands.java) | 有限范围数组 |
 | 767 | reorganize string | [答案链接](src/排列组合/Q767_reorganize_string.java) | 排列组合 |
