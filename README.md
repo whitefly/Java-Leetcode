@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>162</font>
+Java已刷题目 :<font color=red>163</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -142,6 +142,7 @@ Java已刷题目 :<font color=red>162</font>
 | 374 | guess number higher or lower | [答案链接](src/二分/Q374_guess_number_higher_or_lower.java) | 二分 |
 | 377 | combination sum iv | [答案链接](src/排列组合/Q377_combination_sum_iv.java) | 排列组合 |
 | 387 | first unique character in a string | [答案链接](src/哈希/Q387_first_unique_character_in_a_string.java) | 哈希 |
+| 394 | decode string | [答案链接](src/栈/Q394_decode_string.java) | 栈 |
 | 415 | add strings | [答案链接](src/字符串/Q415_add_strings.java) | 字符串 |
 | 429 | n ary tree level order traversal | [答案链接](src/树递归/Q429_n_ary_tree_level_order_traversal.java) | 树递归 |
 | 437 | path sum iii | [答案链接](src/树递归/Q437_path_sum_iii.java) | 树递归 |
