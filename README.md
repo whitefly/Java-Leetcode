@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>163</font>
+Java已刷题目 :<font color=red>164</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -150,6 +150,7 @@ Java已刷题目 :<font color=red>163</font>
 | 448 | find all numbers disappeared in an array | [答案链接](src/有限范围数组/Q448_find_all_numbers_disappeared_in_an_array.java) | 有限范围数组 |
 | 450 | delete node in a bst | [答案链接](src/树递归/Q450_delete_node_in_a_bst.java) | 树递归 |
 | 451 | sort characters by frequency | [答案链接](src/哈希/Q451_sort_characters_by_frequency.java) | 哈希 |
+| 496 | next greater element i | [答案链接](src/栈/Q496_next_greater_element_i.java) | 栈 |
 | 501 | find mode in binary search tree | [答案链接](src/树递归/Q501_find_mode_in_binary_search_tree.java) | 树递归 |
 | 513 | find bottom left tree value | [答案链接](src/树递归/Q513_find_bottom_left_tree_value.java) | 树递归 |
 | 515 | find largest value in each tree row | [答案链接](src/树递归/Q515_find_largest_value_in_each_tree_row.java) | 树递归 |
