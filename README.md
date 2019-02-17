@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>164</font>
+Java已刷题目 :<font color=red>171</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -51,7 +51,7 @@ Java已刷题目 :<font color=red>164</font>
 | 40 | combination sum ii | [答案链接](src/排列组合/Q40_combination_sum_ii.java) | 排列组合 |
 | 41 | first missing positive | [答案链接](src/有限范围数组/Q41_first_missing_positive.java) | 有限范围数组 |
 | 42 | trapping rain water | [答案链接](src/动态规划/Q42_trapping_rain_water.java) | 动态规划 |
-| 43 | multiply strings | [答案链接](src/字符串/Q43_multiply_strings.java) | 字符串 |
+| 43 | multiply strings | [答案链接](src/大数/Q43_multiply_strings.java) | 大数 |
 | 45 | jump game ii | [答案链接](src/动态规划/Q45_jump_game_ii.java) | 动态规划 |
 | 46 | permutations | [答案链接](src/排列组合/Q46_permutations.java) | 排列组合 |
 | 47 | permutations ii | [答案链接](src/排列组合/Q47_permutations_ii.java) | 排列组合 |
@@ -67,7 +67,12 @@ Java已刷题目 :<font color=red>164</font>
 | 59 | spiral matrix ii | [答案链接](src/排版题/Q59_spiral_matrix_ii.java) | 排版题 |
 | 60 | permutation sequence | [答案链接](src/排列组合/Q60_permutation_sequence.java) | 排列组合 |
 | 61 | rotate list | [答案链接](src/链表/Q61_rotate_list.java) | 链表 |
-| 67 | add binary | [答案链接](src/字符串/Q67_add_binary.java) | 字符串 |
+| 62 | unique paths | [答案链接](src/动态规划/Q62_unique_paths.java) | 动态规划 |
+| 63 | unique paths ii | [答案链接](src/动态规划/Q63_unique_paths_ii.java) | 动态规划 |
+| 64 | minimum path sum | [答案链接](src/动态规划/Q64_minimum_path_sum.java) | 动态规划 |
+| 66 | plus one | [答案链接](src/大数/Q66_plus_one.java) | 大数 |
+| 67 | add binary | [答案链接](src/大数/Q67_add_binary.java) | 大数 |
+| 69 | sqrtx | [答案链接](src/二分/Q69_sqrtx.java) | 二分 |
 | 70 | climbing stairs | [答案链接](src/动态规划/Q70_climbing_stairs.java) | 动态规划 |
 | 77 | combinations | [答案链接](src/排列组合/Q77_combinations.java) | 排列组合 |
 | 80 | remove duplicates from sorted array ii | [答案链接](src/重复元素/Q80_remove_duplicates_from_sorted_array_ii.java) | 重复元素 |
@@ -107,6 +112,7 @@ Java已刷题目 :<font color=red>164</font>
 | 153 | find minimum in rotated sorted array | [答案链接](src/二分/Q153_find_minimum_in_rotated_sorted_array.java) | 二分 |
 | 165 | compare version numbers | [答案链接](src/字符串/Q165_compare_version_numbers.java) | 字符串 |
 | 169 | majority element | [答案链接](src/重复元素/Q169_majority_element.java) | 重复元素 |
+| 174 | dungeon game | [答案链接](src/动态规划/Q174_dungeon_game.java) | 动态规划 |
 | 189 | rotate array | [答案链接](src/数学结论/Q189_rotate_array.java) | 数学结论 |
 | 190 | reverse bits | [答案链接](src/字符串/Q190_reverse_bits.java) | 字符串 |
 | 198 | house robber | [答案链接](src/动态规划/Q198_house_robber.java) | 动态规划 |
@@ -174,6 +180,7 @@ Java已刷题目 :<font color=red>164</font>
 | 765 | couples holding hands | [答案链接](src/有限范围数组/Q765_couples_holding_hands.java) | 有限范围数组 |
 | 767 | reorganize string | [答案链接](src/排列组合/Q767_reorganize_string.java) | 排列组合 |
 | 811 | subdomain visit count | [答案链接](src/哈希/Q811_subdomain_visit_count.java) | 哈希 |
+| 875 | koko eating bananas | [答案链接](src/二分/Q875_koko_eating_bananas.java) | 二分 |
 | 894 | all possible full binary trees | [答案链接](src/树递归/Q894_all_possible_full_binary_trees.java) | 树递归 |
 | 938 | range sum of bst | [答案链接](src/树递归/Q938_range_sum_of_bst.java) | 树递归 |
 | 946 | validate stack sequences | [答案链接](src/回溯剪枝/Q946_validate_stack_sequences.java) | 回溯剪枝 |
