@@ -21,6 +21,25 @@ public class Q64_minimum_path_sum {
         return dp[m - 1][n - 1];
     }
 
+    public int minPathSum2(int[][] grid) {
+        /**
+         * 思入: 该矩阵可以看做有DAG最短路问题. 该问题的通解是逆向推  dp[i][j]表示从(i,j)出发,达到固定点的最短路径和.
+         * dp[i][j]=Max(dp[i+1],dp[j],dp[i][j+1]), 即从终点往起点的dp问题
+         */
+
+        int m = grid.length, n = grid[0].length;
+        int[][] dp = new int[m][n];
+        for (int j = n - 1; j >= 0; j--) {
+            for (int i = m - 1; i >= 0; i--) {
+                if (j == (n - 1) && i == (m - 1)) dp[i][j] = grid[i][j];
+                else
+                    dp[i][j] = grid[i][j] + Math.min(i + 1 >= m ? Integer.MAX_VALUE : dp[i + 1][j], j + 1 >= n ? Integer.MAX_VALUE : dp[i][j + 1]);
+            }
+        }
+        return dp[0][0];
+
+    }
+
     public static void main(String[] args) {
         int[][] nums = {
                 {1, 3, 1},
