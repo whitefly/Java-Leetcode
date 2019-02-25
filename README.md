@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>171</font>
+Java已刷题目 :<font color=red>172</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -74,6 +74,7 @@ Java已刷题目 :<font color=red>171</font>
 | 67 | add binary | [答案链接](src/大数/Q67_add_binary.java) | 大数 |
 | 69 | sqrtx | [答案链接](src/二分/Q69_sqrtx.java) | 二分 |
 | 70 | climbing stairs | [答案链接](src/动态规划/Q70_climbing_stairs.java) | 动态规划 |
+| 74 | search a 2d matrix | [答案链接](src/二分/Q74_search_a_2d_matrix.java) | 二分 |
 | 77 | combinations | [答案链接](src/排列组合/Q77_combinations.java) | 排列组合 |
 | 80 | remove duplicates from sorted array ii | [答案链接](src/重复元素/Q80_remove_duplicates_from_sorted_array_ii.java) | 重复元素 |
 | 81 | search in rotated sorted array ii | [答案链接](src/二分/Q81_search_in_rotated_sorted_array_ii.java) | 二分 |
