@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>172</font>
+Java已刷题目 :<font color=red>175</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -74,6 +74,8 @@ Java已刷题目 :<font color=red>172</font>
 | 67 | add binary | [答案链接](src/大数/Q67_add_binary.java) | 大数 |
 | 69 | sqrtx | [答案链接](src/二分/Q69_sqrtx.java) | 二分 |
 | 70 | climbing stairs | [答案链接](src/动态规划/Q70_climbing_stairs.java) | 动态规划 |
+| 71 | simplify path | [答案链接](src/栈/Q71_simplify_path.java) | 栈 |
+| 73 | set matrix zeroes | [答案链接](src/图形学/Q73_set_matrix_zeroes.java) | 图形学 |
 | 74 | search a 2d matrix | [答案链接](src/二分/Q74_search_a_2d_matrix.java) | 二分 |
 | 77 | combinations | [答案链接](src/排列组合/Q77_combinations.java) | 排列组合 |
 | 80 | remove duplicates from sorted array ii | [答案链接](src/重复元素/Q80_remove_duplicates_from_sorted_array_ii.java) | 重复元素 |
@@ -111,6 +113,7 @@ Java已刷题目 :<font color=red>172</font>
 | 147 | insertion sort list | [答案链接](src/链表/Q147_insertion_sort_list.java) | 链表 |
 | 148 | sort list | [答案链接](src/排序/Q148_sort_list.java) | 排序 |
 | 153 | find minimum in rotated sorted array | [答案链接](src/二分/Q153_find_minimum_in_rotated_sorted_array.java) | 二分 |
+| 162 | find peak element | [答案链接](src/二分/Q162_find_peak_element.java) | 二分 |
 | 165 | compare version numbers | [答案链接](src/字符串/Q165_compare_version_numbers.java) | 字符串 |
 | 169 | majority element | [答案链接](src/重复元素/Q169_majority_element.java) | 重复元素 |
 | 174 | dungeon game | [答案链接](src/动态规划/Q174_dungeon_game.java) | 动态规划 |
