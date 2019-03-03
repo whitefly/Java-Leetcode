@@ -13,7 +13,7 @@ public class Q75_sort_colors {
          */
 
         int L = 0, index = 0, R = nums.length - 1;
-        while (index < R) {
+        while (index <= R) {
             int num = nums[index];
             if (num == 0) {
                 swap(nums, L++, index++);
