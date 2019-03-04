@@ -7,7 +7,7 @@ public class Q75_sort_colors {
         /**
          * 思入: 使用双指针, 用L指针保存未来存放0的位置,R指针保存未来存储2的位置,只要保证0,2归位,1不用管
          * 实现:
-         * 碰到[current]=0, 则交换L,L++,current++(因为current比L快,都会验证过,不需要在重复验证,换过来一定是1),开始下一轮
+         * 碰到[current]=0, 则交换L,L++,current++(因为current比L快,都会验证过,换过来一定是1,不需要在重复验证),开始下一轮
          * 碰到[current]=1,则忽略,current++,
          * 碰到[current]=2,则交换R,R--,开始下一轮
          */
