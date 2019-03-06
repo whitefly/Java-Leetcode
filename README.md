@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>175</font>
+Java已刷题目 :<font color=red>179</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -77,7 +77,10 @@ Java已刷题目 :<font color=red>175</font>
 | 71 | simplify path | [答案链接](src/栈/Q71_simplify_path.java) | 栈 |
 | 73 | set matrix zeroes | [答案链接](src/图形学/Q73_set_matrix_zeroes.java) | 图形学 |
 | 74 | search a 2d matrix | [答案链接](src/二分/Q74_search_a_2d_matrix.java) | 二分 |
+| 75 | sort colors | [答案链接](src/双指针/Q75_sort_colors.java) | 双指针 |
 | 77 | combinations | [答案链接](src/排列组合/Q77_combinations.java) | 排列组合 |
+| 78 | subsets | [答案链接](src/排列组合/Q78_subsets.java) | 排列组合 |
+| 79 | word search | [答案链接](src/回溯剪枝/Q79_word_search.java) | 回溯剪枝 |
 | 80 | remove duplicates from sorted array ii | [答案链接](src/重复元素/Q80_remove_duplicates_from_sorted_array_ii.java) | 重复元素 |
 | 81 | search in rotated sorted array ii | [答案链接](src/二分/Q81_search_in_rotated_sorted_array_ii.java) | 二分 |
 | 84 | largest rectangle in histogram | [答案链接](src/图形学/Q84_largest_rectangle_in_histogram.java) | 图形学 |
@@ -101,6 +104,7 @@ Java已刷题目 :<font color=red>175</font>
 | 116 | populating next right pointers in each node | [答案链接](src/树递归/Q116_populating_next_right_pointers_in_each_node.java) | 树递归 |
 | 117 | populating next right pointers in each node ii | [答案链接](src/树递归/Q117_populating_next_right_pointers_in_each_node_ii.java) | 树递归 |
 | 118 | pascals triangle | [答案链接](src/排版题/Q118_pascals_triangle.java) | 排版题 |
+| 119 | pascals triangle ii | [答案链接](src/动态规划/Q119_pascals_triangle_ii.java) | 动态规划 |
 | 120 | triangle | [答案链接](src/动态规划/Q120_triangle.java) | 动态规划 |
 | 121 | best time to buy and sell stock | [答案链接](src/动态规划/Q121_best_time_to_buy_and_sell_stock.java) | 动态规划 |
 | 122 | best time to buy and sell stock ii | [答案链接](src/贪心/Q122_best_time_to_buy_and_sell_stock_ii.java) | 贪心 |
