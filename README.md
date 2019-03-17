@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>179</font>
+Java已刷题目 :<font color=red>187</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -83,6 +83,8 @@ Java已刷题目 :<font color=red>179</font>
 | 79 | word search | [答案链接](src/回溯剪枝/Q79_word_search.java) | 回溯剪枝 |
 | 80 | remove duplicates from sorted array ii | [答案链接](src/重复元素/Q80_remove_duplicates_from_sorted_array_ii.java) | 重复元素 |
 | 81 | search in rotated sorted array ii | [答案链接](src/二分/Q81_search_in_rotated_sorted_array_ii.java) | 二分 |
+| 82 | remove duplicates from sorted list ii | [答案链接](src/链表/Q82_remove_duplicates_from_sorted_list_ii.java) | 链表 |
+| 83 | remove duplicates from sorted list | [答案链接](src/链表/Q83_remove_duplicates_from_sorted_list.java) | 链表 |
 | 84 | largest rectangle in histogram | [答案链接](src/图形学/Q84_largest_rectangle_in_histogram.java) | 图形学 |
 | 85 | maximal rectangle | [答案链接](src/图形学/Q85_maximal_rectangle.java) | 图形学 |
 | 88 | merge sorted array | [答案链接](src/排序/Q88_merge_sorted_array.java) | 排序 |
@@ -112,6 +114,9 @@ Java已刷题目 :<font color=red>179</font>
 | 127 | valid palindrome | [答案链接](src/字符串/Q127_valid_palindrome.java) | 字符串 |
 | 129 | sum root to leaf numbers | [答案链接](src/树递归/Q129_sum_root_to_leaf_numbers.java) | 树递归 |
 | 134 | gas station | [答案链接](src/贪心/Q134_gas_station.java) | 贪心 |
+| 137 | single number ii | [答案链接](src/位运算/Q137_single_number_ii.java) | 位运算 |
+| 141 | linked list cycle | [答案链接](src/双指针/Q141_linked_list_cycle.java) | 双指针 |
+| 142 | linked list cycle ii | [答案链接](src/双指针/Q142_linked_list_cycle_ii.java) | 双指针 |
 | 145 | binary tree postorder traversal | [答案链接](src/树递归/Q145_binary_tree_postorder_traversal.java) | 树递归 |
 | 146 | lru cache | [答案链接](src/链表/Q146_lru_cache.java) | 链表 |
 | 147 | insertion sort list | [答案链接](src/链表/Q147_insertion_sort_list.java) | 链表 |
@@ -152,13 +157,16 @@ Java已刷题目 :<font color=red>179</font>
 | 289 | game of life | [答案链接](src/图形学/Q289_game_of_life.java) | 图形学 |
 | 318 | maximum product of word lengths | [答案链接](src/哈希/Q318_maximum_product_of_word_lengths.java) | 哈希 |
 | 331 | verify preorder serialization of a binary tree | [答案链接](src/树递归/Q331_verify_preorder_serialization_of_a_binary_tree.java) | 树递归 |
+| 365 | water and jug problem | [答案链接](src/回溯剪枝/Q365_water_and_jug_problem.java) | 回溯剪枝 |
 | 371 | sum of two integers | [答案链接](src/位运算/Q371_sum_of_two_integers.java) | 位运算 |
 | 374 | guess number higher or lower | [答案链接](src/二分/Q374_guess_number_higher_or_lower.java) | 二分 |
 | 377 | combination sum iv | [答案链接](src/排列组合/Q377_combination_sum_iv.java) | 排列组合 |
 | 387 | first unique character in a string | [答案链接](src/哈希/Q387_first_unique_character_in_a_string.java) | 哈希 |
 | 394 | decode string | [答案链接](src/栈/Q394_decode_string.java) | 栈 |
+| 400 | nth digit | [答案链接](src/数学结论/Q400_nth_digit.java) | 数学结论 |
 | 415 | add strings | [答案链接](src/字符串/Q415_add_strings.java) | 字符串 |
 | 429 | n ary tree level order traversal | [答案链接](src/树递归/Q429_n_ary_tree_level_order_traversal.java) | 树递归 |
+| 430 | flatten a multilevel doubly linked list | [答案链接](src/链表/Q430_flatten_a_multilevel_doubly_linked_list.java) | 链表 |
 | 437 | path sum iii | [答案链接](src/树递归/Q437_path_sum_iii.java) | 树递归 |
 | 445 | add two numbers ii | [答案链接](src/链表/Q445_add_two_numbers_ii.java) | 链表 |
 | 448 | find all numbers disappeared in an array | [答案链接](src/有限范围数组/Q448_find_all_numbers_disappeared_in_an_array.java) | 有限范围数组 |
