@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>187</font>
+Java已刷题目 :<font color=red>191</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -91,11 +91,13 @@ Java已刷题目 :<font color=red>187</font>
 | 90 | subsets ii | [答案链接](src/排列组合/Q90_subsets_ii.java) | 排列组合 |
 | 95 | unique binary search trees ii | [答案链接](src/树递归/Q95_unique_binary_search_trees_ii.java) | 树递归 |
 | 98 | validate binary search tree | [答案链接](src/树递归/Q98_validate_binary_search_tree.java) | 树递归 |
+| 100 | same tree | [答案链接](src/树递归/Q100_same_tree.java) | 树递归 |
 | 101 | symmetric tree | [答案链接](src/树递归/Q101_symmetric_tree.java) | 树递归 |
 | 102 | binary tree level order traversal | [答案链接](src/树递归/Q102_binary_tree_level_order_traversal.java) | 树递归 |
 | 103 | binary tree zigzag level order traversal | [答案链接](src/树递归/Q103_binary_tree_zigzag_level_order_traversal.java) | 树递归 |
 | 104 | maximum depth of binary tree | [答案链接](src/树递归/Q104_maximum_depth_of_binary_tree.java) | 树递归 |
 | 105 | construct binary tree from preorder and inorder traversal | [答案链接](src/树递归/Q105_construct_binary_tree_from_preorder_and_inorder_traversal.java) | 树递归 |
+| 106 | construct binary tree from inorder and postorder traversal | [答案链接](src/树递归/Q106_construct_binary_tree_from_inorder_and_postorder_traversal.java) | 树递归 |
 | 107 | binary tree level order traversal ii | [答案链接](src/树递归/Q107_binary_tree_level_order_traversal_ii.java) | 树递归 |
 | 108 | convert sorted array to binary search tree | [答案链接](src/树递归/Q108_convert_sorted_array_to_binary_search_tree.java) | 树递归 |
 | 109 | convert sorted list to binary search tree | [答案链接](src/树递归/Q109_convert_sorted_list_to_binary_search_tree.java) | 树递归 |
@@ -111,7 +113,9 @@ Java已刷题目 :<font color=red>187</font>
 | 121 | best time to buy and sell stock | [答案链接](src/动态规划/Q121_best_time_to_buy_and_sell_stock.java) | 动态规划 |
 | 122 | best time to buy and sell stock ii | [答案链接](src/贪心/Q122_best_time_to_buy_and_sell_stock_ii.java) | 贪心 |
 | 124 | binary tree maximum path sum | [答案链接](src/树递归/Q124_binary_tree_maximum_path_sum.java) | 树递归 |
+| 125 | valid palindrome | [答案链接](src/双指针/Q125_valid_palindrome.java) | 双指针 |
 | 127 | valid palindrome | [答案链接](src/字符串/Q127_valid_palindrome.java) | 字符串 |
+| 128 | longest consecutive sequence | [答案链接](src/哈希/Q128_longest_consecutive_sequence.java) | 哈希 |
 | 129 | sum root to leaf numbers | [答案链接](src/树递归/Q129_sum_root_to_leaf_numbers.java) | 树递归 |
 | 134 | gas station | [答案链接](src/贪心/Q134_gas_station.java) | 贪心 |
 | 137 | single number ii | [答案链接](src/位运算/Q137_single_number_ii.java) | 位运算 |
