@@ -19,7 +19,7 @@ public class Q137_single_number_ii {
 
     public int singleNumber2(int[] nums) {
         /**
-         * 思入2:  若到k时,就设置
+         * 思入2:  设计k个位,来表示k种状态
          */
         int m = 3;
         int n = 1;
@@ -29,16 +29,15 @@ public class Q137_single_number_ii {
             //更新数字位
             for (int i = m; i >= 1; i--) sizeBits[i] ^= sizeBits[i - 1] & c;
             int mask = sizeBits[m];
-            sizeBits[m] = 0;//将数量3的位又置0,防止影响下次迭代
-            //将这些位上的one和two都置于0
-            for (int i = 1; i < m; i++) sizeBits[i] &= (~mask);
+            //修正状态位,保证完整正确
+            for (int i = m; i >= 1; i--) sizeBits[i] &= (~mask);
         }
         return sizeBits[n];
     }
 
-
     public static void main(String[] args) {
-        int[] nums = {2, 2, 3, 2, 3, 3, 99, 99};
+//        int[] nums = {2, 2, 3, 2, 3, 3, 99};
+        int[] nums = {3, 3, 3, 1};
         Q137_single_number_ii s = new Q137_single_number_ii();
         int i = s.singleNumber2(nums);
         System.out.println(i);
