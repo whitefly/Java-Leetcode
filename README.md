@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>194</font>
+Java已刷题目 :<font color=red>196</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -119,8 +119,10 @@ Java已刷题目 :<font color=red>194</font>
 | 128 | longest consecutive sequence | [答案链接](src/哈希/Q128_longest_consecutive_sequence.java) | 哈希 |
 | 129 | sum root to leaf numbers | [答案链接](src/树递归/Q129_sum_root_to_leaf_numbers.java) | 树递归 |
 | 130 | surrounded regions | [答案链接](src/图形学/Q130_surrounded_regions.java) | 图形学 |
+| 131 | palindrome partitioning | [答案链接](src/递归/Q131_palindrome_partitioning.java) | 递归 |
 | 133 | clone graph | [答案链接](src/图论/Q133_clone_graph.java) | 图论 |
 | 134 | gas station | [答案链接](src/贪心/Q134_gas_station.java) | 贪心 |
+| 136 | single number | [答案链接](src/重复元素/Q136_single_number.java) | 重复元素 |
 | 137 | single number ii | [答案链接](src/位运算/Q137_single_number_ii.java) | 位运算 |
 | 141 | linked list cycle | [答案链接](src/双指针/Q141_linked_list_cycle.java) | 双指针 |
 | 142 | linked list cycle ii | [答案链接](src/双指针/Q142_linked_list_cycle_ii.java) | 双指针 |
