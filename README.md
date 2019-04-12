@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>196</font>
+Java已刷题目 :<font color=red>200</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -130,6 +130,7 @@ Java已刷题目 :<font color=red>196</font>
 | 146 | lru cache | [答案链接](src/链表/Q146_lru_cache.java) | 链表 |
 | 147 | insertion sort list | [答案链接](src/链表/Q147_insertion_sort_list.java) | 链表 |
 | 148 | sort list | [答案链接](src/排序/Q148_sort_list.java) | 排序 |
+| 150 | evaluate reverse polish notation | [答案链接](src/栈/Q150_evaluate_reverse_polish_notation.java) | 栈 |
 | 153 | find minimum in rotated sorted array | [答案链接](src/二分/Q153_find_minimum_in_rotated_sorted_array.java) | 二分 |
 | 162 | find peak element | [答案链接](src/二分/Q162_find_peak_element.java) | 二分 |
 | 165 | compare version numbers | [答案链接](src/字符串/Q165_compare_version_numbers.java) | 字符串 |
@@ -159,6 +160,7 @@ Java已刷题目 :<font color=red>196</font>
 | 238 | product of array except self | [答案链接](src/动态规划/Q238_product_of_array_except_self.java) | 动态规划 |
 | 242 | valid anagram | [答案链接](src/哈希/Q242_valid_anagram.java) | 哈希 |
 | 257 | binary tree paths | [答案链接](src/树递归/Q257_binary_tree_paths.java) | 树递归 |
+| 264 | ugly number ii | [答案链接](src/排列组合/Q264_ugly_number_ii.java) | 排列组合 |
 | 268 | missing number | [答案链接](src/有限范围数组/Q268_missing_number.java) | 有限范围数组 |
 | 273 | integer to english words | [答案链接](src/字符串/Q273_integer_to_english_words.java) | 字符串 |
 | 278 | first bad version | [答案链接](src/二分/Q278_first_bad_version.java) | 二分 |
@@ -168,7 +170,9 @@ Java已刷题目 :<font color=red>196</font>
 | 331 | verify preorder serialization of a binary tree | [答案链接](src/树递归/Q331_verify_preorder_serialization_of_a_binary_tree.java) | 树递归 |
 | 365 | water and jug problem | [答案链接](src/回溯剪枝/Q365_water_and_jug_problem.java) | 回溯剪枝 |
 | 371 | sum of two integers | [答案链接](src/位运算/Q371_sum_of_two_integers.java) | 位运算 |
+| 373 | find k pairs with smallest sums | [答案链接](src/堆/Q373_find_k_pairs_with_smallest_sums.java) | 堆 |
 | 374 | guess number higher or lower | [答案链接](src/二分/Q374_guess_number_higher_or_lower.java) | 二分 |
+| 376 | wiggle subsequence | [答案链接](src/动态规划/Q376_wiggle_subsequence.java) | 动态规划 |
 | 377 | combination sum iv | [答案链接](src/排列组合/Q377_combination_sum_iv.java) | 排列组合 |
 | 387 | first unique character in a string | [答案链接](src/哈希/Q387_first_unique_character_in_a_string.java) | 哈希 |
 | 394 | decode string | [答案链接](src/栈/Q394_decode_string.java) | 栈 |
