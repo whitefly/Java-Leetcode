@@ -213,3 +213,9 @@ Java已刷题目 :<font color=red>200</font>
 | 894 | all possible full binary trees | [答案链接](src/树递归/Q894_all_possible_full_binary_trees.java) | 树递归 |
 | 938 | range sum of bst | [答案链接](src/树递归/Q938_range_sum_of_bst.java) | 树递归 |
 | 946 | validate stack sequences | [答案链接](src/回溯剪枝/Q946_validate_stack_sequences.java) | 回溯剪枝 |
+
+
+
+|竞赛周| 题号(1-4) | Title |java|类别|
+|-----| ------------- | ------------- |---|---|
+| 132 | 2 | maximum difference between node and ancestor | [答案链接](src/树递归/C132_2_maximum_difference_between_node_and_ancestor.java) | 树递归 |

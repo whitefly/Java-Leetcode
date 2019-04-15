@@ -11,48 +11,16 @@ class Question implements Comparable<Question> {
     String kind;
     String name;
     String ref_position;
-
+    static int prefixSize = createSheet.COMMON_PREFIX.length();
 
     public Question(String name, String folder) {
         int first = name.indexOf('_');
         int last = name.lastIndexOf('.');
 
-        this.id = Integer.valueOf(name.substring(1, first));
+        this.id = Integer.valueOf(name.substring(prefixSize, first));
         this.kind = folder;
         this.name = name.substring(first + 1, last).replace('_', ' ');
         this.ref_position = String.format("src/%s/%s", folder, name);
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getKind() {
-        return kind;
-    }
-
-    public void setKind(String kind) {
-        this.kind = kind;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getRef_position() {
-        return ref_position;
-    }
-
-    public void setRef_position(String ref_position) {
-        this.ref_position = ref_position;
     }
 
     @Override
@@ -60,23 +28,49 @@ class Question implements Comparable<Question> {
         return this.id - o.id;
     }
 
+}
+
+class TestQuestion implements Comparable<TestQuestion> {
+    int testWeek; //第几个周
+    int innerId; //竞赛4题中的哪一题
+    String kind;
+    String name;
+    String ref_position;
+
+
+    static int prefixSize = createSheet.TEST_PREFIX.length();
+
+    public TestQuestion(String name, String folder) {
+        int first = name.indexOf('_');
+        int second = name.indexOf("_", first + 1);
+        int last = name.lastIndexOf('.');
+
+        this.testWeek = Integer.valueOf(name.substring(prefixSize, first));
+        this.innerId = Integer.valueOf(name.substring(first + 1, second));
+        this.kind = folder;
+        this.name = name.substring(second + 1, last).replace('_', ' ');
+        this.ref_position = String.format("src/%s/%s", folder, name);
+    }
+
+
     @Override
-    public String toString() {
-        return "Question{" +
-                "id=" + id +
-                ", kind='" + kind + '\'' +
-                ", name='" + name + '\'' +
-                ", ref_position='" + ref_position + '\'' +
-                '}';
+    public int compareTo(TestQuestion o) {
+        return 0;
     }
 }
 
 public class createSheet {
+    static final String TEST_PREFIX = "C"; //竞赛题的前缀contest
+    static final String COMMON_PREFIX = "Q"; //普通题的前缀question
+
     public static void main(String[] args) throws IOException {
         /**
          *  用来遍历文件夹,自动生成刷题表格
          */
-        ArrayList<Question> container = new ArrayList<>();
+        //含有题号的普通题
+        ArrayList<Question> questions = new ArrayList<>();
+        ArrayList<TestQuestion> testQuestions = new ArrayList<>();
+
 
         //添加文件实例
         Path path = Paths.get("src");
@@ -90,15 +84,18 @@ public class createSheet {
 
             @Override
             public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
-
-
+                //根据题目前缀加入不同的存储容器
                 String file_name = file.getFileName().toString();
                 String folder = file.getParent().getFileName().toString();
                 if (file_name.endsWith("java") && !folder.equals("src")) {
-                    Question question = new Question(file_name, folder);
-                    container.add(question);
+                    if (file_name.startsWith(COMMON_PREFIX)) {
+                        Question question = new Question(file_name, folder);
+                        questions.add(question);
+                    } else if (file_name.startsWith(TEST_PREFIX)) {
+                        TestQuestion testQuestion = new TestQuestion(file_name, folder);
+                        testQuestions.add(testQuestion);
+                    }
                 }
-
                 return FileVisitResult.CONTINUE;
             }
 
@@ -114,7 +111,8 @@ public class createSheet {
         });
 
         //按id排序
-        Collections.sort(container);
+        Collections.sort(questions);
+        Collections.sort(testQuestions);
 
 
         // 生成markdown格式的字符串
@@ -131,14 +129,31 @@ public class createSheet {
                 "预期时间1个月,每天5题左右\n" +
                 "\n");
 
-        result.append(String.format("Java已刷题目 :<font color=red>%s</font>\n\n", container.size()));
+        result.append(String.format("Java已刷题目 :<font color=red>%s</font>\n\n", questions.size()));
 
 
         //插入表格表格
         result.append("| 题号 | Title |java|类别|\n" +
                 "| ------------- | ------------- |---|---|\n");
-        for (Question q : container) {
-            result.append(String.format("| %d | %s | [答案链接](%s) | %s |\n", q.id, q.name, q.ref_position, q.kind));
+        for (Question q : questions) {
+            result.append(String.format("| %d | %s | [答案链接](%s) | %s |\n",
+                    q.id,
+                    q.name,
+                    q.ref_position,
+                    q.kind));
+        }
+
+        result.append("\n\n\n");
+        //插入竞赛题的行
+        result.append("|竞赛周| 题号(1-4) | Title |java|类别|\n" +
+                "|-----| ------------- | ------------- |---|---|\n");
+        for (TestQuestion testQuestion : testQuestions) {
+            result.append(String.format("| %d | %d | %s | [答案链接](%s) | %s |\n",
+                    testQuestion.testWeek,
+                    testQuestion.innerId,
+                    testQuestion.name,
+                    testQuestion.ref_position,
+                    testQuestion.kind));
         }
 
         //写入README.md
@@ -146,5 +161,4 @@ public class createSheet {
         fw.write(result.toString());
         fw.close();
     }
-
 }
