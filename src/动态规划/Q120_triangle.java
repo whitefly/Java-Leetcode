@@ -85,6 +85,35 @@ public class Q120_triangle {
         return value;
     }
 
+    /**
+     * 思想: 用记忆化搜索+递归+终止条件
+     * 终止条件: 该位置的值已经求出(先给所有位置设置一个状态值,来表示值还未求出
+     * dp[i][j],从该位置到底部的最小和
+     * dp[i][j]=max(dp[i][j],dp[i][j+1])+a[i][j]
+     */
+    private int m;
+    private int n;
+    private int[][] dp;
+    private List<List<Integer>> nums;
+
+    public int minimumTotal3(List<List<Integer>> triangle) {
+        if (triangle.size() == 1) return triangle.get(0).get(0);
+        nums = triangle;
+        m = triangle.size();
+        n = triangle.get(m - 1).size();
+        dp = new int[m][n];
+        //将状态都变为-1;
+        for (int i = 0; i < m; i++) Arrays.fill(dp[i], Integer.MAX_VALUE);
+        return helper(0, 0);
+    }
+
+    private int helper(int i, int j) {
+        if (dp[i][j] != Integer.MAX_VALUE) return dp[i][j];
+        if (i == m - 1) return nums.get(i).get(j);
+        dp[i][j] = nums.get(i).get(j) + Math.min(helper(i + 1, j), helper(i + 1, j + 1));
+        return dp[i][j];
+    }
+
     public static void main(String[] args) {
         int[][] nums = {{2}, {3, 4}, {6, 5, 7}, {4, 1, 8, 3}};
         List<List<Integer>> all = new ArrayList<>();
@@ -94,7 +123,7 @@ public class Q120_triangle {
             all.add(one);
         }
         Q120_triangle s = new Q120_triangle();
-        int i = s.minimumTotal2(all);
+        int i = s.minimumTotal3(all);
         System.out.println(i);
     }
 
