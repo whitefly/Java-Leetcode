@@ -1,6 +1,7 @@
 package 排列组合;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Q377_combination_sum_iv {
@@ -39,12 +40,32 @@ public class Q377_combination_sum_iv {
         return dp[target];
     }
 
+    public int combinationSum43(int[] nums, int target) {
+        /**
+         * 动态规划的递归版
+         */
+        int[] dp = new int[target + 1];
+        Arrays.fill(dp, -1);
+        dp[0] = 1;
+        return helper2(nums, target, dp);
+    }
+
+    private int helper2(int[] nums, int target, int[] dp) {
+        if (dp[target] != -1) return dp[target];
+        dp[target] = 0;
+        for (int num : nums) {
+            if (target - num < 0) continue;
+            dp[target] += helper2(nums, target - num, dp);
+        }
+        return dp[target];
+    }
+
 
     public static void main(String[] args) {
         Q377_combination_sum_iv s = new Q377_combination_sum_iv();
         int[] nums = {1, 2, 3};
         int target = 4;
-        int i = s.combinationSum42(nums, target);
+        int i = s.combinationSum43(nums, target);
         System.out.println(i);
     }
 }
