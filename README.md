@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>200</font>
+Java已刷题目 :<font color=red>203</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -124,6 +124,7 @@ Java已刷题目 :<font color=red>200</font>
 | 134 | gas station | [答案链接](src/贪心/Q134_gas_station.java) | 贪心 |
 | 136 | single number | [答案链接](src/重复元素/Q136_single_number.java) | 重复元素 |
 | 137 | single number ii | [答案链接](src/位运算/Q137_single_number_ii.java) | 位运算 |
+| 139 | word break | [答案链接](src/动态规划/Q139_word_break.java) | 动态规划 |
 | 141 | linked list cycle | [答案链接](src/双指针/Q141_linked_list_cycle.java) | 双指针 |
 | 142 | linked list cycle ii | [答案链接](src/双指针/Q142_linked_list_cycle_ii.java) | 双指针 |
 | 145 | binary tree postorder traversal | [答案链接](src/树递归/Q145_binary_tree_postorder_traversal.java) | 树递归 |
@@ -167,6 +168,7 @@ Java已刷题目 :<font color=red>200</font>
 | 287 | find the duplicate number | [答案链接](src/重复元素/Q287_find_the_duplicate_number.java) | 重复元素 |
 | 289 | game of life | [答案链接](src/图形学/Q289_game_of_life.java) | 图形学 |
 | 318 | maximum product of word lengths | [答案链接](src/哈希/Q318_maximum_product_of_word_lengths.java) | 哈希 |
+| 322 | coin change | [答案链接](src/动态规划/Q322_coin_change.java) | 动态规划 |
 | 331 | verify preorder serialization of a binary tree | [答案链接](src/树递归/Q331_verify_preorder_serialization_of_a_binary_tree.java) | 树递归 |
 | 365 | water and jug problem | [答案链接](src/回溯剪枝/Q365_water_and_jug_problem.java) | 回溯剪枝 |
 | 371 | sum of two integers | [答案链接](src/位运算/Q371_sum_of_two_integers.java) | 位运算 |
@@ -189,6 +191,7 @@ Java已刷题目 :<font color=red>200</font>
 | 501 | find mode in binary search tree | [答案链接](src/树递归/Q501_find_mode_in_binary_search_tree.java) | 树递归 |
 | 513 | find bottom left tree value | [答案链接](src/树递归/Q513_find_bottom_left_tree_value.java) | 树递归 |
 | 515 | find largest value in each tree row | [答案链接](src/树递归/Q515_find_largest_value_in_each_tree_row.java) | 树递归 |
+| 518 | coin change 2 | [答案链接](src/动态规划/Q518_coin_change_2.java) | 动态规划 |
 | 538 | convert bst to greater tree | [答案链接](src/树递归/Q538_convert_bst_to_greater_tree.java) | 树递归 |
 | 543 | diameter of binary tree | [答案链接](src/树递归/Q543_diameter_of_binary_tree.java) | 树递归 |
 | 559 | maximum depth of n ary tree | [答案链接](src/树递归/Q559_maximum_depth_of_n_ary_tree.java) | 树递归 |
