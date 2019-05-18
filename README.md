@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>203</font>
+Java已刷题目 :<font color=red>204</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -170,6 +170,7 @@ Java已刷题目 :<font color=red>203</font>
 | 318 | maximum product of word lengths | [答案链接](src/哈希/Q318_maximum_product_of_word_lengths.java) | 哈希 |
 | 322 | coin change | [答案链接](src/动态规划/Q322_coin_change.java) | 动态规划 |
 | 331 | verify preorder serialization of a binary tree | [答案链接](src/树递归/Q331_verify_preorder_serialization_of_a_binary_tree.java) | 树递归 |
+| 354 | russian doll envelopes | [答案链接](src/动态规划/Q354_russian_doll_envelopes.java) | 动态规划 |
 | 365 | water and jug problem | [答案链接](src/回溯剪枝/Q365_water_and_jug_problem.java) | 回溯剪枝 |
 | 371 | sum of two integers | [答案链接](src/位运算/Q371_sum_of_two_integers.java) | 位运算 |
 | 373 | find k pairs with smallest sums | [答案链接](src/堆/Q373_find_k_pairs_with_smallest_sums.java) | 堆 |
