@@ -2,7 +2,7 @@ package 排序;
 
 import java.util.Arrays;
 
-public class QuickSort {
+public class 快排 {
     public void qSort(int[] nums, int low, int high) {
         //颜色分类的思想,存储和扫遍2个指针.找到比pivot小的,就往++store指针上扔,
         if (high <= low) return;
@@ -26,7 +26,7 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        QuickSort s = new QuickSort();
+        快排 s = new 快排();
         int[] nums = {1, 2, 3, 3, 3, 44, 3, 34, 3, 4, 32, 2, 4, 234, 23, 4, 23};
         s.qSort(nums, 0, nums.length - 1);
         System.out.println(Arrays.toString(nums));

@@ -33,7 +33,7 @@ Java已刷题目 :<font color=red>204</font>
 | 20 | valid parentheses | [答案链接](src/栈/Q20_valid_parentheses.java) | 栈 |
 | 21 | merge two sorted lists | [答案链接](src/链表/Q21_merge_two_sorted_lists.java) | 链表 |
 | 22 | generate parentheses | [答案链接](src/回溯剪枝/Q22_generate_parentheses.java) | 回溯剪枝 |
-| 23 | merge k sorted lists | [答案链接](src/链表/Q23_merge_k_sorted_lists.java) | 链表 |
+| 23 | merge k sorted lists | [答案链接](src/堆/Q23_merge_k_sorted_lists.java) | 堆 |
 | 24 | swap nodes in pairs | [答案链接](src/链表/Q24_swap_nodes_in_pairs.java) | 链表 |
 | 25 | reverse nodes in k group | [答案链接](src/链表/Q25_reverse_nodes_in_k_group.java) | 链表 |
 | 26 | remove duplicates from sorted array | [答案链接](src/重复元素/Q26_remove_duplicates_from_sorted_array.java) | 重复元素 |
