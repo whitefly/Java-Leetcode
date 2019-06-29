@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>204</font>
+Java已刷题目 :<font color=red>206</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -106,6 +106,7 @@ Java已刷题目 :<font color=red>204</font>
 | 111 | minimum depth of binary tree | [答案链接](src/树递归/Q111_minimum_depth_of_binary_tree.java) | 树递归 |
 | 112 | path sum | [答案链接](src/树递归/Q112_path_sum.java) | 树递归 |
 | 113 | path sum ii | [答案链接](src/树递归/Q113_path_sum_ii.java) | 树递归 |
+| 114 | flatten binary tree to linked list | [答案链接](src/树递归/Q114_flatten_binary_tree_to_linked_list.java) | 树递归 |
 | 116 | populating next right pointers in each node | [答案链接](src/树递归/Q116_populating_next_right_pointers_in_each_node.java) | 树递归 |
 | 117 | populating next right pointers in each node ii | [答案链接](src/树递归/Q117_populating_next_right_pointers_in_each_node_ii.java) | 树递归 |
 | 118 | pascals triangle | [答案链接](src/排版题/Q118_pascals_triangle.java) | 排版题 |
@@ -124,6 +125,7 @@ Java已刷题目 :<font color=red>204</font>
 | 134 | gas station | [答案链接](src/贪心/Q134_gas_station.java) | 贪心 |
 | 136 | single number | [答案链接](src/重复元素/Q136_single_number.java) | 重复元素 |
 | 137 | single number ii | [答案链接](src/位运算/Q137_single_number_ii.java) | 位运算 |
+| 138 | copy list with random pointer | [答案链接](src/哈希/Q138_copy_list_with_random_pointer.java) | 哈希 |
 | 139 | word break | [答案链接](src/动态规划/Q139_word_break.java) | 动态规划 |
 | 141 | linked list cycle | [答案链接](src/双指针/Q141_linked_list_cycle.java) | 双指针 |
 | 142 | linked list cycle ii | [答案链接](src/双指针/Q142_linked_list_cycle_ii.java) | 双指针 |
