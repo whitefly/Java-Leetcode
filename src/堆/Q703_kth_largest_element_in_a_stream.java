@@ -1,6 +1,5 @@
 package 堆;
 
-import java.util.Map;
 import java.util.PriorityQueue;
 
 public class Q703_kth_largest_element_in_a_stream {
@@ -22,11 +21,13 @@ public class Q703_kth_largest_element_in_a_stream {
 
         public int add(int val) {
             if (heap.size() == k) {
+                //堆已满
                 if (heap.peek() <= val) {
                     heap.poll();
                     heap.add(val);
                 }
             } else {
+                //堆未满
                 heap.add(val);
             }
             return heap.peek();

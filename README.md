@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>206</font>
+Java已刷题目 :<font color=red>218</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -85,8 +85,10 @@ Java已刷题目 :<font color=red>206</font>
 | 81 | search in rotated sorted array ii | [答案链接](src/二分/Q81_search_in_rotated_sorted_array_ii.java) | 二分 |
 | 82 | remove duplicates from sorted list ii | [答案链接](src/链表/Q82_remove_duplicates_from_sorted_list_ii.java) | 链表 |
 | 83 | remove duplicates from sorted list | [答案链接](src/链表/Q83_remove_duplicates_from_sorted_list.java) | 链表 |
-| 84 | largest rectangle in histogram | [答案链接](src/图形学/Q84_largest_rectangle_in_histogram.java) | 图形学 |
+| 84 | largest rectangle in histogram | [答案链接](src/栈/Q84_largest_rectangle_in_histogram.java) | 栈 |
 | 85 | maximal rectangle | [答案链接](src/图形学/Q85_maximal_rectangle.java) | 图形学 |
+| 85 | maximal rectangle | [答案链接](src/栈/Q85_maximal_rectangle.java) | 栈 |
+| 86 | partition list | [答案链接](src/链表/Q86_partition_list.java) | 链表 |
 | 88 | merge sorted array | [答案链接](src/排序/Q88_merge_sorted_array.java) | 排序 |
 | 89 | gray code | [答案链接](src/位运算/Q89_gray_code.java) | 位运算 |
 | 90 | subsets ii | [答案链接](src/排列组合/Q90_subsets_ii.java) | 排列组合 |
@@ -139,6 +141,7 @@ Java已刷题目 :<font color=red>206</font>
 | 165 | compare version numbers | [答案链接](src/字符串/Q165_compare_version_numbers.java) | 字符串 |
 | 169 | majority element | [答案链接](src/重复元素/Q169_majority_element.java) | 重复元素 |
 | 174 | dungeon game | [答案链接](src/动态规划/Q174_dungeon_game.java) | 动态规划 |
+| 187 | repeated dna sequences | [答案链接](src/压缩编码/Q187_repeated_dna_sequences.java) | 压缩编码 |
 | 189 | rotate array | [答案链接](src/数学结论/Q189_rotate_array.java) | 数学结论 |
 | 190 | reverse bits | [答案链接](src/字符串/Q190_reverse_bits.java) | 字符串 |
 | 198 | house robber | [答案链接](src/动态规划/Q198_house_robber.java) | 动态规划 |
@@ -154,6 +157,8 @@ Java已刷题目 :<font color=red>206</font>
 | 214 | shortest palindrome | [答案链接](src/KMP/Q214_shortest_palindrome.java) | KMP |
 | 216 | combination sum iii | [答案链接](src/排列组合/Q216_combination_sum_iii.java) | 排列组合 |
 | 217 | contains duplicate | [答案链接](src/哈希/Q217_contains_duplicate.java) | 哈希 |
+| 220 | contains duplicate iii | [答案链接](src/哈希/Q220_contains_duplicate_iii.java) | 哈希 |
+| 221 | maximal square | [答案链接](src/动态规划/Q221_maximal_square.java) | 动态规划 |
 | 222 | count complete tree nodes | [答案链接](src/树递归/Q222_count_complete_tree_nodes.java) | 树递归 |
 | 230 | kth smallest element in a bst | [答案链接](src/树递归/Q230_kth_smallest_element_in_a_bst.java) | 树递归 |
 | 234 | palindrome linked list | [答案链接](src/链表/Q234_palindrome_linked_list.java) | 链表 |
@@ -167,10 +172,13 @@ Java已刷题目 :<font color=red>206</font>
 | 268 | missing number | [答案链接](src/有限范围数组/Q268_missing_number.java) | 有限范围数组 |
 | 273 | integer to english words | [答案链接](src/字符串/Q273_integer_to_english_words.java) | 字符串 |
 | 278 | first bad version | [答案链接](src/二分/Q278_first_bad_version.java) | 二分 |
+| 284 | peeking iterator | [答案链接](src/迭代器/Q284_peeking_iterator.java) | 迭代器 |
 | 287 | find the duplicate number | [答案链接](src/重复元素/Q287_find_the_duplicate_number.java) | 重复元素 |
 | 289 | game of life | [答案链接](src/图形学/Q289_game_of_life.java) | 图形学 |
+| 299 | bulls and cows | [答案链接](src/哈希/Q299_bulls_and_cows.java) | 哈希 |
+| 315 | count of smaller numbers after self | [答案链接](src/二分/Q315_count_of_smaller_numbers_after_self.java) | 二分 |
 | 318 | maximum product of word lengths | [答案链接](src/哈希/Q318_maximum_product_of_word_lengths.java) | 哈希 |
-| 322 | coin change | [答案链接](src/动态规划/Q322_coin_change.java) | 动态规划 |
+| 322 | coin change | [答案链接](src/背包问题/Q322_coin_change.java) | 背包问题 |
 | 331 | verify preorder serialization of a binary tree | [答案链接](src/树递归/Q331_verify_preorder_serialization_of_a_binary_tree.java) | 树递归 |
 | 354 | russian doll envelopes | [答案链接](src/动态规划/Q354_russian_doll_envelopes.java) | 动态规划 |
 | 365 | water and jug problem | [答案链接](src/回溯剪枝/Q365_water_and_jug_problem.java) | 回溯剪枝 |
@@ -192,6 +200,7 @@ Java已刷题目 :<font color=red>206</font>
 | 451 | sort characters by frequency | [答案链接](src/哈希/Q451_sort_characters_by_frequency.java) | 哈希 |
 | 496 | next greater element i | [答案链接](src/栈/Q496_next_greater_element_i.java) | 栈 |
 | 501 | find mode in binary search tree | [答案链接](src/树递归/Q501_find_mode_in_binary_search_tree.java) | 树递归 |
+| 508 | most frequent subtree sum | [答案链接](src/树递归/Q508_most_frequent_subtree_sum.java) | 树递归 |
 | 513 | find bottom left tree value | [答案链接](src/树递归/Q513_find_bottom_left_tree_value.java) | 树递归 |
 | 515 | find largest value in each tree row | [答案链接](src/树递归/Q515_find_largest_value_in_each_tree_row.java) | 树递归 |
 | 518 | coin change 2 | [答案链接](src/动态规划/Q518_coin_change_2.java) | 动态规划 |
@@ -210,6 +219,9 @@ Java已刷题目 :<font color=red>206</font>
 | 669 | trim a binary search tree | [答案链接](src/树递归/Q669_trim_a_binary_search_tree.java) | 树递归 |
 | 671 | second minimum node in a binary tree | [答案链接](src/树递归/Q671_second_minimum_node_in_a_binary_tree.java) | 树递归 |
 | 700 | search in a binary search tree | [答案链接](src/树递归/Q700_search_in_a_binary_search_tree.java) | 树递归 |
+| 701 | insert into a binary search tree | [答案链接](src/树递归/Q701_insert_into_a_binary_search_tree.java) | 树递归 |
+| 703 | kth largest element in a stream | [答案链接](src/堆/Q703_kth_largest_element_in_a_stream.java) | 堆 |
+| 704 | binary search | [答案链接](src/二分/Q704_binary_search.java) | 二分 |
 | 725 | split linked list in parts | [答案链接](src/链表/Q725_split_linked_list_in_parts.java) | 链表 |
 | 746 | min cost climbing stairs | [答案链接](src/动态规划/Q746_min_cost_climbing_stairs.java) | 动态规划 |
 | 765 | couples holding hands | [答案链接](src/有限范围数组/Q765_couples_holding_hands.java) | 有限范围数组 |
