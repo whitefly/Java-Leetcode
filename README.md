@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>218</font>
+Java已刷题目 :<font color=red>222</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -144,9 +144,11 @@ Java已刷题目 :<font color=red>218</font>
 | 187 | repeated dna sequences | [答案链接](src/压缩编码/Q187_repeated_dna_sequences.java) | 压缩编码 |
 | 189 | rotate array | [答案链接](src/数学结论/Q189_rotate_array.java) | 数学结论 |
 | 190 | reverse bits | [答案链接](src/字符串/Q190_reverse_bits.java) | 字符串 |
+| 191 | number of 1 bits | [答案链接](src/位运算/Q191_number_of_1_bits.java) | 位运算 |
 | 198 | house robber | [答案链接](src/动态规划/Q198_house_robber.java) | 动态规划 |
 | 199 | binary tree right side view | [答案链接](src/树递归/Q199_binary_tree_right_side_view.java) | 树递归 |
 | 200 | number of islands | [答案链接](src/图论/Q200_number_of_islands.java) | 图论 |
+| 201 | bitwise and of numbers range | [答案链接](src/位运算/Q201_bitwise_and_of_numbers_range.java) | 位运算 |
 | 203 | remove linked list elements | [答案链接](src/链表/Q203_remove_linked_list_elements.java) | 链表 |
 | 206 | reverse linked list | [答案链接](src/链表/Q206_reverse_linked_list.java) | 链表 |
 | 207 | course schedule | [答案链接](src/图论/Q207_course_schedule.java) | 图论 |
@@ -161,6 +163,7 @@ Java已刷题目 :<font color=red>218</font>
 | 221 | maximal square | [答案链接](src/动态规划/Q221_maximal_square.java) | 动态规划 |
 | 222 | count complete tree nodes | [答案链接](src/树递归/Q222_count_complete_tree_nodes.java) | 树递归 |
 | 230 | kth smallest element in a bst | [答案链接](src/树递归/Q230_kth_smallest_element_in_a_bst.java) | 树递归 |
+| 231 | power of two | [答案链接](src/位运算/Q231_power_of_two.java) | 位运算 |
 | 234 | palindrome linked list | [答案链接](src/链表/Q234_palindrome_linked_list.java) | 链表 |
 | 235 | lowest common ancestor of a binary search tree | [答案链接](src/树递归/Q235_lowest_common_ancestor_of_a_binary_search_tree.java) | 树递归 |
 | 236 | lowest common ancestor of a binary tree | [答案链接](src/树递归/Q236_lowest_common_ancestor_of_a_binary_tree.java) | 树递归 |
@@ -176,6 +179,7 @@ Java已刷题目 :<font color=red>218</font>
 | 287 | find the duplicate number | [答案链接](src/重复元素/Q287_find_the_duplicate_number.java) | 重复元素 |
 | 289 | game of life | [答案链接](src/图形学/Q289_game_of_life.java) | 图形学 |
 | 299 | bulls and cows | [答案链接](src/哈希/Q299_bulls_and_cows.java) | 哈希 |
+| 310 | minimum height trees | [答案链接](src/图论/Q310_minimum_height_trees.java) | 图论 |
 | 315 | count of smaller numbers after self | [答案链接](src/二分/Q315_count_of_smaller_numbers_after_self.java) | 二分 |
 | 318 | maximum product of word lengths | [答案链接](src/哈希/Q318_maximum_product_of_word_lengths.java) | 哈希 |
 | 322 | coin change | [答案链接](src/背包问题/Q322_coin_change.java) | 背包问题 |
