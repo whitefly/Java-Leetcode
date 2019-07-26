@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>222</font>
+Java已刷题目 :<font color=red>227</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -179,11 +179,13 @@ Java已刷题目 :<font color=red>222</font>
 | 287 | find the duplicate number | [答案链接](src/重复元素/Q287_find_the_duplicate_number.java) | 重复元素 |
 | 289 | game of life | [答案链接](src/图形学/Q289_game_of_life.java) | 图形学 |
 | 299 | bulls and cows | [答案链接](src/哈希/Q299_bulls_and_cows.java) | 哈希 |
+| 300 | longest increasing subsequence | [答案链接](src/动态规划/Q300_longest_increasing_subsequence.java) | 动态规划 |
 | 310 | minimum height trees | [答案链接](src/图论/Q310_minimum_height_trees.java) | 图论 |
 | 315 | count of smaller numbers after self | [答案链接](src/二分/Q315_count_of_smaller_numbers_after_self.java) | 二分 |
 | 318 | maximum product of word lengths | [答案链接](src/哈希/Q318_maximum_product_of_word_lengths.java) | 哈希 |
 | 322 | coin change | [答案链接](src/背包问题/Q322_coin_change.java) | 背包问题 |
 | 331 | verify preorder serialization of a binary tree | [答案链接](src/树递归/Q331_verify_preorder_serialization_of_a_binary_tree.java) | 树递归 |
+| 338 | counting bits | [答案链接](src/位运算/Q338_counting_bits.java) | 位运算 |
 | 354 | russian doll envelopes | [答案链接](src/动态规划/Q354_russian_doll_envelopes.java) | 动态规划 |
 | 365 | water and jug problem | [答案链接](src/回溯剪枝/Q365_water_and_jug_problem.java) | 回溯剪枝 |
 | 371 | sum of two integers | [答案链接](src/位运算/Q371_sum_of_two_integers.java) | 位运算 |
@@ -193,6 +195,7 @@ Java已刷题目 :<font color=red>222</font>
 | 377 | combination sum iv | [答案链接](src/排列组合/Q377_combination_sum_iv.java) | 排列组合 |
 | 387 | first unique character in a string | [答案链接](src/哈希/Q387_first_unique_character_in_a_string.java) | 哈希 |
 | 394 | decode string | [答案链接](src/栈/Q394_decode_string.java) | 栈 |
+| 397 | integer replacement | [答案链接](src/位运算/Q397_integer_replacement.java) | 位运算 |
 | 400 | nth digit | [答案链接](src/数学结论/Q400_nth_digit.java) | 数学结论 |
 | 415 | add strings | [答案链接](src/字符串/Q415_add_strings.java) | 字符串 |
 | 429 | n ary tree level order traversal | [答案链接](src/树递归/Q429_n_ary_tree_level_order_traversal.java) | 树递归 |
@@ -235,6 +238,8 @@ Java已刷题目 :<font color=red>222</font>
 | 894 | all possible full binary trees | [答案链接](src/树递归/Q894_all_possible_full_binary_trees.java) | 树递归 |
 | 938 | range sum of bst | [答案链接](src/树递归/Q938_range_sum_of_bst.java) | 树递归 |
 | 946 | validate stack sequences | [答案链接](src/回溯剪枝/Q946_validate_stack_sequences.java) | 回溯剪枝 |
+| 1114 | print in order | [答案链接](src/多线程/Q1114_print_in_order.java) | 多线程 |
+| 1115 | print foobar alternately | [答案链接](src/多线程/Q1115_print_foobar_alternately.java) | 多线程 |
 
 
 
