@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>227</font>
+Java已刷题目 :<font color=red>230</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -194,9 +194,12 @@ Java已刷题目 :<font color=red>227</font>
 | 376 | wiggle subsequence | [答案链接](src/动态规划/Q376_wiggle_subsequence.java) | 动态规划 |
 | 377 | combination sum iv | [答案链接](src/排列组合/Q377_combination_sum_iv.java) | 排列组合 |
 | 387 | first unique character in a string | [答案链接](src/哈希/Q387_first_unique_character_in_a_string.java) | 哈希 |
+| 393 | utf 8 validation | [答案链接](src/位运算/Q393_utf_8_validation.java) | 位运算 |
 | 394 | decode string | [答案链接](src/栈/Q394_decode_string.java) | 栈 |
 | 397 | integer replacement | [答案链接](src/位运算/Q397_integer_replacement.java) | 位运算 |
 | 400 | nth digit | [答案链接](src/数学结论/Q400_nth_digit.java) | 数学结论 |
+| 401 | binary watch | [答案链接](src/排列组合/Q401_binary_watch.java) | 排列组合 |
+| 405 | convert a number to hexadecimal | [答案链接](src/位运算/Q405_convert_a_number_to_hexadecimal.java) | 位运算 |
 | 415 | add strings | [答案链接](src/字符串/Q415_add_strings.java) | 字符串 |
 | 429 | n ary tree level order traversal | [答案链接](src/树递归/Q429_n_ary_tree_level_order_traversal.java) | 树递归 |
 | 430 | flatten a multilevel doubly linked list | [答案链接](src/链表/Q430_flatten_a_multilevel_doubly_linked_list.java) | 链表 |
