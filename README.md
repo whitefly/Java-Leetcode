@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>232</font>
+Java已刷题目 :<font color=red>236</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -215,6 +215,7 @@ Java已刷题目 :<font color=red>232</font>
 | 513 | find bottom left tree value | [答案链接](src/树递归/Q513_find_bottom_left_tree_value.java) | 树递归 |
 | 515 | find largest value in each tree row | [答案链接](src/树递归/Q515_find_largest_value_in_each_tree_row.java) | 树递归 |
 | 518 | coin change 2 | [答案链接](src/动态规划/Q518_coin_change_2.java) | 动态规划 |
+| 530 | minimum absolute difference in bst | [答案链接](src/树递归/Q530_minimum_absolute_difference_in_bst.java) | 树递归 |
 | 538 | convert bst to greater tree | [答案链接](src/树递归/Q538_convert_bst_to_greater_tree.java) | 树递归 |
 | 543 | diameter of binary tree | [答案链接](src/树递归/Q543_diameter_of_binary_tree.java) | 树递归 |
 | 559 | maximum depth of n ary tree | [答案链接](src/树递归/Q559_maximum_depth_of_n_ary_tree.java) | 树递归 |
@@ -226,9 +227,11 @@ Java已刷题目 :<font color=red>232</font>
 | 606 | construct string from binary tree | [答案链接](src/树递归/Q606_construct_string_from_binary_tree.java) | 树递归 |
 | 623 | add one row to tree | [答案链接](src/树递归/Q623_add_one_row_to_tree.java) | 树递归 |
 | 637 | average of levels in binary tree | [答案链接](src/树递归/Q637_average_of_levels_in_binary_tree.java) | 树递归 |
+| 653 | two sum iv input is a bst | [答案链接](src/树递归/Q653_two_sum_iv_input_is_a_bst.java) | 树递归 |
 | 662 | maximum width of binary tree | [答案链接](src/树递归/Q662_maximum_width_of_binary_tree.java) | 树递归 |
 | 669 | trim a binary search tree | [答案链接](src/树递归/Q669_trim_a_binary_search_tree.java) | 树递归 |
 | 671 | second minimum node in a binary tree | [答案链接](src/树递归/Q671_second_minimum_node_in_a_binary_tree.java) | 树递归 |
+| 687 | longest univalue path | [答案链接](src/树递归/Q687_longest_univalue_path.java) | 树递归 |
 | 700 | search in a binary search tree | [答案链接](src/树递归/Q700_search_in_a_binary_search_tree.java) | 树递归 |
 | 701 | insert into a binary search tree | [答案链接](src/树递归/Q701_insert_into_a_binary_search_tree.java) | 树递归 |
 | 703 | kth largest element in a stream | [答案链接](src/堆/Q703_kth_largest_element_in_a_stream.java) | 堆 |
@@ -237,6 +240,7 @@ Java已刷题目 :<font color=red>232</font>
 | 746 | min cost climbing stairs | [答案链接](src/动态规划/Q746_min_cost_climbing_stairs.java) | 动态规划 |
 | 765 | couples holding hands | [答案链接](src/有限范围数组/Q765_couples_holding_hands.java) | 有限范围数组 |
 | 767 | reorganize string | [答案链接](src/排列组合/Q767_reorganize_string.java) | 排列组合 |
+| 783 | minimum distance between bst nodes | [答案链接](src/树递归/Q783_minimum_distance_between_bst_nodes.java) | 树递归 |
 | 784 | letter case permutation | [答案链接](src/排列组合/Q784_letter_case_permutation.java) | 排列组合 |
 | 811 | subdomain visit count | [答案链接](src/哈希/Q811_subdomain_visit_count.java) | 哈希 |
 | 875 | koko eating bananas | [答案链接](src/二分/Q875_koko_eating_bananas.java) | 二分 |
