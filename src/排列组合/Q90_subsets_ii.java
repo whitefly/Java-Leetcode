@@ -9,30 +9,29 @@ public class Q90_subsets_ii {
     List<List<Integer>> result = new ArrayList<>();
     ArrayList<Integer> temp = new ArrayList<>();
     boolean[] gone;
-    int size;
+    int[] nums;
 
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         /**
          * 思入: 回溯剪枝. 每次路径长一点,就记录一次. 不允许使用元素
          */
-        size = nums.length;
-        if (size == 0) return result;
+        this.nums = nums;
         Arrays.sort(nums);
-        gone = new boolean[size];
-        helper(nums, 0, size);
+        gone = new boolean[nums.length];
+        helper(0);
         return result;
     }
 
-    private void helper(int nums[], int l, int r) {
+    private void helper(int n) {
         result.add((List<Integer>) temp.clone());
-        if (temp.size() == size) return;
+        if (temp.size() == nums.length) return;
 
-        for (int i = l; i < r; i++) {
+        for (int i = n; i < nums.length; i++) {
+            if (i != n && nums[i - 1] == nums[i]) continue;
             if (gone[i]) continue;
-            if (i != 0 && !gone[i - 1] && nums[i - 1] == nums[i]) continue;
             temp.add(nums[i]);
             gone[i] = true;
-            helper(nums, i + 1, r);
+            helper(i + 1);
             temp.remove(temp.size() - 1);
             gone[i] = false;
         }
