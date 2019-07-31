@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>236</font>
+Java已刷题目 :<font color=red>238</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -215,6 +215,7 @@ Java已刷题目 :<font color=red>236</font>
 | 513 | find bottom left tree value | [答案链接](src/树递归/Q513_find_bottom_left_tree_value.java) | 树递归 |
 | 515 | find largest value in each tree row | [答案链接](src/树递归/Q515_find_largest_value_in_each_tree_row.java) | 树递归 |
 | 518 | coin change 2 | [答案链接](src/动态规划/Q518_coin_change_2.java) | 动态规划 |
+| 524 | longest word in dictionary through deleting | [答案链接](src/字符串/Q524_longest_word_in_dictionary_through_deleting.java) | 字符串 |
 | 530 | minimum absolute difference in bst | [答案链接](src/树递归/Q530_minimum_absolute_difference_in_bst.java) | 树递归 |
 | 538 | convert bst to greater tree | [答案链接](src/树递归/Q538_convert_bst_to_greater_tree.java) | 树递归 |
 | 543 | diameter of binary tree | [答案链接](src/树递归/Q543_diameter_of_binary_tree.java) | 树递归 |
@@ -243,6 +244,7 @@ Java已刷题目 :<font color=red>236</font>
 | 783 | minimum distance between bst nodes | [答案链接](src/树递归/Q783_minimum_distance_between_bst_nodes.java) | 树递归 |
 | 784 | letter case permutation | [答案链接](src/排列组合/Q784_letter_case_permutation.java) | 排列组合 |
 | 811 | subdomain visit count | [答案链接](src/哈希/Q811_subdomain_visit_count.java) | 哈希 |
+| 853 | car fleet | [答案链接](src/数学结论/Q853_car_fleet.java) | 数学结论 |
 | 875 | koko eating bananas | [答案链接](src/二分/Q875_koko_eating_bananas.java) | 二分 |
 | 894 | all possible full binary trees | [答案链接](src/树递归/Q894_all_possible_full_binary_trees.java) | 树递归 |
 | 938 | range sum of bst | [答案链接](src/树递归/Q938_range_sum_of_bst.java) | 树递归 |
