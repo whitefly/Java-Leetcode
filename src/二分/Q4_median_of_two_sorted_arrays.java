@@ -16,10 +16,10 @@ public class Q4_median_of_two_sorted_arrays {
         if (size1 > size2) return findMedianSortedArrays(nums2, nums1);
         int count = size1 + size2;
         int l = 0, r = nums1.length;
-        int mid = (count + 1) / 2;  //此时mid-1表示左中位点,比如总数有4个,则mid=2(左中位下标为1),若总是有5个,则表示3(左中位下标为2)
+        int k = (count + 1) / 2;  //此时mid-1表示左中位点,比如总数有4个,则mid=2(左中位下标为1),若总是有5个,则表示3(左中位下标为2)
         while (l <= r) {
             int cut1 = (l + r) / 2;
-            int cut2 = mid - cut1;    //偶数没问题,但奇数且 len1>len2时,求出来的cut2又是会超过len2.导致num2[cut2]越界
+            int cut2 = k - cut1;    //偶数没问题,但奇数且 len1>len2时,求出来的cut2又是会超过len2.导致num2[cut2]越界
             //是否满足条件左边最大<=右边最小
             int L1 = (cut1 == 0) ? Integer.MIN_VALUE : nums1[cut1 - 1];
             int L2 = (cut2 == 0) ? Integer.MIN_VALUE : nums2[cut2 - 1];
