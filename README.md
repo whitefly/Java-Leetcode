@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>238</font>
+Java已刷题目 :<font color=red>241</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -175,6 +175,7 @@ Java已刷题目 :<font color=red>238</font>
 | 268 | missing number | [答案链接](src/有限范围数组/Q268_missing_number.java) | 有限范围数组 |
 | 273 | integer to english words | [答案链接](src/字符串/Q273_integer_to_english_words.java) | 字符串 |
 | 278 | first bad version | [答案链接](src/二分/Q278_first_bad_version.java) | 二分 |
+| 279 | perfect squares | [答案链接](src/动态规划/Q279_perfect_squares.java) | 动态规划 |
 | 284 | peeking iterator | [答案链接](src/迭代器/Q284_peeking_iterator.java) | 迭代器 |
 | 287 | find the duplicate number | [答案链接](src/重复元素/Q287_find_the_duplicate_number.java) | 重复元素 |
 | 289 | game of life | [答案链接](src/图形学/Q289_game_of_life.java) | 图形学 |
@@ -186,7 +187,9 @@ Java已刷题目 :<font color=red>238</font>
 | 322 | coin change | [答案链接](src/背包问题/Q322_coin_change.java) | 背包问题 |
 | 331 | verify preorder serialization of a binary tree | [答案链接](src/树递归/Q331_verify_preorder_serialization_of_a_binary_tree.java) | 树递归 |
 | 338 | counting bits | [答案链接](src/位运算/Q338_counting_bits.java) | 位运算 |
+| 343 | integer break | [答案链接](src/动态规划/Q343_integer_break.java) | 动态规划 |
 | 354 | russian doll envelopes | [答案链接](src/动态规划/Q354_russian_doll_envelopes.java) | 动态规划 |
+| 357 | count numbers with unique digits | [答案链接](src/动态规划/Q357_count_numbers_with_unique_digits.java) | 动态规划 |
 | 365 | water and jug problem | [答案链接](src/回溯剪枝/Q365_water_and_jug_problem.java) | 回溯剪枝 |
 | 371 | sum of two integers | [答案链接](src/位运算/Q371_sum_of_two_integers.java) | 位运算 |
 | 373 | find k pairs with smallest sums | [答案链接](src/堆/Q373_find_k_pairs_with_smallest_sums.java) | 堆 |
