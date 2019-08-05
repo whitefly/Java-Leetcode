@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>241</font>
+Java已刷题目 :<font color=red>246</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -188,21 +188,26 @@ Java已刷题目 :<font color=red>241</font>
 | 331 | verify preorder serialization of a binary tree | [答案链接](src/树递归/Q331_verify_preorder_serialization_of_a_binary_tree.java) | 树递归 |
 | 338 | counting bits | [答案链接](src/位运算/Q338_counting_bits.java) | 位运算 |
 | 343 | integer break | [答案链接](src/动态规划/Q343_integer_break.java) | 动态规划 |
+| 345 | reverse vowels of a string | [答案链接](src/双指针/Q345_reverse_vowels_of_a_string.java) | 双指针 |
 | 354 | russian doll envelopes | [答案链接](src/动态规划/Q354_russian_doll_envelopes.java) | 动态规划 |
 | 357 | count numbers with unique digits | [答案链接](src/动态规划/Q357_count_numbers_with_unique_digits.java) | 动态规划 |
 | 365 | water and jug problem | [答案链接](src/回溯剪枝/Q365_water_and_jug_problem.java) | 回溯剪枝 |
+| 368 | largest divisible subset | [答案链接](src/排列组合/Q368_largest_divisible_subset.java) | 排列组合 |
 | 371 | sum of two integers | [答案链接](src/位运算/Q371_sum_of_two_integers.java) | 位运算 |
 | 373 | find k pairs with smallest sums | [答案链接](src/堆/Q373_find_k_pairs_with_smallest_sums.java) | 堆 |
 | 374 | guess number higher or lower | [答案链接](src/二分/Q374_guess_number_higher_or_lower.java) | 二分 |
 | 376 | wiggle subsequence | [答案链接](src/动态规划/Q376_wiggle_subsequence.java) | 动态规划 |
 | 377 | combination sum iv | [答案链接](src/排列组合/Q377_combination_sum_iv.java) | 排列组合 |
+| 383 | ransom note | [答案链接](src/字符串/Q383_ransom_note.java) | 字符串 |
 | 387 | first unique character in a string | [答案链接](src/哈希/Q387_first_unique_character_in_a_string.java) | 哈希 |
+| 392 | is subsequence | [答案链接](src/字符串/Q392_is_subsequence.java) | 字符串 |
 | 393 | utf 8 validation | [答案链接](src/位运算/Q393_utf_8_validation.java) | 位运算 |
 | 394 | decode string | [答案链接](src/栈/Q394_decode_string.java) | 栈 |
 | 397 | integer replacement | [答案链接](src/位运算/Q397_integer_replacement.java) | 位运算 |
 | 400 | nth digit | [答案链接](src/数学结论/Q400_nth_digit.java) | 数学结论 |
 | 401 | binary watch | [答案链接](src/排列组合/Q401_binary_watch.java) | 排列组合 |
 | 405 | convert a number to hexadecimal | [答案链接](src/位运算/Q405_convert_a_number_to_hexadecimal.java) | 位运算 |
+| 406 | queue reconstruction by height | [答案链接](src/贪心/Q406_queue_reconstruction_by_height.java) | 贪心 |
 | 415 | add strings | [答案链接](src/字符串/Q415_add_strings.java) | 字符串 |
 | 429 | n ary tree level order traversal | [答案链接](src/树递归/Q429_n_ary_tree_level_order_traversal.java) | 树递归 |
 | 430 | flatten a multilevel doubly linked list | [答案链接](src/链表/Q430_flatten_a_multilevel_doubly_linked_list.java) | 链表 |
