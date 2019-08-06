@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>246</font>
+Java已刷题目 :<font color=red>249</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -187,6 +187,7 @@ Java已刷题目 :<font color=red>246</font>
 | 322 | coin change | [答案链接](src/背包问题/Q322_coin_change.java) | 背包问题 |
 | 331 | verify preorder serialization of a binary tree | [答案链接](src/树递归/Q331_verify_preorder_serialization_of_a_binary_tree.java) | 树递归 |
 | 338 | counting bits | [答案链接](src/位运算/Q338_counting_bits.java) | 位运算 |
+| 341 | flatten nested list iterator | [答案链接](src/迭代器/Q341_flatten_nested_list_iterator.java) | 迭代器 |
 | 343 | integer break | [答案链接](src/动态规划/Q343_integer_break.java) | 动态规划 |
 | 345 | reverse vowels of a string | [答案链接](src/双指针/Q345_reverse_vowels_of_a_string.java) | 双指针 |
 | 354 | russian doll envelopes | [答案链接](src/动态规划/Q354_russian_doll_envelopes.java) | 动态规划 |
@@ -200,6 +201,7 @@ Java已刷题目 :<font color=red>246</font>
 | 377 | combination sum iv | [答案链接](src/排列组合/Q377_combination_sum_iv.java) | 排列组合 |
 | 383 | ransom note | [答案链接](src/字符串/Q383_ransom_note.java) | 字符串 |
 | 387 | first unique character in a string | [答案链接](src/哈希/Q387_first_unique_character_in_a_string.java) | 哈希 |
+| 390 | elimination game | [答案链接](src/数学结论/Q390_elimination_game.java) | 数学结论 |
 | 392 | is subsequence | [答案链接](src/字符串/Q392_is_subsequence.java) | 字符串 |
 | 393 | utf 8 validation | [答案链接](src/位运算/Q393_utf_8_validation.java) | 位运算 |
 | 394 | decode string | [答案链接](src/栈/Q394_decode_string.java) | 栈 |
@@ -209,6 +211,7 @@ Java已刷题目 :<font color=red>246</font>
 | 405 | convert a number to hexadecimal | [答案链接](src/位运算/Q405_convert_a_number_to_hexadecimal.java) | 位运算 |
 | 406 | queue reconstruction by height | [答案链接](src/贪心/Q406_queue_reconstruction_by_height.java) | 贪心 |
 | 415 | add strings | [答案链接](src/字符串/Q415_add_strings.java) | 字符串 |
+| 416 | partition equal subset sum | [答案链接](src/背包问题/Q416_partition_equal_subset_sum.java) | 背包问题 |
 | 429 | n ary tree level order traversal | [答案链接](src/树递归/Q429_n_ary_tree_level_order_traversal.java) | 树递归 |
 | 430 | flatten a multilevel doubly linked list | [答案链接](src/链表/Q430_flatten_a_multilevel_doubly_linked_list.java) | 链表 |
 | 437 | path sum iii | [答案链接](src/树递归/Q437_path_sum_iii.java) | 树递归 |
