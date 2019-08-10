@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>249</font>
+Java已刷题目 :<font color=red>258</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -155,6 +155,7 @@ Java已刷题目 :<font color=red>249</font>
 | 208 | implement trie prefix tree | [答案链接](src/前缀树/Q208_implement_trie_prefix_tree.java) | 前缀树 |
 | 209 | minimum size subarray sum | [答案链接](src/双指针/Q209_minimum_size_subarray_sum.java) | 双指针 |
 | 210 | course schedule ii | [答案链接](src/图论/Q210_course_schedule_ii.java) | 图论 |
+| 211 | add and search word data structure design | [答案链接](src/前缀树/Q211_add_and_search_word_data_structure_design.java) | 前缀树 |
 | 213 | house robber ii | [答案链接](src/动态规划/Q213_house_robber_ii.java) | 动态规划 |
 | 214 | shortest palindrome | [答案链接](src/KMP/Q214_shortest_palindrome.java) | KMP |
 | 216 | combination sum iii | [答案链接](src/排列组合/Q216_combination_sum_iii.java) | 排列组合 |
@@ -181,10 +182,12 @@ Java已刷题目 :<font color=red>249</font>
 | 289 | game of life | [答案链接](src/图形学/Q289_game_of_life.java) | 图形学 |
 | 299 | bulls and cows | [答案链接](src/哈希/Q299_bulls_and_cows.java) | 哈希 |
 | 300 | longest increasing subsequence | [答案链接](src/动态规划/Q300_longest_increasing_subsequence.java) | 动态规划 |
+| 307 | range sum query mutable | [答案链接](src/线段树/Q307_range_sum_query_mutable.java) | 线段树 |
 | 310 | minimum height trees | [答案链接](src/图论/Q310_minimum_height_trees.java) | 图论 |
 | 315 | count of smaller numbers after self | [答案链接](src/二分/Q315_count_of_smaller_numbers_after_self.java) | 二分 |
 | 318 | maximum product of word lengths | [答案链接](src/哈希/Q318_maximum_product_of_word_lengths.java) | 哈希 |
 | 322 | coin change | [答案链接](src/背包问题/Q322_coin_change.java) | 背包问题 |
+| 327 | count of range sum | [答案链接](src/线段树/Q327_count_of_range_sum.java) | 线段树 |
 | 331 | verify preorder serialization of a binary tree | [答案链接](src/树递归/Q331_verify_preorder_serialization_of_a_binary_tree.java) | 树递归 |
 | 338 | counting bits | [答案链接](src/位运算/Q338_counting_bits.java) | 位运算 |
 | 341 | flatten nested list iterator | [答案链接](src/迭代器/Q341_flatten_nested_list_iterator.java) | 迭代器 |
@@ -199,6 +202,7 @@ Java已刷题目 :<font color=red>249</font>
 | 374 | guess number higher or lower | [答案链接](src/二分/Q374_guess_number_higher_or_lower.java) | 二分 |
 | 376 | wiggle subsequence | [答案链接](src/动态规划/Q376_wiggle_subsequence.java) | 动态规划 |
 | 377 | combination sum iv | [答案链接](src/排列组合/Q377_combination_sum_iv.java) | 排列组合 |
+| 382 | linked list random node | [答案链接](src/概率/Q382_linked_list_random_node.java) | 概率 |
 | 383 | ransom note | [答案链接](src/字符串/Q383_ransom_note.java) | 字符串 |
 | 387 | first unique character in a string | [答案链接](src/哈希/Q387_first_unique_character_in_a_string.java) | 哈希 |
 | 390 | elimination game | [答案链接](src/数学结论/Q390_elimination_game.java) | 数学结论 |
@@ -206,6 +210,7 @@ Java已刷题目 :<font color=red>249</font>
 | 393 | utf 8 validation | [答案链接](src/位运算/Q393_utf_8_validation.java) | 位运算 |
 | 394 | decode string | [答案链接](src/栈/Q394_decode_string.java) | 栈 |
 | 397 | integer replacement | [答案链接](src/位运算/Q397_integer_replacement.java) | 位运算 |
+| 398 | random pick index | [答案链接](src/概率/Q398_random_pick_index.java) | 概率 |
 | 400 | nth digit | [答案链接](src/数学结论/Q400_nth_digit.java) | 数学结论 |
 | 401 | binary watch | [答案链接](src/排列组合/Q401_binary_watch.java) | 排列组合 |
 | 405 | convert a number to hexadecimal | [答案链接](src/位运算/Q405_convert_a_number_to_hexadecimal.java) | 位运算 |
@@ -219,7 +224,9 @@ Java已刷题目 :<font color=red>249</font>
 | 448 | find all numbers disappeared in an array | [答案链接](src/有限范围数组/Q448_find_all_numbers_disappeared_in_an_array.java) | 有限范围数组 |
 | 450 | delete node in a bst | [答案链接](src/树递归/Q450_delete_node_in_a_bst.java) | 树递归 |
 | 451 | sort characters by frequency | [答案链接](src/哈希/Q451_sort_characters_by_frequency.java) | 哈希 |
+| 470 | implement rand10 using rand7 | [答案链接](src/概率/Q470_implement_rand10_using_rand7.java) | 概率 |
 | 477 | total hamming distance | [答案链接](src/位运算/Q477_total_hamming_distance.java) | 位运算 |
+| 478 | generate random point in a circle | [答案链接](src/概率/Q478_generate_random_point_in_a_circle.java) | 概率 |
 | 496 | next greater element i | [答案链接](src/栈/Q496_next_greater_element_i.java) | 栈 |
 | 501 | find mode in binary search tree | [答案链接](src/树递归/Q501_find_mode_in_binary_search_tree.java) | 树递归 |
 | 508 | most frequent subtree sum | [答案链接](src/树递归/Q508_most_frequent_subtree_sum.java) | 树递归 |
@@ -239,10 +246,12 @@ Java已刷题目 :<font color=red>249</font>
 | 606 | construct string from binary tree | [答案链接](src/树递归/Q606_construct_string_from_binary_tree.java) | 树递归 |
 | 623 | add one row to tree | [答案链接](src/树递归/Q623_add_one_row_to_tree.java) | 树递归 |
 | 637 | average of levels in binary tree | [答案链接](src/树递归/Q637_average_of_levels_in_binary_tree.java) | 树递归 |
+| 648 | replace words | [答案链接](src/前缀树/Q648_replace_words.java) | 前缀树 |
 | 653 | two sum iv input is a bst | [答案链接](src/树递归/Q653_two_sum_iv_input_is_a_bst.java) | 树递归 |
 | 662 | maximum width of binary tree | [答案链接](src/树递归/Q662_maximum_width_of_binary_tree.java) | 树递归 |
 | 669 | trim a binary search tree | [答案链接](src/树递归/Q669_trim_a_binary_search_tree.java) | 树递归 |
 | 671 | second minimum node in a binary tree | [答案链接](src/树递归/Q671_second_minimum_node_in_a_binary_tree.java) | 树递归 |
+| 677 | map sum pairs | [答案链接](src/前缀树/Q677_map_sum_pairs.java) | 前缀树 |
 | 687 | longest univalue path | [答案链接](src/树递归/Q687_longest_univalue_path.java) | 树递归 |
 | 700 | search in a binary search tree | [答案链接](src/树递归/Q700_search_in_a_binary_search_tree.java) | 树递归 |
 | 701 | insert into a binary search tree | [答案链接](src/树递归/Q701_insert_into_a_binary_search_tree.java) | 树递归 |
