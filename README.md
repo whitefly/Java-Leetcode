@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>258</font>
+Java已刷题目 :<font color=red>262</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -188,6 +188,7 @@ Java已刷题目 :<font color=red>258</font>
 | 318 | maximum product of word lengths | [答案链接](src/哈希/Q318_maximum_product_of_word_lengths.java) | 哈希 |
 | 322 | coin change | [答案链接](src/背包问题/Q322_coin_change.java) | 背包问题 |
 | 327 | count of range sum | [答案链接](src/线段树/Q327_count_of_range_sum.java) | 线段树 |
+| 328 | odd even linked list | [答案链接](src/链表/Q328_odd_even_linked_list.java) | 链表 |
 | 331 | verify preorder serialization of a binary tree | [答案链接](src/树递归/Q331_verify_preorder_serialization_of_a_binary_tree.java) | 树递归 |
 | 338 | counting bits | [答案链接](src/位运算/Q338_counting_bits.java) | 位运算 |
 | 341 | flatten nested list iterator | [答案链接](src/迭代器/Q341_flatten_nested_list_iterator.java) | 迭代器 |
@@ -243,6 +244,7 @@ Java已刷题目 :<font color=red>258</font>
 | 572 | subtree of another tree | [答案链接](src/树递归/Q572_subtree_of_another_tree.java) | 树递归 |
 | 589 | n ary tree preorder traversal | [答案链接](src/树递归/Q589_n_ary_tree_preorder_traversal.java) | 树递归 |
 | 590 | n ary tree postorder traversal | [答案链接](src/树递归/Q590_n_ary_tree_postorder_traversal.java) | 树递归 |
+| 594 | longest harmonious subsequence | [答案链接](src/哈希/Q594_longest_harmonious_subsequence.java) | 哈希 |
 | 606 | construct string from binary tree | [答案链接](src/树递归/Q606_construct_string_from_binary_tree.java) | 树递归 |
 | 623 | add one row to tree | [答案链接](src/树递归/Q623_add_one_row_to_tree.java) | 树递归 |
 | 637 | average of levels in binary tree | [答案链接](src/树递归/Q637_average_of_levels_in_binary_tree.java) | 树递归 |
@@ -267,6 +269,8 @@ Java已刷题目 :<font color=red>258</font>
 | 853 | car fleet | [答案链接](src/数学结论/Q853_car_fleet.java) | 数学结论 |
 | 875 | koko eating bananas | [答案链接](src/二分/Q875_koko_eating_bananas.java) | 二分 |
 | 894 | all possible full binary trees | [答案链接](src/树递归/Q894_all_possible_full_binary_trees.java) | 树递归 |
+| 905 | sort array by parity | [答案链接](src/排序/Q905_sort_array_by_parity.java) | 排序 |
+| 922 | sort array by parity ii | [答案链接](src/双指针/Q922_sort_array_by_parity_ii.java) | 双指针 |
 | 938 | range sum of bst | [答案链接](src/树递归/Q938_range_sum_of_bst.java) | 树递归 |
 | 946 | validate stack sequences | [答案链接](src/回溯剪枝/Q946_validate_stack_sequences.java) | 回溯剪枝 |
 | 1114 | print in order | [答案链接](src/多线程/Q1114_print_in_order.java) | 多线程 |
