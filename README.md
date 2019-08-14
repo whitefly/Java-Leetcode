@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>262</font>
+Java已刷题目 :<font color=red>264</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -115,7 +115,8 @@ Java已刷题目 :<font color=red>262</font>
 | 119 | pascals triangle ii | [答案链接](src/动态规划/Q119_pascals_triangle_ii.java) | 动态规划 |
 | 120 | triangle | [答案链接](src/动态规划/Q120_triangle.java) | 动态规划 |
 | 121 | best time to buy and sell stock | [答案链接](src/动态规划/Q121_best_time_to_buy_and_sell_stock.java) | 动态规划 |
-| 122 | best time to buy and sell stock ii | [答案链接](src/贪心/Q122_best_time_to_buy_and_sell_stock_ii.java) | 贪心 |
+| 122 | best time to buy and sell stock ii | [答案链接](src/动态规划/Q122_best_time_to_buy_and_sell_stock_ii.java) | 动态规划 |
+| 123 | best time to buy and sell stock iii | [答案链接](src/动态规划/Q123_best_time_to_buy_and_sell_stock_iii.java) | 动态规划 |
 | 124 | binary tree maximum path sum | [答案链接](src/树递归/Q124_binary_tree_maximum_path_sum.java) | 树递归 |
 | 125 | valid palindrome | [答案链接](src/双指针/Q125_valid_palindrome.java) | 双指针 |
 | 127 | valid palindrome | [答案链接](src/字符串/Q127_valid_palindrome.java) | 字符串 |
@@ -142,6 +143,7 @@ Java已刷题目 :<font color=red>262</font>
 | 169 | majority element | [答案链接](src/重复元素/Q169_majority_element.java) | 重复元素 |
 | 174 | dungeon game | [答案链接](src/动态规划/Q174_dungeon_game.java) | 动态规划 |
 | 187 | repeated dna sequences | [答案链接](src/压缩编码/Q187_repeated_dna_sequences.java) | 压缩编码 |
+| 188 | best time to buy and sell stock iv | [答案链接](src/动态规划/Q188_best_time_to_buy_and_sell_stock_iv.java) | 动态规划 |
 | 189 | rotate array | [答案链接](src/数学结论/Q189_rotate_array.java) | 数学结论 |
 | 190 | reverse bits | [答案链接](src/字符串/Q190_reverse_bits.java) | 字符串 |
 | 191 | number of 1 bits | [答案链接](src/位运算/Q191_number_of_1_bits.java) | 位运算 |
