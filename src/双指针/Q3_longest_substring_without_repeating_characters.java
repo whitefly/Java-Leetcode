@@ -33,6 +33,8 @@ public class Q3_longest_substring_without_repeating_characters {
     public static int lengthOfLongestSubstring2(String s) {
         /**
          * 思入2: 双指针表示符合要求的字符串,右指针一直右移动,若碰上重复的,对左指针进行紧缩.类似于滑动窗口
+         * 若在scan某个点时,我知道左边不同元素的最后位置(包括scan的元素).若scan元素之间出现过,且位置大于L,则需要收紧L,若不大于,则随意
+         *
          */
         Map<Character, Integer> buff = new HashMap<>();
         int result = 0, l = 0;
