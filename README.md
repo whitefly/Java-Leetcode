@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>266</font>
+Java已刷题目 :<font color=red>274</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -160,11 +160,13 @@ Java已刷题目 :<font color=red>266</font>
 | 211 | add and search word data structure design | [答案链接](src/前缀树/Q211_add_and_search_word_data_structure_design.java) | 前缀树 |
 | 213 | house robber ii | [答案链接](src/动态规划/Q213_house_robber_ii.java) | 动态规划 |
 | 214 | shortest palindrome | [答案链接](src/KMP/Q214_shortest_palindrome.java) | KMP |
+| 215 | kth largest element in an array | [答案链接](src/排序/Q215_kth_largest_element_in_an_array.java) | 排序 |
 | 216 | combination sum iii | [答案链接](src/排列组合/Q216_combination_sum_iii.java) | 排列组合 |
 | 217 | contains duplicate | [答案链接](src/哈希/Q217_contains_duplicate.java) | 哈希 |
 | 220 | contains duplicate iii | [答案链接](src/哈希/Q220_contains_duplicate_iii.java) | 哈希 |
 | 221 | maximal square | [答案链接](src/动态规划/Q221_maximal_square.java) | 动态规划 |
 | 222 | count complete tree nodes | [答案链接](src/树递归/Q222_count_complete_tree_nodes.java) | 树递归 |
+| 229 | majority element ii | [答案链接](src/重复元素/Q229_majority_element_ii.java) | 重复元素 |
 | 230 | kth smallest element in a bst | [答案链接](src/树递归/Q230_kth_smallest_element_in_a_bst.java) | 树递归 |
 | 231 | power of two | [答案链接](src/位运算/Q231_power_of_two.java) | 位运算 |
 | 234 | palindrome linked list | [答案链接](src/链表/Q234_palindrome_linked_list.java) | 链表 |
@@ -192,9 +194,11 @@ Java已刷题目 :<font color=red>266</font>
 | 322 | coin change | [答案链接](src/背包问题/Q322_coin_change.java) | 背包问题 |
 | 327 | count of range sum | [答案链接](src/线段树/Q327_count_of_range_sum.java) | 线段树 |
 | 328 | odd even linked list | [答案链接](src/链表/Q328_odd_even_linked_list.java) | 链表 |
+| 329 | longest increasing path in a matrix | [答案链接](src/动态规划/Q329_longest_increasing_path_in_a_matrix.java) | 动态规划 |
 | 331 | verify preorder serialization of a binary tree | [答案链接](src/树递归/Q331_verify_preorder_serialization_of_a_binary_tree.java) | 树递归 |
 | 338 | counting bits | [答案链接](src/位运算/Q338_counting_bits.java) | 位运算 |
 | 341 | flatten nested list iterator | [答案链接](src/迭代器/Q341_flatten_nested_list_iterator.java) | 迭代器 |
+| 342 | power of four | [答案链接](src/位运算/Q342_power_of_four.java) | 位运算 |
 | 343 | integer break | [答案链接](src/动态规划/Q343_integer_break.java) | 动态规划 |
 | 345 | reverse vowels of a string | [答案链接](src/双指针/Q345_reverse_vowels_of_a_string.java) | 双指针 |
 | 354 | russian doll envelopes | [答案链接](src/动态规划/Q354_russian_doll_envelopes.java) | 动态规划 |
@@ -223,6 +227,7 @@ Java已刷题目 :<font color=red>266</font>
 | 416 | partition equal subset sum | [答案链接](src/背包问题/Q416_partition_equal_subset_sum.java) | 背包问题 |
 | 429 | n ary tree level order traversal | [答案链接](src/树递归/Q429_n_ary_tree_level_order_traversal.java) | 树递归 |
 | 430 | flatten a multilevel doubly linked list | [答案链接](src/链表/Q430_flatten_a_multilevel_doubly_linked_list.java) | 链表 |
+| 433 | minimum genetic mutation | [答案链接](src/图论/Q433_minimum_genetic_mutation.java) | 图论 |
 | 437 | path sum iii | [答案链接](src/树递归/Q437_path_sum_iii.java) | 树递归 |
 | 445 | add two numbers ii | [答案链接](src/链表/Q445_add_two_numbers_ii.java) | 链表 |
 | 448 | find all numbers disappeared in an array | [答案链接](src/有限范围数组/Q448_find_all_numbers_disappeared_in_an_array.java) | 有限范围数组 |
@@ -231,7 +236,9 @@ Java已刷题目 :<font color=red>266</font>
 | 470 | implement rand10 using rand7 | [答案链接](src/概率/Q470_implement_rand10_using_rand7.java) | 概率 |
 | 477 | total hamming distance | [答案链接](src/位运算/Q477_total_hamming_distance.java) | 位运算 |
 | 478 | generate random point in a circle | [答案链接](src/概率/Q478_generate_random_point_in_a_circle.java) | 概率 |
+| 494 | target sum | [答案链接](src/回溯剪枝/Q494_target_sum.java) | 回溯剪枝 |
 | 496 | next greater element i | [答案链接](src/栈/Q496_next_greater_element_i.java) | 栈 |
+| 498 | diagonal traverse | [答案链接](src/排版题/Q498_diagonal_traverse.java) | 排版题 |
 | 501 | find mode in binary search tree | [答案链接](src/树递归/Q501_find_mode_in_binary_search_tree.java) | 树递归 |
 | 508 | most frequent subtree sum | [答案链接](src/树递归/Q508_most_frequent_subtree_sum.java) | 树递归 |
 | 513 | find bottom left tree value | [答案链接](src/树递归/Q513_find_bottom_left_tree_value.java) | 树递归 |
@@ -269,6 +276,7 @@ Java已刷题目 :<font color=red>266</font>
 | 767 | reorganize string | [答案链接](src/排列组合/Q767_reorganize_string.java) | 排列组合 |
 | 783 | minimum distance between bst nodes | [答案链接](src/树递归/Q783_minimum_distance_between_bst_nodes.java) | 树递归 |
 | 784 | letter case permutation | [答案链接](src/排列组合/Q784_letter_case_permutation.java) | 排列组合 |
+| 787 | cheapest flights within k stops | [答案链接](src/图论/Q787_cheapest_flights_within_k_stops.java) | 图论 |
 | 811 | subdomain visit count | [答案链接](src/哈希/Q811_subdomain_visit_count.java) | 哈希 |
 | 853 | car fleet | [答案链接](src/数学结论/Q853_car_fleet.java) | 数学结论 |
 | 875 | koko eating bananas | [答案链接](src/二分/Q875_koko_eating_bananas.java) | 二分 |
