@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>274</font>
+Java已刷题目 :<font color=red>277</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -233,9 +233,12 @@ Java已刷题目 :<font color=red>274</font>
 | 448 | find all numbers disappeared in an array | [答案链接](src/有限范围数组/Q448_find_all_numbers_disappeared_in_an_array.java) | 有限范围数组 |
 | 450 | delete node in a bst | [答案链接](src/树递归/Q450_delete_node_in_a_bst.java) | 树递归 |
 | 451 | sort characters by frequency | [答案链接](src/哈希/Q451_sort_characters_by_frequency.java) | 哈希 |
+| 468 | validate ip address | [答案链接](src/字符串/Q468_validate_ip_address.java) | 字符串 |
 | 470 | implement rand10 using rand7 | [答案链接](src/概率/Q470_implement_rand10_using_rand7.java) | 概率 |
+| 474 | ones and zeroes | [答案链接](src/背包问题/Q474_ones_and_zeroes.java) | 背包问题 |
 | 477 | total hamming distance | [答案链接](src/位运算/Q477_total_hamming_distance.java) | 位运算 |
 | 478 | generate random point in a circle | [答案链接](src/概率/Q478_generate_random_point_in_a_circle.java) | 概率 |
+| 492 | construct the rectangle | [答案链接](src/数学结论/Q492_construct_the_rectangle.java) | 数学结论 |
 | 494 | target sum | [答案链接](src/回溯剪枝/Q494_target_sum.java) | 回溯剪枝 |
 | 496 | next greater element i | [答案链接](src/栈/Q496_next_greater_element_i.java) | 栈 |
 | 498 | diagonal traverse | [答案链接](src/排版题/Q498_diagonal_traverse.java) | 排版题 |
