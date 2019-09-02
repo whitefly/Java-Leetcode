@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>277</font>
+Java已刷题目 :<font color=red>283</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -225,14 +225,17 @@ Java已刷题目 :<font color=red>277</font>
 | 406 | queue reconstruction by height | [答案链接](src/贪心/Q406_queue_reconstruction_by_height.java) | 贪心 |
 | 415 | add strings | [答案链接](src/字符串/Q415_add_strings.java) | 字符串 |
 | 416 | partition equal subset sum | [答案链接](src/背包问题/Q416_partition_equal_subset_sum.java) | 背包问题 |
+| 419 | battleships in a board | [答案链接](src/动态规划/Q419_battleships_in_a_board.java) | 动态规划 |
 | 429 | n ary tree level order traversal | [答案链接](src/树递归/Q429_n_ary_tree_level_order_traversal.java) | 树递归 |
 | 430 | flatten a multilevel doubly linked list | [答案链接](src/链表/Q430_flatten_a_multilevel_doubly_linked_list.java) | 链表 |
 | 433 | minimum genetic mutation | [答案链接](src/图论/Q433_minimum_genetic_mutation.java) | 图论 |
 | 437 | path sum iii | [答案链接](src/树递归/Q437_path_sum_iii.java) | 树递归 |
+| 443 | string compression | [答案链接](src/压缩编码/Q443_string_compression.java) | 压缩编码 |
 | 445 | add two numbers ii | [答案链接](src/链表/Q445_add_two_numbers_ii.java) | 链表 |
 | 448 | find all numbers disappeared in an array | [答案链接](src/有限范围数组/Q448_find_all_numbers_disappeared_in_an_array.java) | 有限范围数组 |
 | 450 | delete node in a bst | [答案链接](src/树递归/Q450_delete_node_in_a_bst.java) | 树递归 |
 | 451 | sort characters by frequency | [答案链接](src/哈希/Q451_sort_characters_by_frequency.java) | 哈希 |
+| 467 | unique substrings in wraparound string | [答案链接](src/动态规划/Q467_unique_substrings_in_wraparound_string.java) | 动态规划 |
 | 468 | validate ip address | [答案链接](src/字符串/Q468_validate_ip_address.java) | 字符串 |
 | 470 | implement rand10 using rand7 | [答案链接](src/概率/Q470_implement_rand10_using_rand7.java) | 概率 |
 | 474 | ones and zeroes | [答案链接](src/背包问题/Q474_ones_and_zeroes.java) | 背包问题 |
@@ -243,6 +246,7 @@ Java已刷题目 :<font color=red>277</font>
 | 496 | next greater element i | [答案链接](src/栈/Q496_next_greater_element_i.java) | 栈 |
 | 498 | diagonal traverse | [答案链接](src/排版题/Q498_diagonal_traverse.java) | 排版题 |
 | 501 | find mode in binary search tree | [答案链接](src/树递归/Q501_find_mode_in_binary_search_tree.java) | 树递归 |
+| 503 | next greater element ii | [答案链接](src/栈/Q503_next_greater_element_ii.java) | 栈 |
 | 508 | most frequent subtree sum | [答案链接](src/树递归/Q508_most_frequent_subtree_sum.java) | 树递归 |
 | 513 | find bottom left tree value | [答案链接](src/树递归/Q513_find_bottom_left_tree_value.java) | 树递归 |
 | 515 | find largest value in each tree row | [答案链接](src/树递归/Q515_find_largest_value_in_each_tree_row.java) | 树递归 |
@@ -284,10 +288,12 @@ Java已刷题目 :<font color=red>277</font>
 | 853 | car fleet | [答案链接](src/数学结论/Q853_car_fleet.java) | 数学结论 |
 | 875 | koko eating bananas | [答案链接](src/二分/Q875_koko_eating_bananas.java) | 二分 |
 | 894 | all possible full binary trees | [答案链接](src/树递归/Q894_all_possible_full_binary_trees.java) | 树递归 |
+| 901 | online stock span | [答案链接](src/栈/Q901_online_stock_span.java) | 栈 |
 | 905 | sort array by parity | [答案链接](src/排序/Q905_sort_array_by_parity.java) | 排序 |
 | 922 | sort array by parity ii | [答案链接](src/双指针/Q922_sort_array_by_parity_ii.java) | 双指针 |
 | 938 | range sum of bst | [答案链接](src/树递归/Q938_range_sum_of_bst.java) | 树递归 |
 | 946 | validate stack sequences | [答案链接](src/回溯剪枝/Q946_validate_stack_sequences.java) | 回溯剪枝 |
+| 1019 | next greater node in linked list | [答案链接](src/栈/Q1019_next_greater_node_in_linked_list.java) | 栈 |
 | 1114 | print in order | [答案链接](src/多线程/Q1114_print_in_order.java) | 多线程 |
 | 1115 | print foobar alternately | [答案链接](src/多线程/Q1115_print_foobar_alternately.java) | 多线程 |
 
