@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>285</font>
+Java已刷题目 :<font color=red>287</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -212,6 +212,7 @@ Java已刷题目 :<font color=red>285</font>
 | 377 | combination sum iv | [答案链接](src/排列组合/Q377_combination_sum_iv.java) | 排列组合 |
 | 382 | linked list random node | [答案链接](src/概率/Q382_linked_list_random_node.java) | 概率 |
 | 383 | ransom note | [答案链接](src/字符串/Q383_ransom_note.java) | 字符串 |
+| 384 | shuffle an array | [答案链接](src/概率/Q384_shuffle_an_array.java) | 概率 |
 | 387 | first unique character in a string | [答案链接](src/哈希/Q387_first_unique_character_in_a_string.java) | 哈希 |
 | 390 | elimination game | [答案链接](src/数学结论/Q390_elimination_game.java) | 数学结论 |
 | 392 | is subsequence | [答案链接](src/字符串/Q392_is_subsequence.java) | 字符串 |
@@ -223,6 +224,7 @@ Java已刷题目 :<font color=red>285</font>
 | 401 | binary watch | [答案链接](src/排列组合/Q401_binary_watch.java) | 排列组合 |
 | 405 | convert a number to hexadecimal | [答案链接](src/位运算/Q405_convert_a_number_to_hexadecimal.java) | 位运算 |
 | 406 | queue reconstruction by height | [答案链接](src/贪心/Q406_queue_reconstruction_by_height.java) | 贪心 |
+| 413 | arithmetic slices | [答案链接](src/动态规划/Q413_arithmetic_slices.java) | 动态规划 |
 | 415 | add strings | [答案链接](src/字符串/Q415_add_strings.java) | 字符串 |
 | 416 | partition equal subset sum | [答案链接](src/背包问题/Q416_partition_equal_subset_sum.java) | 背包问题 |
 | 419 | battleships in a board | [答案链接](src/动态规划/Q419_battleships_in_a_board.java) | 动态规划 |
