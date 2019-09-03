@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>283</font>
+Java已刷题目 :<font color=red>285</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -285,7 +285,9 @@ Java已刷题目 :<font color=red>283</font>
 | 784 | letter case permutation | [答案链接](src/排列组合/Q784_letter_case_permutation.java) | 排列组合 |
 | 787 | cheapest flights within k stops | [答案链接](src/图论/Q787_cheapest_flights_within_k_stops.java) | 图论 |
 | 811 | subdomain visit count | [答案链接](src/哈希/Q811_subdomain_visit_count.java) | 哈希 |
+| 844 | backspace string compare | [答案链接](src/栈/Q844_backspace_string_compare.java) | 栈 |
 | 853 | car fleet | [答案链接](src/数学结论/Q853_car_fleet.java) | 数学结论 |
+| 856 | score of parentheses | [答案链接](src/栈/Q856_score_of_parentheses.java) | 栈 |
 | 875 | koko eating bananas | [答案链接](src/二分/Q875_koko_eating_bananas.java) | 二分 |
 | 894 | all possible full binary trees | [答案链接](src/树递归/Q894_all_possible_full_binary_trees.java) | 树递归 |
 | 901 | online stock span | [答案链接](src/栈/Q901_online_stock_span.java) | 栈 |
