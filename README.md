@@ -9,13 +9,13 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>287</font>
+Java已刷题目 :<font color=red>294</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
 | 1 | two sum | [答案链接](src/哈希/Q1_two_sum.java) | 哈希 |
 | 2 | add two numbers | [答案链接](src/链表/Q2_add_two_numbers.java) | 链表 |
-| 3 | longest substring without repeating characters | [答案链接](src/双指针/Q3_longest_substring_without_repeating_characters.java) | 双指针 |
+| 3 | longest substring without repeating characters | [答案链接](src/滑动窗口/Q3_longest_substring_without_repeating_characters.java) | 滑动窗口 |
 | 4 | median of two sorted arrays | [答案链接](src/二分/Q4_median_of_two_sorted_arrays.java) | 二分 |
 | 5 | longest palindromic substring | [答案链接](src/KMP/Q5_longest_palindromic_substring.java) | KMP |
 | 6 | zigzag conversion | [答案链接](src/排版题/Q6_zigzag_conversion.java) | 排版题 |
@@ -231,12 +231,15 @@ Java已刷题目 :<font color=red>287</font>
 | 429 | n ary tree level order traversal | [答案链接](src/树递归/Q429_n_ary_tree_level_order_traversal.java) | 树递归 |
 | 430 | flatten a multilevel doubly linked list | [答案链接](src/链表/Q430_flatten_a_multilevel_doubly_linked_list.java) | 链表 |
 | 433 | minimum genetic mutation | [答案链接](src/图论/Q433_minimum_genetic_mutation.java) | 图论 |
+| 434 | number of segments in a string | [答案链接](src/字符串/Q434_number_of_segments_in_a_string.java) | 字符串 |
 | 437 | path sum iii | [答案链接](src/树递归/Q437_path_sum_iii.java) | 树递归 |
+| 438 | find all anagrams in a string | [答案链接](src/滑动窗口/Q438_find_all_anagrams_in_a_string.java) | 滑动窗口 |
 | 443 | string compression | [答案链接](src/压缩编码/Q443_string_compression.java) | 压缩编码 |
 | 445 | add two numbers ii | [答案链接](src/链表/Q445_add_two_numbers_ii.java) | 链表 |
 | 448 | find all numbers disappeared in an array | [答案链接](src/有限范围数组/Q448_find_all_numbers_disappeared_in_an_array.java) | 有限范围数组 |
 | 450 | delete node in a bst | [答案链接](src/树递归/Q450_delete_node_in_a_bst.java) | 树递归 |
 | 451 | sort characters by frequency | [答案链接](src/哈希/Q451_sort_characters_by_frequency.java) | 哈希 |
+| 455 | assign cookies | [答案链接](src/双指针/Q455_assign_cookies.java) | 双指针 |
 | 467 | unique substrings in wraparound string | [答案链接](src/动态规划/Q467_unique_substrings_in_wraparound_string.java) | 动态规划 |
 | 468 | validate ip address | [答案链接](src/字符串/Q468_validate_ip_address.java) | 字符串 |
 | 470 | implement rand10 using rand7 | [答案链接](src/概率/Q470_implement_rand10_using_rand7.java) | 概率 |
@@ -249,9 +252,12 @@ Java已刷题目 :<font color=red>287</font>
 | 498 | diagonal traverse | [答案链接](src/排版题/Q498_diagonal_traverse.java) | 排版题 |
 | 501 | find mode in binary search tree | [答案链接](src/树递归/Q501_find_mode_in_binary_search_tree.java) | 树递归 |
 | 503 | next greater element ii | [答案链接](src/栈/Q503_next_greater_element_ii.java) | 栈 |
+| 504 | base 7 | [答案链接](src/数学结论/Q504_base_7.java) | 数学结论 |
 | 508 | most frequent subtree sum | [答案链接](src/树递归/Q508_most_frequent_subtree_sum.java) | 树递归 |
+| 509 | fibonacci number | [答案链接](src/动态规划/Q509_fibonacci_number.java) | 动态规划 |
 | 513 | find bottom left tree value | [答案链接](src/树递归/Q513_find_bottom_left_tree_value.java) | 树递归 |
 | 515 | find largest value in each tree row | [答案链接](src/树递归/Q515_find_largest_value_in_each_tree_row.java) | 树递归 |
+| 516 | longest palindromic subsequence | [答案链接](src/动态规划/Q516_longest_palindromic_subsequence.java) | 动态规划 |
 | 518 | coin change 2 | [答案链接](src/动态规划/Q518_coin_change_2.java) | 动态规划 |
 | 524 | longest word in dictionary through deleting | [答案链接](src/字符串/Q524_longest_word_in_dictionary_through_deleting.java) | 字符串 |
 | 530 | minimum absolute difference in bst | [答案链接](src/树递归/Q530_minimum_absolute_difference_in_bst.java) | 树递归 |
@@ -267,6 +273,7 @@ Java已刷题目 :<font color=red>287</font>
 | 606 | construct string from binary tree | [答案链接](src/树递归/Q606_construct_string_from_binary_tree.java) | 树递归 |
 | 623 | add one row to tree | [答案链接](src/树递归/Q623_add_one_row_to_tree.java) | 树递归 |
 | 637 | average of levels in binary tree | [答案链接](src/树递归/Q637_average_of_levels_in_binary_tree.java) | 树递归 |
+| 647 | palindromic substrings | [答案链接](src/动态规划/Q647_palindromic_substrings.java) | 动态规划 |
 | 648 | replace words | [答案链接](src/前缀树/Q648_replace_words.java) | 前缀树 |
 | 653 | two sum iv input is a bst | [答案链接](src/树递归/Q653_two_sum_iv_input_is_a_bst.java) | 树递归 |
 | 662 | maximum width of binary tree | [答案链接](src/树递归/Q662_maximum_width_of_binary_tree.java) | 树递归 |

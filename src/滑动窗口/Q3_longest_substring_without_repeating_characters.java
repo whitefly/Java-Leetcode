@@ -1,8 +1,5 @@
-package 双指针;
+package 滑动窗口;
 
-import 链表.Q2_add_two_numbers;
-
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class Q3_longest_substring_without_repeating_characters {
