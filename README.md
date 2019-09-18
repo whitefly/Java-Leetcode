@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>294</font>
+Java已刷题目 :<font color=red>298</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -78,6 +78,7 @@ Java已刷题目 :<font color=red>294</font>
 | 73 | set matrix zeroes | [答案链接](src/图形学/Q73_set_matrix_zeroes.java) | 图形学 |
 | 74 | search a 2d matrix | [答案链接](src/二分/Q74_search_a_2d_matrix.java) | 二分 |
 | 75 | sort colors | [答案链接](src/双指针/Q75_sort_colors.java) | 双指针 |
+| 76 | minimum window substring | [答案链接](src/滑动窗口/Q76_minimum_window_substring.java) | 滑动窗口 |
 | 77 | combinations | [答案链接](src/排列组合/Q77_combinations.java) | 排列组合 |
 | 78 | subsets | [答案链接](src/排列组合/Q78_subsets.java) | 排列组合 |
 | 79 | word search | [答案链接](src/回溯剪枝/Q79_word_search.java) | 回溯剪枝 |
@@ -174,6 +175,7 @@ Java已刷题目 :<font color=red>294</font>
 | 236 | lowest common ancestor of a binary tree | [答案链接](src/树递归/Q236_lowest_common_ancestor_of_a_binary_tree.java) | 树递归 |
 | 237 | delete node in a linked list | [答案链接](src/链表/Q237_delete_node_in_a_linked_list.java) | 链表 |
 | 238 | product of array except self | [答案链接](src/动态规划/Q238_product_of_array_except_self.java) | 动态规划 |
+| 239 | sliding window maximum | [答案链接](src/滑动窗口/Q239_sliding_window_maximum.java) | 滑动窗口 |
 | 242 | valid anagram | [答案链接](src/哈希/Q242_valid_anagram.java) | 哈希 |
 | 257 | binary tree paths | [答案链接](src/树递归/Q257_binary_tree_paths.java) | 树递归 |
 | 264 | ugly number ii | [答案链接](src/排列组合/Q264_ugly_number_ii.java) | 排列组合 |
@@ -201,6 +203,7 @@ Java已刷题目 :<font color=red>294</font>
 | 342 | power of four | [答案链接](src/位运算/Q342_power_of_four.java) | 位运算 |
 | 343 | integer break | [答案链接](src/动态规划/Q343_integer_break.java) | 动态规划 |
 | 345 | reverse vowels of a string | [答案链接](src/双指针/Q345_reverse_vowels_of_a_string.java) | 双指针 |
+| 347 | top k frequent elements | [答案链接](src/堆/Q347_top_k_frequent_elements.java) | 堆 |
 | 354 | russian doll envelopes | [答案链接](src/动态规划/Q354_russian_doll_envelopes.java) | 动态规划 |
 | 357 | count numbers with unique digits | [答案链接](src/动态规划/Q357_count_numbers_with_unique_digits.java) | 动态规划 |
 | 365 | water and jug problem | [答案链接](src/回溯剪枝/Q365_water_and_jug_problem.java) | 回溯剪枝 |
@@ -301,6 +304,7 @@ Java已刷题目 :<font color=red>294</font>
 | 894 | all possible full binary trees | [答案链接](src/树递归/Q894_all_possible_full_binary_trees.java) | 树递归 |
 | 901 | online stock span | [答案链接](src/栈/Q901_online_stock_span.java) | 栈 |
 | 905 | sort array by parity | [答案链接](src/排序/Q905_sort_array_by_parity.java) | 排序 |
+| 921 | minimum add to make parentheses valid | [答案链接](src/栈/Q921_minimum_add_to_make_parentheses_valid.java) | 栈 |
 | 922 | sort array by parity ii | [答案链接](src/双指针/Q922_sort_array_by_parity_ii.java) | 双指针 |
 | 938 | range sum of bst | [答案链接](src/树递归/Q938_range_sum_of_bst.java) | 树递归 |
 | 946 | validate stack sequences | [答案链接](src/回溯剪枝/Q946_validate_stack_sequences.java) | 回溯剪枝 |
