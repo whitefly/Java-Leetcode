@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>298</font>
+Java已刷题目 :<font color=red>299</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -304,6 +304,7 @@ Java已刷题目 :<font color=red>298</font>
 | 894 | all possible full binary trees | [答案链接](src/树递归/Q894_all_possible_full_binary_trees.java) | 树递归 |
 | 901 | online stock span | [答案链接](src/栈/Q901_online_stock_span.java) | 栈 |
 | 905 | sort array by parity | [答案链接](src/排序/Q905_sort_array_by_parity.java) | 排序 |
+| 907 | sum of subarray minimums | [答案链接](src/栈/Q907_sum_of_subarray_minimums.java) | 栈 |
 | 921 | minimum add to make parentheses valid | [答案链接](src/栈/Q921_minimum_add_to_make_parentheses_valid.java) | 栈 |
 | 922 | sort array by parity ii | [答案链接](src/双指针/Q922_sort_array_by_parity_ii.java) | 双指针 |
 | 938 | range sum of bst | [答案链接](src/树递归/Q938_range_sum_of_bst.java) | 树递归 |
