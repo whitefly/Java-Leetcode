@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>299</font>
+Java已刷题目 :<font color=red>301</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -270,6 +270,7 @@ Java已刷题目 :<font color=red>299</font>
 | 563 | binary tree tilt | [答案链接](src/树递归/Q563_binary_tree_tilt.java) | 树递归 |
 | 567 | permutation in string | [答案链接](src/哈希/Q567_permutation_in_string.java) | 哈希 |
 | 572 | subtree of another tree | [答案链接](src/树递归/Q572_subtree_of_another_tree.java) | 树递归 |
+| 576 | out of boundary paths | [答案链接](src/动态规划/Q576_out_of_boundary_paths.java) | 动态规划 |
 | 589 | n ary tree preorder traversal | [答案链接](src/树递归/Q589_n_ary_tree_preorder_traversal.java) | 树递归 |
 | 590 | n ary tree postorder traversal | [答案链接](src/树递归/Q590_n_ary_tree_postorder_traversal.java) | 树递归 |
 | 594 | longest harmonious subsequence | [答案链接](src/哈希/Q594_longest_harmonious_subsequence.java) | 哈希 |
@@ -289,6 +290,7 @@ Java已刷题目 :<font color=red>299</font>
 | 703 | kth largest element in a stream | [答案链接](src/堆/Q703_kth_largest_element_in_a_stream.java) | 堆 |
 | 704 | binary search | [答案链接](src/二分/Q704_binary_search.java) | 二分 |
 | 714 | best time to buy and sell stock with transaction fee | [答案链接](src/动态规划/Q714_best_time_to_buy_and_sell_stock_with_transaction_fee.java) | 动态规划 |
+| 718 | maximum length of repeated subarray | [答案链接](src/动态规划/Q718_maximum_length_of_repeated_subarray.java) | 动态规划 |
 | 725 | split linked list in parts | [答案链接](src/链表/Q725_split_linked_list_in_parts.java) | 链表 |
 | 746 | min cost climbing stairs | [答案链接](src/动态规划/Q746_min_cost_climbing_stairs.java) | 动态规划 |
 | 765 | couples holding hands | [答案链接](src/有限范围数组/Q765_couples_holding_hands.java) | 有限范围数组 |
