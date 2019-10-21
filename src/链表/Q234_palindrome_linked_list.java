@@ -18,7 +18,7 @@ public class Q234_palindrome_linked_list {
         ListNode root = new ListNode(-1);
         ListNode head = root;
 
-        for (var e : l) {
+        for (int e : l) {
             ListNode temp = new ListNode(e);
             head.next = temp;
             head = temp;

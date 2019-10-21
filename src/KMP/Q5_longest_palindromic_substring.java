@@ -85,7 +85,7 @@ public class Q5_longest_palindromic_substring {
 
         System.out.println(s1);
         System.out.println(s2);
-
+        System.out.println("你好");
 
     }
 }

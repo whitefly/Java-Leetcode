@@ -15,7 +15,7 @@ public class Q242_valid_anagram {
             map[s.charAt(i)]++;
             map[t.charAt(i)]--;
         }
-        for (var i : map) if (i != 0) return false;
+        for (int i : map) if (i != 0) return false;
         return true;
     }
 

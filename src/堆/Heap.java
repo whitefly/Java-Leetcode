@@ -103,7 +103,7 @@ public class Heap<T extends Comparable> {
     public static void main(String[] args) {
         Integer[] nums = {0, 10, 5, 4, 1, 11, 12, -1, 33, 22, 23, 5};
         Heap<Integer> heap = new Heap<>(false); //使用大根堆
-        for (var num : nums) heap.add(num);
+        for (int num : nums) heap.add(num);
         System.out.println("全部加入完成");
 
         List<Integer> result = new ArrayList<>();

@@ -33,7 +33,7 @@ public class Q49_group_anagrams {
         Q49_group_anagrams s = new Q49_group_anagrams();
         List<List<String>> lists = s.groupAnagrams(nums);
 
-        for (var one : lists) System.out.println(one);
+        for (List<String> one : lists) System.out.println(one);
 
         Arrays.asList(1, 2);
     }
