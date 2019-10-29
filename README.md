@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>302</font>
+Java已刷题目 :<font color=red>301</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -191,7 +191,6 @@ Java已刷题目 :<font color=red>302</font>
 | 307 | range sum query mutable | [答案链接](src/线段树/Q307_range_sum_query_mutable.java) | 线段树 |
 | 309 | best time to buy and sell stock with cooldown | [答案链接](src/动态规划/Q309_best_time_to_buy_and_sell_stock_with_cooldown.java) | 动态规划 |
 | 310 | minimum height trees | [答案链接](src/图论/Q310_minimum_height_trees.java) | 图论 |
-| 315 | count of smaller numbers after self | [答案链接](src/二分/Q315_count_of_smaller_numbers_after_self.java) | 二分 |
 | 318 | maximum product of word lengths | [答案链接](src/哈希/Q318_maximum_product_of_word_lengths.java) | 哈希 |
 | 322 | coin change | [答案链接](src/背包问题/Q322_coin_change.java) | 背包问题 |
 | 327 | count of range sum | [答案链接](src/线段树/Q327_count_of_range_sum.java) | 线段树 |
@@ -218,7 +217,6 @@ Java已刷题目 :<font color=red>302</font>
 | 383 | ransom note | [答案链接](src/字符串/Q383_ransom_note.java) | 字符串 |
 | 384 | shuffle an array | [答案链接](src/概率/Q384_shuffle_an_array.java) | 概率 |
 | 387 | first unique character in a string | [答案链接](src/哈希/Q387_first_unique_character_in_a_string.java) | 哈希 |
-| 390 | elimination game | [答案链接](src/数学结论/Q390_elimination_game.java) | 数学结论 |
 | 392 | is subsequence | [答案链接](src/字符串/Q392_is_subsequence.java) | 字符串 |
 | 393 | utf 8 validation | [答案链接](src/位运算/Q393_utf_8_validation.java) | 位运算 |
 | 394 | decode string | [答案链接](src/栈/Q394_decode_string.java) | 栈 |
@@ -232,9 +230,9 @@ Java已刷题目 :<font color=red>302</font>
 | 415 | add strings | [答案链接](src/字符串/Q415_add_strings.java) | 字符串 |
 | 416 | partition equal subset sum | [答案链接](src/背包问题/Q416_partition_equal_subset_sum.java) | 背包问题 |
 | 419 | battleships in a board | [答案链接](src/动态规划/Q419_battleships_in_a_board.java) | 动态规划 |
+| 424 | longest repeating character replacement | [答案链接](src/滑动窗口/Q424_longest_repeating_character_replacement.java) | 滑动窗口 |
 | 429 | n ary tree level order traversal | [答案链接](src/树递归/Q429_n_ary_tree_level_order_traversal.java) | 树递归 |
 | 430 | flatten a multilevel doubly linked list | [答案链接](src/链表/Q430_flatten_a_multilevel_doubly_linked_list.java) | 链表 |
-| 433 | minimum genetic mutation | [答案链接](src/图论/Q433_minimum_genetic_mutation.java) | 图论 |
 | 434 | number of segments in a string | [答案链接](src/字符串/Q434_number_of_segments_in_a_string.java) | 字符串 |
 | 437 | path sum iii | [答案链接](src/树递归/Q437_path_sum_iii.java) | 树递归 |
 | 438 | find all anagrams in a string | [答案链接](src/滑动窗口/Q438_find_all_anagrams_in_a_string.java) | 滑动窗口 |
@@ -250,6 +248,7 @@ Java已刷题目 :<font color=red>302</font>
 | 474 | ones and zeroes | [答案链接](src/背包问题/Q474_ones_and_zeroes.java) | 背包问题 |
 | 477 | total hamming distance | [答案链接](src/位运算/Q477_total_hamming_distance.java) | 位运算 |
 | 478 | generate random point in a circle | [答案链接](src/概率/Q478_generate_random_point_in_a_circle.java) | 概率 |
+| 485 | max consecutive ones | [答案链接](src/动态规划/Q485_max_consecutive_ones.java) | 动态规划 |
 | 492 | construct the rectangle | [答案链接](src/数学结论/Q492_construct_the_rectangle.java) | 数学结论 |
 | 494 | target sum | [答案链接](src/回溯剪枝/Q494_target_sum.java) | 回溯剪枝 |
 | 496 | next greater element i | [答案链接](src/栈/Q496_next_greater_element_i.java) | 栈 |
@@ -274,7 +273,6 @@ Java已刷题目 :<font color=red>302</font>
 | 576 | out of boundary paths | [答案链接](src/动态规划/Q576_out_of_boundary_paths.java) | 动态规划 |
 | 589 | n ary tree preorder traversal | [答案链接](src/树递归/Q589_n_ary_tree_preorder_traversal.java) | 树递归 |
 | 590 | n ary tree postorder traversal | [答案链接](src/树递归/Q590_n_ary_tree_postorder_traversal.java) | 树递归 |
-| 594 | longest harmonious subsequence | [答案链接](src/哈希/Q594_longest_harmonious_subsequence.java) | 哈希 |
 | 606 | construct string from binary tree | [答案链接](src/树递归/Q606_construct_string_from_binary_tree.java) | 树递归 |
 | 623 | add one row to tree | [答案链接](src/树递归/Q623_add_one_row_to_tree.java) | 树递归 |
 | 637 | average of levels in binary tree | [答案链接](src/树递归/Q637_average_of_levels_in_binary_tree.java) | 树递归 |
@@ -298,7 +296,6 @@ Java已刷题目 :<font color=red>302</font>
 | 767 | reorganize string | [答案链接](src/排列组合/Q767_reorganize_string.java) | 排列组合 |
 | 783 | minimum distance between bst nodes | [答案链接](src/树递归/Q783_minimum_distance_between_bst_nodes.java) | 树递归 |
 | 784 | letter case permutation | [答案链接](src/排列组合/Q784_letter_case_permutation.java) | 排列组合 |
-| 787 | cheapest flights within k stops | [答案链接](src/图论/Q787_cheapest_flights_within_k_stops.java) | 图论 |
 | 811 | subdomain visit count | [答案链接](src/哈希/Q811_subdomain_visit_count.java) | 哈希 |
 | 844 | backspace string compare | [答案链接](src/栈/Q844_backspace_string_compare.java) | 栈 |
 | 853 | car fleet | [答案链接](src/数学结论/Q853_car_fleet.java) | 数学结论 |
@@ -312,9 +309,11 @@ Java已刷题目 :<font color=red>302</font>
 | 922 | sort array by parity ii | [答案链接](src/双指针/Q922_sort_array_by_parity_ii.java) | 双指针 |
 | 938 | range sum of bst | [答案链接](src/树递归/Q938_range_sum_of_bst.java) | 树递归 |
 | 946 | validate stack sequences | [答案链接](src/回溯剪枝/Q946_validate_stack_sequences.java) | 回溯剪枝 |
+| 1004 | max consecutive ones iii | [答案链接](src/滑动窗口/Q1004_max_consecutive_ones_iii.java) | 滑动窗口 |
 | 1019 | next greater node in linked list | [答案链接](src/栈/Q1019_next_greater_node_in_linked_list.java) | 栈 |
 | 1114 | print in order | [答案链接](src/多线程/Q1114_print_in_order.java) | 多线程 |
 | 1115 | print foobar alternately | [答案链接](src/多线程/Q1115_print_foobar_alternately.java) | 多线程 |
+| 5089 | meeting scheduler | [答案链接](src/双指针/Q5089_meeting_scheduler.java) | 双指针 |
 
 
 
