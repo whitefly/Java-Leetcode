@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>301</font>
+Java已刷题目 :<font color=red>305</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -234,6 +234,7 @@ Java已刷题目 :<font color=red>301</font>
 | 429 | n ary tree level order traversal | [答案链接](src/树递归/Q429_n_ary_tree_level_order_traversal.java) | 树递归 |
 | 430 | flatten a multilevel doubly linked list | [答案链接](src/链表/Q430_flatten_a_multilevel_doubly_linked_list.java) | 链表 |
 | 434 | number of segments in a string | [答案链接](src/字符串/Q434_number_of_segments_in_a_string.java) | 字符串 |
+| 435 | non overlapping intervals | [答案链接](src/贪心/Q435_non_overlapping_intervals.java) | 贪心 |
 | 437 | path sum iii | [答案链接](src/树递归/Q437_path_sum_iii.java) | 树递归 |
 | 438 | find all anagrams in a string | [答案链接](src/滑动窗口/Q438_find_all_anagrams_in_a_string.java) | 滑动窗口 |
 | 443 | string compression | [答案链接](src/压缩编码/Q443_string_compression.java) | 压缩编码 |
@@ -242,6 +243,7 @@ Java已刷题目 :<font color=red>301</font>
 | 450 | delete node in a bst | [答案链接](src/树递归/Q450_delete_node_in_a_bst.java) | 树递归 |
 | 451 | sort characters by frequency | [答案链接](src/哈希/Q451_sort_characters_by_frequency.java) | 哈希 |
 | 455 | assign cookies | [答案链接](src/双指针/Q455_assign_cookies.java) | 双指针 |
+| 459 | repeated substring pattern | [答案链接](src/KMP/Q459_repeated_substring_pattern.java) | KMP |
 | 467 | unique substrings in wraparound string | [答案链接](src/动态规划/Q467_unique_substrings_in_wraparound_string.java) | 动态规划 |
 | 468 | validate ip address | [答案链接](src/字符串/Q468_validate_ip_address.java) | 字符串 |
 | 470 | implement rand10 using rand7 | [答案链接](src/概率/Q470_implement_rand10_using_rand7.java) | 概率 |
@@ -256,6 +258,7 @@ Java已刷题目 :<font color=red>301</font>
 | 501 | find mode in binary search tree | [答案链接](src/树递归/Q501_find_mode_in_binary_search_tree.java) | 树递归 |
 | 503 | next greater element ii | [答案链接](src/栈/Q503_next_greater_element_ii.java) | 栈 |
 | 504 | base 7 | [答案链接](src/数学结论/Q504_base_7.java) | 数学结论 |
+| 506 | relative ranks | [答案链接](src/哈希/Q506_relative_ranks.java) | 哈希 |
 | 508 | most frequent subtree sum | [答案链接](src/树递归/Q508_most_frequent_subtree_sum.java) | 树递归 |
 | 509 | fibonacci number | [答案链接](src/动态规划/Q509_fibonacci_number.java) | 动态规划 |
 | 513 | find bottom left tree value | [答案链接](src/树递归/Q513_find_bottom_left_tree_value.java) | 树递归 |
@@ -263,6 +266,7 @@ Java已刷题目 :<font color=red>301</font>
 | 516 | longest palindromic subsequence | [答案链接](src/动态规划/Q516_longest_palindromic_subsequence.java) | 动态规划 |
 | 518 | coin change 2 | [答案链接](src/动态规划/Q518_coin_change_2.java) | 动态规划 |
 | 524 | longest word in dictionary through deleting | [答案链接](src/字符串/Q524_longest_word_in_dictionary_through_deleting.java) | 字符串 |
+| 525 | contiguous array | [答案链接](src/哈希/Q525_contiguous_array.java) | 哈希 |
 | 530 | minimum absolute difference in bst | [答案链接](src/树递归/Q530_minimum_absolute_difference_in_bst.java) | 树递归 |
 | 538 | convert bst to greater tree | [答案链接](src/树递归/Q538_convert_bst_to_greater_tree.java) | 树递归 |
 | 543 | diameter of binary tree | [答案链接](src/树递归/Q543_diameter_of_binary_tree.java) | 树递归 |
