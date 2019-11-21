@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>305</font>
+Java已刷题目 :<font color=red>311</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -75,6 +75,7 @@ Java已刷题目 :<font color=red>305</font>
 | 69 | sqrtx | [答案链接](src/二分/Q69_sqrtx.java) | 二分 |
 | 70 | climbing stairs | [答案链接](src/动态规划/Q70_climbing_stairs.java) | 动态规划 |
 | 71 | simplify path | [答案链接](src/栈/Q71_simplify_path.java) | 栈 |
+| 72 | edit distance | [答案链接](src/动态规划/Q72_edit_distance.java) | 动态规划 |
 | 73 | set matrix zeroes | [答案链接](src/图形学/Q73_set_matrix_zeroes.java) | 图形学 |
 | 74 | search a 2d matrix | [答案链接](src/二分/Q74_search_a_2d_matrix.java) | 二分 |
 | 75 | sort colors | [答案链接](src/双指针/Q75_sort_colors.java) | 双指针 |
@@ -265,16 +266,19 @@ Java已刷题目 :<font color=red>305</font>
 | 515 | find largest value in each tree row | [答案链接](src/树递归/Q515_find_largest_value_in_each_tree_row.java) | 树递归 |
 | 516 | longest palindromic subsequence | [答案链接](src/动态规划/Q516_longest_palindromic_subsequence.java) | 动态规划 |
 | 518 | coin change 2 | [答案链接](src/动态规划/Q518_coin_change_2.java) | 动态规划 |
+| 523 | continuous subarray sum | [答案链接](src/哈希/Q523_continuous_subarray_sum.java) | 哈希 |
 | 524 | longest word in dictionary through deleting | [答案链接](src/字符串/Q524_longest_word_in_dictionary_through_deleting.java) | 字符串 |
 | 525 | contiguous array | [答案链接](src/哈希/Q525_contiguous_array.java) | 哈希 |
 | 530 | minimum absolute difference in bst | [答案链接](src/树递归/Q530_minimum_absolute_difference_in_bst.java) | 树递归 |
 | 538 | convert bst to greater tree | [答案链接](src/树递归/Q538_convert_bst_to_greater_tree.java) | 树递归 |
+| 539 | minimum time difference | [答案链接](src/字符串/Q539_minimum_time_difference.java) | 字符串 |
 | 543 | diameter of binary tree | [答案链接](src/树递归/Q543_diameter_of_binary_tree.java) | 树递归 |
 | 559 | maximum depth of n ary tree | [答案链接](src/树递归/Q559_maximum_depth_of_n_ary_tree.java) | 树递归 |
 | 563 | binary tree tilt | [答案链接](src/树递归/Q563_binary_tree_tilt.java) | 树递归 |
 | 567 | permutation in string | [答案链接](src/哈希/Q567_permutation_in_string.java) | 哈希 |
 | 572 | subtree of another tree | [答案链接](src/树递归/Q572_subtree_of_another_tree.java) | 树递归 |
 | 576 | out of boundary paths | [答案链接](src/动态规划/Q576_out_of_boundary_paths.java) | 动态规划 |
+| 583 | delete operation for two strings | [答案链接](src/动态规划/Q583_delete_operation_for_two_strings.java) | 动态规划 |
 | 589 | n ary tree preorder traversal | [答案链接](src/树递归/Q589_n_ary_tree_preorder_traversal.java) | 树递归 |
 | 590 | n ary tree postorder traversal | [答案链接](src/树递归/Q590_n_ary_tree_postorder_traversal.java) | 树递归 |
 | 606 | construct string from binary tree | [答案链接](src/树递归/Q606_construct_string_from_binary_tree.java) | 树递归 |
@@ -292,6 +296,7 @@ Java已刷题目 :<font color=red>305</font>
 | 701 | insert into a binary search tree | [答案链接](src/树递归/Q701_insert_into_a_binary_search_tree.java) | 树递归 |
 | 703 | kth largest element in a stream | [答案链接](src/堆/Q703_kth_largest_element_in_a_stream.java) | 堆 |
 | 704 | binary search | [答案链接](src/二分/Q704_binary_search.java) | 二分 |
+| 712 | minimum ascii delete sum for two strings | [答案链接](src/动态规划/Q712_minimum_ascii_delete_sum_for_two_strings.java) | 动态规划 |
 | 714 | best time to buy and sell stock with transaction fee | [答案链接](src/动态规划/Q714_best_time_to_buy_and_sell_stock_with_transaction_fee.java) | 动态规划 |
 | 718 | maximum length of repeated subarray | [答案链接](src/动态规划/Q718_maximum_length_of_repeated_subarray.java) | 动态规划 |
 | 725 | split linked list in parts | [答案链接](src/链表/Q725_split_linked_list_in_parts.java) | 链表 |
@@ -300,6 +305,7 @@ Java已刷题目 :<font color=red>305</font>
 | 767 | reorganize string | [答案链接](src/排列组合/Q767_reorganize_string.java) | 排列组合 |
 | 783 | minimum distance between bst nodes | [答案链接](src/树递归/Q783_minimum_distance_between_bst_nodes.java) | 树递归 |
 | 784 | letter case permutation | [答案链接](src/排列组合/Q784_letter_case_permutation.java) | 排列组合 |
+| 796 | rotate string | [答案链接](src/KMP/Q796_rotate_string.java) | KMP |
 | 811 | subdomain visit count | [答案链接](src/哈希/Q811_subdomain_visit_count.java) | 哈希 |
 | 844 | backspace string compare | [答案链接](src/栈/Q844_backspace_string_compare.java) | 栈 |
 | 853 | car fleet | [答案链接](src/数学结论/Q853_car_fleet.java) | 数学结论 |
