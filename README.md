@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>311</font>
+Java已刷题目 :<font color=red>317</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -94,6 +94,9 @@ Java已刷题目 :<font color=red>311</font>
 | 88 | merge sorted array | [答案链接](src/排序/Q88_merge_sorted_array.java) | 排序 |
 | 89 | gray code | [答案链接](src/位运算/Q89_gray_code.java) | 位运算 |
 | 90 | subsets ii | [答案链接](src/排列组合/Q90_subsets_ii.java) | 排列组合 |
+| 91 | decode ways | [答案链接](src/动态规划/Q91_decode_ways.java) | 动态规划 |
+| 92 | reverse linked list ii | [答案链接](src/链表/Q92_reverse_linked_list_ii.java) | 链表 |
+| 93 | restore ip addresses | [答案链接](src/递归/Q93_restore_ip_addresses.java) | 递归 |
 | 95 | unique binary search trees ii | [答案链接](src/树递归/Q95_unique_binary_search_trees_ii.java) | 树递归 |
 | 98 | validate binary search tree | [答案链接](src/树递归/Q98_validate_binary_search_tree.java) | 树递归 |
 | 100 | same tree | [答案链接](src/树递归/Q100_same_tree.java) | 树递归 |
@@ -281,9 +284,11 @@ Java已刷题目 :<font color=red>311</font>
 | 583 | delete operation for two strings | [答案链接](src/动态规划/Q583_delete_operation_for_two_strings.java) | 动态规划 |
 | 589 | n ary tree preorder traversal | [答案链接](src/树递归/Q589_n_ary_tree_preorder_traversal.java) | 树递归 |
 | 590 | n ary tree postorder traversal | [答案链接](src/树递归/Q590_n_ary_tree_postorder_traversal.java) | 树递归 |
+| 592 | fraction addition and subtraction | [答案链接](src/数学结论/Q592_fraction_addition_and_subtraction.java) | 数学结论 |
 | 606 | construct string from binary tree | [答案链接](src/树递归/Q606_construct_string_from_binary_tree.java) | 树递归 |
 | 623 | add one row to tree | [答案链接](src/树递归/Q623_add_one_row_to_tree.java) | 树递归 |
 | 637 | average of levels in binary tree | [答案链接](src/树递归/Q637_average_of_levels_in_binary_tree.java) | 树递归 |
+| 638 | shopping offers | [答案链接](src/背包问题/Q638_shopping_offers.java) | 背包问题 |
 | 647 | palindromic substrings | [答案链接](src/动态规划/Q647_palindromic_substrings.java) | 动态规划 |
 | 648 | replace words | [答案链接](src/前缀树/Q648_replace_words.java) | 前缀树 |
 | 653 | two sum iv input is a bst | [答案链接](src/树递归/Q653_two_sum_iv_input_is_a_bst.java) | 树递归 |
@@ -301,6 +306,7 @@ Java已刷题目 :<font color=red>311</font>
 | 718 | maximum length of repeated subarray | [答案链接](src/动态规划/Q718_maximum_length_of_repeated_subarray.java) | 动态规划 |
 | 725 | split linked list in parts | [答案链接](src/链表/Q725_split_linked_list_in_parts.java) | 链表 |
 | 746 | min cost climbing stairs | [答案链接](src/动态规划/Q746_min_cost_climbing_stairs.java) | 动态规划 |
+| 748 | shortest completing word | [答案链接](src/哈希/Q748_shortest_completing_word.java) | 哈希 |
 | 765 | couples holding hands | [答案链接](src/有限范围数组/Q765_couples_holding_hands.java) | 有限范围数组 |
 | 767 | reorganize string | [答案链接](src/排列组合/Q767_reorganize_string.java) | 排列组合 |
 | 783 | minimum distance between bst nodes | [答案链接](src/树递归/Q783_minimum_distance_between_bst_nodes.java) | 树递归 |
