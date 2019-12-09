@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>317</font>
+Java已刷题目 :<font color=red>319</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -278,6 +278,7 @@ Java已刷题目 :<font color=red>317</font>
 | 543 | diameter of binary tree | [答案链接](src/树递归/Q543_diameter_of_binary_tree.java) | 树递归 |
 | 559 | maximum depth of n ary tree | [答案链接](src/树递归/Q559_maximum_depth_of_n_ary_tree.java) | 树递归 |
 | 563 | binary tree tilt | [答案链接](src/树递归/Q563_binary_tree_tilt.java) | 树递归 |
+| 565 | array nesting | [答案链接](src/动态规划/Q565_array_nesting.java) | 动态规划 |
 | 567 | permutation in string | [答案链接](src/哈希/Q567_permutation_in_string.java) | 哈希 |
 | 572 | subtree of another tree | [答案链接](src/树递归/Q572_subtree_of_another_tree.java) | 树递归 |
 | 576 | out of boundary paths | [答案链接](src/动态规划/Q576_out_of_boundary_paths.java) | 动态规划 |
@@ -289,6 +290,7 @@ Java已刷题目 :<font color=red>317</font>
 | 623 | add one row to tree | [答案链接](src/树递归/Q623_add_one_row_to_tree.java) | 树递归 |
 | 637 | average of levels in binary tree | [答案链接](src/树递归/Q637_average_of_levels_in_binary_tree.java) | 树递归 |
 | 638 | shopping offers | [答案链接](src/背包问题/Q638_shopping_offers.java) | 背包问题 |
+| 640 | solve the equation | [答案链接](src/字符串/Q640_solve_the_equation.java) | 字符串 |
 | 647 | palindromic substrings | [答案链接](src/动态规划/Q647_palindromic_substrings.java) | 动态规划 |
 | 648 | replace words | [答案链接](src/前缀树/Q648_replace_words.java) | 前缀树 |
 | 653 | two sum iv input is a bst | [答案链接](src/树递归/Q653_two_sum_iv_input_is_a_bst.java) | 树递归 |
