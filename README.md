@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>319</font>
+Java已刷题目 :<font color=red>321</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -291,6 +291,7 @@ Java已刷题目 :<font color=red>319</font>
 | 637 | average of levels in binary tree | [答案链接](src/树递归/Q637_average_of_levels_in_binary_tree.java) | 树递归 |
 | 638 | shopping offers | [答案链接](src/背包问题/Q638_shopping_offers.java) | 背包问题 |
 | 640 | solve the equation | [答案链接](src/字符串/Q640_solve_the_equation.java) | 字符串 |
+| 646 | maximum length of pair chain | [答案链接](src/贪心/Q646_maximum_length_of_pair_chain.java) | 贪心 |
 | 647 | palindromic substrings | [答案链接](src/动态规划/Q647_palindromic_substrings.java) | 动态规划 |
 | 648 | replace words | [答案链接](src/前缀树/Q648_replace_words.java) | 前缀树 |
 | 653 | two sum iv input is a bst | [答案链接](src/树递归/Q653_two_sum_iv_input_is_a_bst.java) | 树递归 |
@@ -298,6 +299,7 @@ Java已刷题目 :<font color=red>319</font>
 | 669 | trim a binary search tree | [答案链接](src/树递归/Q669_trim_a_binary_search_tree.java) | 树递归 |
 | 671 | second minimum node in a binary tree | [答案链接](src/树递归/Q671_second_minimum_node_in_a_binary_tree.java) | 树递归 |
 | 677 | map sum pairs | [答案链接](src/前缀树/Q677_map_sum_pairs.java) | 前缀树 |
+| 680 | valid palindrome ii | [答案链接](src/字符串/Q680_valid_palindrome_ii.java) | 字符串 |
 | 687 | longest univalue path | [答案链接](src/树递归/Q687_longest_univalue_path.java) | 树递归 |
 | 700 | search in a binary search tree | [答案链接](src/树递归/Q700_search_in_a_binary_search_tree.java) | 树递归 |
 | 701 | insert into a binary search tree | [答案链接](src/树递归/Q701_insert_into_a_binary_search_tree.java) | 树递归 |
