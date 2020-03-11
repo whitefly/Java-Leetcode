@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>321</font>
+Java已刷题目 :<font color=red>323</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -143,6 +143,7 @@ Java已刷题目 :<font color=red>321</font>
 | 148 | sort list | [答案链接](src/排序/Q148_sort_list.java) | 排序 |
 | 150 | evaluate reverse polish notation | [答案链接](src/栈/Q150_evaluate_reverse_polish_notation.java) | 栈 |
 | 153 | find minimum in rotated sorted array | [答案链接](src/二分/Q153_find_minimum_in_rotated_sorted_array.java) | 二分 |
+| 157 | read n characters given read4 | [答案链接](src/IO/Q157_read_n_characters_given_read4.java) | IO |
 | 162 | find peak element | [答案链接](src/二分/Q162_find_peak_element.java) | 二分 |
 | 165 | compare version numbers | [答案链接](src/字符串/Q165_compare_version_numbers.java) | 字符串 |
 | 169 | majority element | [答案链接](src/重复元素/Q169_majority_element.java) | 重复元素 |
@@ -309,6 +310,7 @@ Java已刷题目 :<font color=red>321</font>
 | 714 | best time to buy and sell stock with transaction fee | [答案链接](src/动态规划/Q714_best_time_to_buy_and_sell_stock_with_transaction_fee.java) | 动态规划 |
 | 718 | maximum length of repeated subarray | [答案链接](src/动态规划/Q718_maximum_length_of_repeated_subarray.java) | 动态规划 |
 | 725 | split linked list in parts | [答案链接](src/链表/Q725_split_linked_list_in_parts.java) | 链表 |
+| 729 | my calendar i | [答案链接](src/二分/Q729_my_calendar_i.java) | 二分 |
 | 746 | min cost climbing stairs | [答案链接](src/动态规划/Q746_min_cost_climbing_stairs.java) | 动态规划 |
 | 748 | shortest completing word | [答案链接](src/哈希/Q748_shortest_completing_word.java) | 哈希 |
 | 765 | couples holding hands | [答案链接](src/有限范围数组/Q765_couples_holding_hands.java) | 有限范围数组 |
