@@ -43,10 +43,32 @@ public class Q31_next_permutation {
         reverse(nums, last + 1, size - 1);
     }
 
+    public void nextPermutation2(int[] nums) {
+        //找左右的分离点
+        if (nums.length <= 1) return;
+        int split = nums.length - 1; //右边第一个
+        for (; split >= 0; split--) {
+            if (split == 0) {
+                reverse(nums, 0, nums.length - 1);
+                return;
+            }
+            if (nums[split - 1] < nums[split]) break;
+        }
+        //右边找到一个大数来替换
+        for (int i = nums.length - 1; i >= 0; i--) {
+            if (nums[split-1] < nums[i]) {
+                swap(nums, i, split - 1);
+                break;
+            }
+        }
+        reverse(nums, split, nums.length - 1);
+    }
+
+
     public static void main(String[] args) {
         Q31_next_permutation s = new Q31_next_permutation();
-        int nums[] = {1, 1};
-        s.nextPermutation(nums);
+        int nums[] = {1,1,5};
+        s.nextPermutation2(nums);
         System.out.println(Arrays.toString(nums));
     }
 }

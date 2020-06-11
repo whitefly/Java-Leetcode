@@ -32,6 +32,9 @@ public class Q198_house_robber {
     }
 
     public int rob2(int[] nums) {
+        //也是dp,但是思入不同
+        // dp[i]表示到dp的最高金额(不确定包含i点),
+        //所以i点的行为可以作为: 没偷(保持nums[n-1]),偷了(nums[n-2]+val) 这里我有疑问
         if (nums.length == 0) return 0;
         if (nums.length == 1) return nums[0];
 
