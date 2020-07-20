@@ -4,41 +4,37 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Q95_unique_binary_search_trees_ii {
+
     public List<TreeNode> generateTrees(int n) {
         /**
-         * 思入: 递归: 假设左边回传所有的结果,假设右边已经回传所有的结果.只需要选择本轮的root节点,左右组合拼接
+         * 思入:  递归函数定义: 返回以[L,R]中所有的搜索二叉树
          */
         if (n == 0) return new ArrayList<>();
         return helper(1, n);
     }
 
-
-    private List<TreeNode> helper(int l, int r) {
-
-        List<TreeNode> result = new ArrayList<>();
-        if (l > r) {
-            result.add(null);
-            return result;
+    private List<TreeNode> helper(int L, int R) {
+        List<TreeNode> temp = new ArrayList<>();
+        if (L > R) {
+            temp.add(null);
+            return temp;
         }
+        for (int i = L; i <= R; i++) {
+            final List<TreeNode> lefts = helper(L, L - 1);
+            final List<TreeNode> rights = helper(L + 1, R);
 
-        //找一个作为root节点
-        for (int i = l; i <= r; i++) {
-            TreeNode root;
-
-            List<TreeNode> l_result = helper(l, i - 1);
-            List<TreeNode> r_result = helper(i + 1, r);
-            //拼接左右所有可能
-            for (TreeNode l_child : l_result) {
-                for (TreeNode r_child : r_result) {
-                    root = new TreeNode(i);
-                    root.left = l_child;
-                    root.right = r_child;
-                    result.add(root);
+            for (TreeNode left : lefts) {
+                for (TreeNode right : rights) {
+                    final TreeNode root = new TreeNode(i);
+                    root.left = left;
+                    root.right = right;
+                    temp.add(root);
                 }
             }
         }
-        return result;
+        return temp;
     }
+
 
     public static void main(String[] args) {
         Q95_unique_binary_search_trees_ii s = new Q95_unique_binary_search_trees_ii();
