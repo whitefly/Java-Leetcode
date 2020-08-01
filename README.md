@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>323</font>
+Java已刷题目 :<font color=red>330</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -218,6 +218,7 @@ Java已刷题目 :<font color=red>323</font>
 | 374 | guess number higher or lower | [答案链接](src/二分/Q374_guess_number_higher_or_lower.java) | 二分 |
 | 376 | wiggle subsequence | [答案链接](src/动态规划/Q376_wiggle_subsequence.java) | 动态规划 |
 | 377 | combination sum iv | [答案链接](src/排列组合/Q377_combination_sum_iv.java) | 排列组合 |
+| 378 | kth smallest element in a sorted matrix | [答案链接](src/堆/Q378_kth_smallest_element_in_a_sorted_matrix.java) | 堆 |
 | 382 | linked list random node | [答案链接](src/概率/Q382_linked_list_random_node.java) | 概率 |
 | 383 | ransom note | [答案链接](src/字符串/Q383_ransom_note.java) | 字符串 |
 | 384 | shuffle an array | [答案链接](src/概率/Q384_shuffle_an_array.java) | 概率 |
@@ -278,6 +279,7 @@ Java已刷题目 :<font color=red>323</font>
 | 539 | minimum time difference | [答案链接](src/字符串/Q539_minimum_time_difference.java) | 字符串 |
 | 543 | diameter of binary tree | [答案链接](src/树递归/Q543_diameter_of_binary_tree.java) | 树递归 |
 | 559 | maximum depth of n ary tree | [答案链接](src/树递归/Q559_maximum_depth_of_n_ary_tree.java) | 树递归 |
+| 560 | subarray sum equals k | [答案链接](src/子数组/Q560_subarray_sum_equals_k.java) | 子数组 |
 | 563 | binary tree tilt | [答案链接](src/树递归/Q563_binary_tree_tilt.java) | 树递归 |
 | 565 | array nesting | [答案链接](src/动态规划/Q565_array_nesting.java) | 动态规划 |
 | 567 | permutation in string | [答案链接](src/哈希/Q567_permutation_in_string.java) | 哈希 |
@@ -307,16 +309,20 @@ Java已刷题目 :<font color=red>323</font>
 | 703 | kth largest element in a stream | [答案链接](src/堆/Q703_kth_largest_element_in_a_stream.java) | 堆 |
 | 704 | binary search | [答案链接](src/二分/Q704_binary_search.java) | 二分 |
 | 712 | minimum ascii delete sum for two strings | [答案链接](src/动态规划/Q712_minimum_ascii_delete_sum_for_two_strings.java) | 动态规划 |
+| 713 | subarray product less than k | [答案链接](src/子数组/Q713_subarray_product_less_than_k.java) | 子数组 |
 | 714 | best time to buy and sell stock with transaction fee | [答案链接](src/动态规划/Q714_best_time_to_buy_and_sell_stock_with_transaction_fee.java) | 动态规划 |
 | 718 | maximum length of repeated subarray | [答案链接](src/动态规划/Q718_maximum_length_of_repeated_subarray.java) | 动态规划 |
 | 725 | split linked list in parts | [答案链接](src/链表/Q725_split_linked_list_in_parts.java) | 链表 |
 | 729 | my calendar i | [答案链接](src/二分/Q729_my_calendar_i.java) | 二分 |
+| 739 | daily temperatures | [答案链接](src/栈/Q739_daily_temperatures.java) | 栈 |
 | 746 | min cost climbing stairs | [答案链接](src/动态规划/Q746_min_cost_climbing_stairs.java) | 动态规划 |
 | 748 | shortest completing word | [答案链接](src/哈希/Q748_shortest_completing_word.java) | 哈希 |
 | 765 | couples holding hands | [答案链接](src/有限范围数组/Q765_couples_holding_hands.java) | 有限范围数组 |
 | 767 | reorganize string | [答案链接](src/排列组合/Q767_reorganize_string.java) | 排列组合 |
 | 783 | minimum distance between bst nodes | [答案链接](src/树递归/Q783_minimum_distance_between_bst_nodes.java) | 树递归 |
 | 784 | letter case permutation | [答案链接](src/排列组合/Q784_letter_case_permutation.java) | 排列组合 |
+| 792 | number of matching subsequences | [答案链接](src/子序列/Q792_number_of_matching_subsequences.java) | 子序列 |
+| 795 | number of subarrays with bounded maximum | [答案链接](src/子数组/Q795_number_of_subarrays_with_bounded_maximum.java) | 子数组 |
 | 796 | rotate string | [答案链接](src/KMP/Q796_rotate_string.java) | KMP |
 | 811 | subdomain visit count | [答案链接](src/哈希/Q811_subdomain_visit_count.java) | 哈希 |
 | 844 | backspace string compare | [答案链接](src/栈/Q844_backspace_string_compare.java) | 栈 |
@@ -331,6 +337,7 @@ Java已刷题目 :<font color=red>323</font>
 | 922 | sort array by parity ii | [答案链接](src/双指针/Q922_sort_array_by_parity_ii.java) | 双指针 |
 | 938 | range sum of bst | [答案链接](src/树递归/Q938_range_sum_of_bst.java) | 树递归 |
 | 946 | validate stack sequences | [答案链接](src/回溯剪枝/Q946_validate_stack_sequences.java) | 回溯剪枝 |
+| 974 | subarray sums divisible by k | [答案链接](src/子数组/Q974_subarray_sums_divisible_by_k.java) | 子数组 |
 | 1004 | max consecutive ones iii | [答案链接](src/滑动窗口/Q1004_max_consecutive_ones_iii.java) | 滑动窗口 |
 | 1019 | next greater node in linked list | [答案链接](src/栈/Q1019_next_greater_node_in_linked_list.java) | 栈 |
 | 1114 | print in order | [答案链接](src/多线程/Q1114_print_in_order.java) | 多线程 |
