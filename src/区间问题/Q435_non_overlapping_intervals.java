@@ -1,4 +1,4 @@
-package 贪心;
+package 区间问题;
 
 import java.util.Arrays;
 import java.util.Comparator;
