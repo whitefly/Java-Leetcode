@@ -1,4 +1,4 @@
-package 动态规划;
+package 字符串距离;
 
 public class Q72_edit_distance {
     public int minDistance(String word1, String word2) {

@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>330</font>
+Java已刷题目 :<font color=red>340</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -61,7 +61,7 @@ Java已刷题目 :<font color=red>330</font>
 | 53 | maximum subarray | [答案链接](src/动态规划/Q53_maximum_subarray.java) | 动态规划 |
 | 54 | spiral matrix | [答案链接](src/排版题/Q54_spiral_matrix.java) | 排版题 |
 | 55 | jump game | [答案链接](src/动态规划/Q55_jump_game.java) | 动态规划 |
-| 56 | merge intervals | [答案链接](src/图形学/Q56_merge_intervals.java) | 图形学 |
+| 56 | merge intervals | [答案链接](src/区间问题/Q56_merge_intervals.java) | 区间问题 |
 | 57 | insert interval | [答案链接](src/图形学/Q57_insert_interval.java) | 图形学 |
 | 58 | length of last word | [答案链接](src/字符串/Q58_length_of_last_word.java) | 字符串 |
 | 59 | spiral matrix ii | [答案链接](src/排版题/Q59_spiral_matrix_ii.java) | 排版题 |
@@ -75,7 +75,7 @@ Java已刷题目 :<font color=red>330</font>
 | 69 | sqrtx | [答案链接](src/二分/Q69_sqrtx.java) | 二分 |
 | 70 | climbing stairs | [答案链接](src/动态规划/Q70_climbing_stairs.java) | 动态规划 |
 | 71 | simplify path | [答案链接](src/栈/Q71_simplify_path.java) | 栈 |
-| 72 | edit distance | [答案链接](src/动态规划/Q72_edit_distance.java) | 动态规划 |
+| 72 | edit distance | [答案链接](src/字符串距离/Q72_edit_distance.java) | 字符串距离 |
 | 73 | set matrix zeroes | [答案链接](src/图形学/Q73_set_matrix_zeroes.java) | 图形学 |
 | 74 | search a 2d matrix | [答案链接](src/二分/Q74_search_a_2d_matrix.java) | 二分 |
 | 75 | sort colors | [答案链接](src/双指针/Q75_sort_colors.java) | 双指针 |
@@ -143,7 +143,9 @@ Java已刷题目 :<font color=red>330</font>
 | 148 | sort list | [答案链接](src/排序/Q148_sort_list.java) | 排序 |
 | 150 | evaluate reverse polish notation | [答案链接](src/栈/Q150_evaluate_reverse_polish_notation.java) | 栈 |
 | 153 | find minimum in rotated sorted array | [答案链接](src/二分/Q153_find_minimum_in_rotated_sorted_array.java) | 二分 |
+| 156 | binary tree upside down | [答案链接](src/树递归/Q156_binary_tree_upside_down.java) | 树递归 |
 | 157 | read n characters given read4 | [答案链接](src/IO/Q157_read_n_characters_given_read4.java) | IO |
+| 161 | one edit distance | [答案链接](src/字符串距离/Q161_one_edit_distance.java) | 字符串距离 |
 | 162 | find peak element | [答案链接](src/二分/Q162_find_peak_element.java) | 二分 |
 | 165 | compare version numbers | [答案链接](src/字符串/Q165_compare_version_numbers.java) | 字符串 |
 | 169 | majority element | [答案链接](src/重复元素/Q169_majority_element.java) | 重复元素 |
@@ -182,6 +184,10 @@ Java已刷题目 :<font color=red>330</font>
 | 238 | product of array except self | [答案链接](src/动态规划/Q238_product_of_array_except_self.java) | 动态规划 |
 | 239 | sliding window maximum | [答案链接](src/滑动窗口/Q239_sliding_window_maximum.java) | 滑动窗口 |
 | 242 | valid anagram | [答案链接](src/哈希/Q242_valid_anagram.java) | 哈希 |
+| 243 | shortest word distance | [答案链接](src/哈希/Q243_shortest_word_distance.java) | 哈希 |
+| 244 | shortest word distance ii | [答案链接](src/哈希/Q244_shortest_word_distance_ii.java) | 哈希 |
+| 252 | meeting rooms | [答案链接](src/区间问题/Q252_meeting_rooms.java) | 区间问题 |
+| 253 | meeting rooms ii | [答案链接](src/区间问题/Q253_meeting_rooms_ii.java) | 区间问题 |
 | 257 | binary tree paths | [答案链接](src/树递归/Q257_binary_tree_paths.java) | 树递归 |
 | 264 | ugly number ii | [答案链接](src/排列组合/Q264_ugly_number_ii.java) | 排列组合 |
 | 268 | missing number | [答案链接](src/有限范围数组/Q268_missing_number.java) | 有限范围数组 |
@@ -192,7 +198,7 @@ Java已刷题目 :<font color=red>330</font>
 | 287 | find the duplicate number | [答案链接](src/重复元素/Q287_find_the_duplicate_number.java) | 重复元素 |
 | 289 | game of life | [答案链接](src/图形学/Q289_game_of_life.java) | 图形学 |
 | 299 | bulls and cows | [答案链接](src/哈希/Q299_bulls_and_cows.java) | 哈希 |
-| 300 | longest increasing subsequence | [答案链接](src/动态规划/Q300_longest_increasing_subsequence.java) | 动态规划 |
+| 300 | longest increasing subsequence | [答案链接](src/子序列/Q300_longest_increasing_subsequence.java) | 子序列 |
 | 307 | range sum query mutable | [答案链接](src/线段树/Q307_range_sum_query_mutable.java) | 线段树 |
 | 309 | best time to buy and sell stock with cooldown | [答案链接](src/动态规划/Q309_best_time_to_buy_and_sell_stock_with_cooldown.java) | 动态规划 |
 | 310 | minimum height trees | [答案链接](src/图论/Q310_minimum_height_trees.java) | 图论 |
@@ -209,6 +215,7 @@ Java已刷题目 :<font color=red>330</font>
 | 343 | integer break | [答案链接](src/动态规划/Q343_integer_break.java) | 动态规划 |
 | 345 | reverse vowels of a string | [答案链接](src/双指针/Q345_reverse_vowels_of_a_string.java) | 双指针 |
 | 347 | top k frequent elements | [答案链接](src/堆/Q347_top_k_frequent_elements.java) | 堆 |
+| 354 | russian doll envelopes | [答案链接](src/子序列/Q354_russian_doll_envelopes.java) | 子序列 |
 | 354 | russian doll envelopes | [答案链接](src/动态规划/Q354_russian_doll_envelopes.java) | 动态规划 |
 | 357 | count numbers with unique digits | [答案链接](src/动态规划/Q357_count_numbers_with_unique_digits.java) | 动态规划 |
 | 365 | water and jug problem | [答案链接](src/回溯剪枝/Q365_water_and_jug_problem.java) | 回溯剪枝 |
@@ -240,7 +247,7 @@ Java已刷题目 :<font color=red>330</font>
 | 429 | n ary tree level order traversal | [答案链接](src/树递归/Q429_n_ary_tree_level_order_traversal.java) | 树递归 |
 | 430 | flatten a multilevel doubly linked list | [答案链接](src/链表/Q430_flatten_a_multilevel_doubly_linked_list.java) | 链表 |
 | 434 | number of segments in a string | [答案链接](src/字符串/Q434_number_of_segments_in_a_string.java) | 字符串 |
-| 435 | non overlapping intervals | [答案链接](src/贪心/Q435_non_overlapping_intervals.java) | 贪心 |
+| 435 | non overlapping intervals | [答案链接](src/区间问题/Q435_non_overlapping_intervals.java) | 区间问题 |
 | 437 | path sum iii | [答案链接](src/树递归/Q437_path_sum_iii.java) | 树递归 |
 | 438 | find all anagrams in a string | [答案链接](src/滑动窗口/Q438_find_all_anagrams_in_a_string.java) | 滑动窗口 |
 | 443 | string compression | [答案链接](src/压缩编码/Q443_string_compression.java) | 压缩编码 |
@@ -248,6 +255,7 @@ Java已刷题目 :<font color=red>330</font>
 | 448 | find all numbers disappeared in an array | [答案链接](src/有限范围数组/Q448_find_all_numbers_disappeared_in_an_array.java) | 有限范围数组 |
 | 450 | delete node in a bst | [答案链接](src/树递归/Q450_delete_node_in_a_bst.java) | 树递归 |
 | 451 | sort characters by frequency | [答案链接](src/哈希/Q451_sort_characters_by_frequency.java) | 哈希 |
+| 452 | minimum number of arrows to burst balloons | [答案链接](src/区间问题/Q452_minimum_number_of_arrows_to_burst_balloons.java) | 区间问题 |
 | 455 | assign cookies | [答案链接](src/双指针/Q455_assign_cookies.java) | 双指针 |
 | 459 | repeated substring pattern | [答案链接](src/KMP/Q459_repeated_substring_pattern.java) | KMP |
 | 467 | unique substrings in wraparound string | [答案链接](src/动态规划/Q467_unique_substrings_in_wraparound_string.java) | 动态规划 |
@@ -338,10 +346,12 @@ Java已刷题目 :<font color=red>330</font>
 | 938 | range sum of bst | [答案链接](src/树递归/Q938_range_sum_of_bst.java) | 树递归 |
 | 946 | validate stack sequences | [答案链接](src/回溯剪枝/Q946_validate_stack_sequences.java) | 回溯剪枝 |
 | 974 | subarray sums divisible by k | [答案链接](src/子数组/Q974_subarray_sums_divisible_by_k.java) | 子数组 |
+| 986 | interval list intersections | [答案链接](src/区间问题/Q986_interval_list_intersections.java) | 区间问题 |
 | 1004 | max consecutive ones iii | [答案链接](src/滑动窗口/Q1004_max_consecutive_ones_iii.java) | 滑动窗口 |
 | 1019 | next greater node in linked list | [答案链接](src/栈/Q1019_next_greater_node_in_linked_list.java) | 栈 |
 | 1114 | print in order | [答案链接](src/多线程/Q1114_print_in_order.java) | 多线程 |
 | 1115 | print foobar alternately | [答案链接](src/多线程/Q1115_print_foobar_alternately.java) | 多线程 |
+| 1155 | number of dice rolls with target sum | [答案链接](src/背包问题/Q1155_number_of_dice_rolls_with_target_sum.java) | 背包问题 |
 | 5089 | meeting scheduler | [答案链接](src/双指针/Q5089_meeting_scheduler.java) | 双指针 |
 
 
