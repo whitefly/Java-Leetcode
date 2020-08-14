@@ -17,4 +17,35 @@ public class Q82_remove_duplicates_from_sorted_list_ii {
         } else return deleteDuplicates(head.next);
 
     }
+
+    public ListNode deleteDuplicates2(ListNode head) {
+        /**
+         * 非递归写法
+         */
+        if (head == null || head.next == null) return head;
+        ListNode result = new ListNode(-1);
+        ListNode LL = result;
+        LL.next = head;
+        ListNode scan = head.next;
+        ListNode next;
+        int pre = head.val;
+
+        while (scan != null) {
+            next = scan.next;
+            if (pre == scan.val) {
+                LL.next = null;
+            } else {
+                if (LL.next == null) {
+                    LL.next = scan;
+                } else {
+                    LL.next.next = scan;
+                    LL = LL.next;
+                }
+            }
+            pre = scan.val;
+            scan.next = null;
+            scan = next;
+        }
+        return result.next;
+    }
 }
