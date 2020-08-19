@@ -39,6 +39,23 @@ public class Q128_longest_consecutive_sequence {
         return result;
     }
 
+    public int longestConsecutive2(int[] nums) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int num : nums) map.put(num, 0);
+        int count = 0;
+        for (int num : nums) count = Math.max(count, getDP(num, map));
+        return count;
+    }
+
+    public int getDP(int num, Map<Integer, Integer> map) {
+        Integer count = map.get(num);
+        if (count == null) return 0;
+        if (count > 0) return count;
+        int helper = getDP(num - 1, map);
+        map.put(num, helper + 1);
+        return helper + 1;
+    }
+
     public static void main(String[] args) {
         int[] nums = {100, 4, 200, 1, 3, 2};
         Q128_longest_consecutive_sequence s = new Q128_longest_consecutive_sequence();
