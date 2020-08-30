@@ -40,17 +40,32 @@ public class Q4_median_of_two_sorted_arrays {
 
 
     public static double findMedianSortedArrays2(int[] nums1, int[] nums2) {
-        return 0.0;
-    }
+        if (nums1.length > nums2.length) return findMedianSortedArrays2(nums2, nums1);
+        int L = 0, R = nums1.length;
+        int total = nums1.length + nums2.length;
+        while (true) {
+            int i = (L + R) / 2;
+            int j = total / 2 - i;
 
-    public static double findKth(int[] nums1, int o1, int[] nums2, int o2, int k) {
-        return 0.0;
+            //判定是否正确划分
+            int L1 = (i == 0) ? Integer.MIN_VALUE : nums1[i - 1];
+            int R1 = (i == nums1.length) ? Integer.MAX_VALUE : nums1[i];
+            int L2 = (j == 0) ? Integer.MIN_VALUE : nums2[j - 1];
+            int R2 = (j == nums2.length) ? Integer.MAX_VALUE : nums2[j];
+            if (L1 > R2) R = i - 1;
+            else if (R1 < L2) L = i + 1;
+            else {
+                if ((total & 1) == 0) return (Math.max(L1, L2) + Math.min(R1, R2)) / 2.0;
+                else return Math.min(R1, R2);
+            }
+        }
     }
 
 
     public static void main(String[] args) {
-        int[] nums1 = {1, 2}, nums2 = {3, 4, 5, 6};
-        double result = findMedianSortedArrays(nums1, nums2);
+//        int[] nums1 = {1, 2}, nums2 = {3, 4, 5, 6};
+        int[] nums1 = {2}, nums2 = {1, 3};
+        double result = findMedianSortedArrays2(nums1, nums2);
         System.out.println(result);
 
     }
