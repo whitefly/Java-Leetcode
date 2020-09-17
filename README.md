@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>340</font>
+Java已刷题目 :<font color=red>347</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -329,6 +329,7 @@ Java已刷题目 :<font color=red>340</font>
 | 767 | reorganize string | [答案链接](src/排列组合/Q767_reorganize_string.java) | 排列组合 |
 | 783 | minimum distance between bst nodes | [答案链接](src/树递归/Q783_minimum_distance_between_bst_nodes.java) | 树递归 |
 | 784 | letter case permutation | [答案链接](src/排列组合/Q784_letter_case_permutation.java) | 排列组合 |
+| 785 | is graph bipartite | [答案链接](src/二分图/Q785_is_graph_bipartite.java) | 二分图 |
 | 792 | number of matching subsequences | [答案链接](src/子序列/Q792_number_of_matching_subsequences.java) | 子序列 |
 | 795 | number of subarrays with bounded maximum | [答案链接](src/子数组/Q795_number_of_subarrays_with_bounded_maximum.java) | 子数组 |
 | 796 | rotate string | [答案链接](src/KMP/Q796_rotate_string.java) | KMP |
@@ -337,6 +338,7 @@ Java已刷题目 :<font color=red>340</font>
 | 853 | car fleet | [答案链接](src/数学结论/Q853_car_fleet.java) | 数学结论 |
 | 856 | score of parentheses | [答案链接](src/栈/Q856_score_of_parentheses.java) | 栈 |
 | 875 | koko eating bananas | [答案链接](src/二分/Q875_koko_eating_bananas.java) | 二分 |
+| 887 | super egg drop | [答案链接](src/动态规划/Q887_super_egg_drop.java) | 动态规划 |
 | 894 | all possible full binary trees | [答案链接](src/树递归/Q894_all_possible_full_binary_trees.java) | 树递归 |
 | 901 | online stock span | [答案链接](src/栈/Q901_online_stock_span.java) | 栈 |
 | 905 | sort array by parity | [答案链接](src/排序/Q905_sort_array_by_parity.java) | 排序 |
@@ -351,7 +353,12 @@ Java已刷题目 :<font color=red>340</font>
 | 1019 | next greater node in linked list | [答案链接](src/栈/Q1019_next_greater_node_in_linked_list.java) | 栈 |
 | 1114 | print in order | [答案链接](src/多线程/Q1114_print_in_order.java) | 多线程 |
 | 1115 | print foobar alternately | [答案链接](src/多线程/Q1115_print_foobar_alternately.java) | 多线程 |
+| 1116 | print zero even odd | [答案链接](src/多线程/Q1116_print_zero_even_odd.java) | 多线程 |
+| 1117 | building h2o | [答案链接](src/多线程/Q1117_building_h2o.java) | 多线程 |
 | 1155 | number of dice rolls with target sum | [答案链接](src/背包问题/Q1155_number_of_dice_rolls_with_target_sum.java) | 背包问题 |
+| 1195 | fizz buzz multithreaded | [答案链接](src/多线程/Q1195_fizz_buzz_multithreaded.java) | 多线程 |
+| 1226 | the dining philosophers | [答案链接](src/多线程/Q1226_the_dining_philosophers.java) | 多线程 |
+| 1363 | largest multiple of three | [答案链接](src/整除问题/Q1363_largest_multiple_of_three.java) | 整除问题 |
 | 5089 | meeting scheduler | [答案链接](src/双指针/Q5089_meeting_scheduler.java) | 双指针 |
 
 
