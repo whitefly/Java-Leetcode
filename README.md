@@ -9,7 +9,7 @@
 <br>快速熟悉一遍java
 预期时间1个月,每天5题左右
 
-Java已刷题目 :<font color=red>347</font>
+Java已刷题目 :<font color=red>348</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -359,6 +359,7 @@ Java已刷题目 :<font color=red>347</font>
 | 1195 | fizz buzz multithreaded | [答案链接](src/多线程/Q1195_fizz_buzz_multithreaded.java) | 多线程 |
 | 1226 | the dining philosophers | [答案链接](src/多线程/Q1226_the_dining_philosophers.java) | 多线程 |
 | 1363 | largest multiple of three | [答案链接](src/整除问题/Q1363_largest_multiple_of_three.java) | 整除问题 |
+| 1551 | minimum operations to make array equal | [答案链接](src/数学结论/Q1551_minimum_operations_to_make_array_equal.java) | 数学结论 |
 | 5089 | meeting scheduler | [答案链接](src/双指针/Q5089_meeting_scheduler.java) | 双指针 |
 
 

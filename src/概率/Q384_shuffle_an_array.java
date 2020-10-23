@@ -5,45 +5,53 @@ import java.util.Random;
 
 public class Q384_shuffle_an_array {
     static class Solution {
-        int[] initNum;
-        Random r;
-
+        //基于抽牌暴力法的优化
+        private int[] initArray;
+        private int[] tempArray;
+        private Random random;
 
         public Solution(int[] nums) {
-            initNum = nums;
-            r = new Random();
-
+            initArray = nums;
+            tempArray = nums.clone();
+            random = new Random();
         }
 
         /**
          * Resets the array to its original configuration and return it.
          */
         public int[] reset() {
-            return Arrays.copyOfRange(initNum, 0, initNum.length);
+            tempArray = initArray.clone();
+            return tempArray;
         }
 
         /**
          * Returns a random shuffling of the array.
          */
         public int[] shuffle() {
-            /*
-             基于抽牌法完成shuffle
-             */
-            int[] result = Arrays.copyOfRange(initNum, 0, initNum.length);
-
-            for (int i = result.length - 1; i >= 0; i--) {
-                int index = r.nextInt(i + 1);
-                swap(result, i, index);
+            for (int i = 0; i < initArray.length; i++) {
+                swap(tempArray, i, getRandomNum(i, initArray.length));
             }
-            return result;
+            return tempArray;
         }
 
-        private void swap(int[] nums, int a, int b) {
-            int temp = nums[a];
-            nums[a] = nums[b];
-            nums[b] = temp;
+        private void swap(int[] nums, int L, int R) {
+            int temp = nums[L];
+            nums[L] = nums[R];
+            nums[R] = temp;
+        }
+
+        private int getRandomNum(int min, int max) {
+            //[min,max)
+            return random.nextInt(max - min) + min;
         }
     }
+
+    /**
+     * Your Solution object will be instantiated and called as such:
+     * Solution obj = new Solution(nums);
+     * int[] param_1 = obj.reset();
+     * int[] param_2 = obj.shuffle();
+     */
 
     public static void main(String[] args) {
         int[] nums = {1, 2, 3};
