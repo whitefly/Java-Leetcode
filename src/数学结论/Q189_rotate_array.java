@@ -1,6 +1,10 @@
 package 数学结论;
 
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class Q189_rotate_array {
     public void rotate(int[] nums, int k) {
@@ -24,6 +28,12 @@ public class Q189_rotate_array {
             nums[begin + i] = nums[end - i];
             nums[end - i] = temp;
         }
+    }
+
+    public void rotate2(int[] nums, int k) {
+        List<Integer> list = Arrays.stream(nums).boxed().collect(Collectors.toList());
+        Collections.rotate(list, k);
+        IntStream.range(0, nums.length).forEach(i -> nums[i] = list.get(i));
     }
 
     public static void main(String[] args) {
