@@ -1,15 +1,7 @@
-# java的刷题本
+# Java的刷题本
 
-之前用java写过项目,但是太久不使用,有点生疏
-<br>日常需求
-1. 使用大数据工具来搭建集群和处理数据
-2. 编写简单的大数据平台
+题库:LeetCode  已刷:349
 
-所以决定继续用java刷一下leetcode,
-<br>快速熟悉一遍java
-预期时间1个月,每天5题左右
-
-Java已刷题目 :<font color=red>348</font>
 
 | 题号 | Title |java|类别|
 | ------------- | ------------- |---|---|
@@ -125,6 +117,7 @@ Java已刷题目 :<font color=red>348</font>
 | 124 | binary tree maximum path sum | [答案链接](src/树递归/Q124_binary_tree_maximum_path_sum.java) | 树递归 |
 | 125 | valid palindrome | [答案链接](src/双指针/Q125_valid_palindrome.java) | 双指针 |
 | 127 | valid palindrome | [答案链接](src/字符串/Q127_valid_palindrome.java) | 字符串 |
+| 127 | word ladder | [答案链接](src/图论/Q127_word_ladder.java) | 图论 |
 | 128 | longest consecutive sequence | [答案链接](src/哈希/Q128_longest_consecutive_sequence.java) | 哈希 |
 | 129 | sum root to leaf numbers | [答案链接](src/树递归/Q129_sum_root_to_leaf_numbers.java) | 树递归 |
 | 130 | surrounded regions | [答案链接](src/图形学/Q130_surrounded_regions.java) | 图形学 |
@@ -364,6 +357,65 @@ Java已刷题目 :<font color=red>348</font>
 
 
 
-|竞赛周| 题号(1-4) | Title |java|类别|
-|-----| ------------- | ------------- |---|---|
-| 132 | 2 | maximum difference between node and ancestor | [答案链接](src/树递归/C132_2_maximum_difference_between_node_and_ancestor.java) | 树递归 |
+题库:剑指offer  已刷:54
+
+
+| 题号 | Title |java|类别|
+| ------------- | ------------- |---|---|
+| 11 | xuan zhuan shu zu de zui xiao shu zi lcof | [答案链接](src/剑指Offer/O11_xuan_zhuan_shu_zu_de_zui_xiao_shu_zi_lcof.java) | 剑指Offer |
+| 12 | ju zhen zhong de lu jing lcof | [答案链接](src/剑指Offer/O12_ju_zhen_zhong_de_lu_jing_lcof.java) | 剑指Offer |
+| 15 | er jin zhi zhong 1de ge shu lcof | [答案链接](src/剑指Offer/O15_er_jin_zhi_zhong_1de_ge_shu_lcof.java) | 剑指Offer |
+| 16 | shu zhi de zheng shu ci fang lcof | [答案链接](src/剑指Offer/O16_shu_zhi_de_zheng_shu_ci_fang_lcof.java) | 剑指Offer |
+| 17 | da yin cong 1dao zui da de nwei shu lcof | [答案链接](src/剑指Offer/O17_da_yin_cong_1dao_zui_da_de_nwei_shu_lcof.java) | 剑指Offer |
+| 18 | shan chu lian biao de jie dian lcof | [答案链接](src/剑指Offer/O18_shan_chu_lian_biao_de_jie_dian_lcof.java) | 剑指Offer |
+| 21 | diao zheng shu zu shun xu shi qi shu wei yu ou shu qian mian lcof | [答案链接](src/剑指Offer/O21_diao_zheng_shu_zu_shun_xu_shi_qi_shu_wei_yu_ou_shu_qian_mian_lcof.java) | 剑指Offer |
+| 22 | lian biao zhong dao shu di kge jie dian lcof | [答案链接](src/剑指Offer/O22_lian_biao_zhong_dao_shu_di_kge_jie_dian_lcof.java) | 剑指Offer |
+| 24 | fan zhuan lian biao lcof | [答案链接](src/剑指Offer/O24_fan_zhuan_lian_biao_lcof.java) | 剑指Offer |
+| 26 | shu de zi jie gou lcof | [答案链接](src/剑指Offer/O26_shu_de_zi_jie_gou_lcof.java) | 剑指Offer |
+| 27 | er cha shu de jing xiang lcof | [答案链接](src/剑指Offer/O27_er_cha_shu_de_jing_xiang_lcof.java) | 剑指Offer |
+| 28 | dui cheng de er cha shu lcof | [答案链接](src/剑指Offer/O28_dui_cheng_de_er_cha_shu_lcof.java) | 剑指Offer |
+| 29 | shun shi zhen da yin ju zhen lcof | [答案链接](src/剑指Offer/O29_shun_shi_zhen_da_yin_ju_zhen_lcof.java) | 剑指Offer |
+| 30 | bao han minhan shu de zhan lcof | [答案链接](src/剑指Offer/O30_bao_han_minhan_shu_de_zhan_lcof.java) | 剑指Offer |
+| 31 | zhan de ya ru dan chu xu lie lcof | [答案链接](src/剑指Offer/O31_zhan_de_ya_ru_dan_chu_xu_lie_lcof.java) | 剑指Offer |
+| 33 | er cha sou suo shu de hou xu bian li xu lie lcof | [答案链接](src/剑指Offer/O33_er_cha_sou_suo_shu_de_hou_xu_bian_li_xu_lie_lcof.java) | 剑指Offer |
+| 34 | er cha shu zhong he wei mou yi zhi de lu jing lcof | [答案链接](src/剑指Offer/O34_er_cha_shu_zhong_he_wei_mou_yi_zhi_de_lu_jing_lcof.java) | 剑指Offer |
+| 35 | fu za lian biao de fu zhi lcof | [答案链接](src/剑指Offer/O35_fu_za_lian_biao_de_fu_zhi_lcof.java) | 剑指Offer |
+| 37 | xu lie hua er cha shu lcof | [答案链接](src/剑指Offer/O37_xu_lie_hua_er_cha_shu_lcof.java) | 剑指Offer |
+| 38 | zi fu chuan de pai lie lcof | [答案链接](src/剑指Offer/O38_zi_fu_chuan_de_pai_lie_lcof.java) | 剑指Offer |
+| 39 | shu zu zhong chu xian ci shu chao guo yi ban de shu zi lcof | [答案链接](src/剑指Offer/O39_shu_zu_zhong_chu_xian_ci_shu_chao_guo_yi_ban_de_shu_zi_lcof.java) | 剑指Offer |
+| 40 | zui xiao de kge shu lcof | [答案链接](src/剑指Offer/O40_zui_xiao_de_kge_shu_lcof.java) | 剑指Offer |
+| 41 | shu ju liu zhong de zhong wei shu lcof | [答案链接](src/剑指Offer/O41_shu_ju_liu_zhong_de_zhong_wei_shu_lcof.java) | 剑指Offer |
+| 42 | lian xu zi shu zu de zui da he lcof | [答案链接](src/剑指Offer/O42_lian_xu_zi_shu_zu_de_zui_da_he_lcof.java) | 剑指Offer |
+| 45 | ba shu zu pai cheng zui xiao de shu lcof | [答案链接](src/剑指Offer/O45_ba_shu_zu_pai_cheng_zui_xiao_de_shu_lcof.java) | 剑指Offer |
+| 46 | ba shu zi fan yi cheng zi fu chuan lcof | [答案链接](src/剑指Offer/O46_ba_shu_zi_fan_yi_cheng_zi_fu_chuan_lcof.java) | 剑指Offer |
+| 47 | li wu de zui da jie zhi lcof | [答案链接](src/剑指Offer/O47_li_wu_de_zui_da_jie_zhi_lcof.java) | 剑指Offer |
+| 48 | zui chang bu han zhong fu zi fu de zi zi fu chuan lcof | [答案链接](src/剑指Offer/O48_zui_chang_bu_han_zhong_fu_zi_fu_de_zi_zi_fu_chuan_lcof.java) | 剑指Offer |
+| 50 | di yi ge zhi chu xian yi ci de zi fu lcof | [答案链接](src/剑指Offer/O50_di_yi_ge_zhi_chu_xian_yi_ci_de_zi_fu_lcof.java) | 剑指Offer |
+| 51 | shu zu zhong de ni xu dui lcof | [答案链接](src/剑指Offer/O51_shu_zu_zhong_de_ni_xu_dui_lcof.java) | 剑指Offer |
+| 52 | liang ge lian biao de di yi ge gong gong jie dian lcof | [答案链接](src/剑指Offer/O52_liang_ge_lian_biao_de_di_yi_ge_gong_gong_jie_dian_lcof.java) | 剑指Offer |
+| 53 | zai pai xu shu zu zhong cha zhao shu zi lcof | [答案链接](src/剑指Offer/O53_zai_pai_xu_shu_zu_zhong_cha_zhao_shu_zi_lcof.java) | 剑指Offer |
+| 53 | que shi de shu zi lcof | [答案链接](src/剑指Offer/O53_que_shi_de_shu_zi_lcof.java) | 剑指Offer |
+| 54 | er cha sou suo shu de di kda jie dian lcof | [答案链接](src/剑指Offer/O54_er_cha_sou_suo_shu_de_di_kda_jie_dian_lcof.java) | 剑指Offer |
+| 55 | er cha shu de shen du lcof | [答案链接](src/剑指Offer/O55_er_cha_shu_de_shen_du_lcof.java) | 剑指Offer |
+| 55 | ping heng er cha shu lcof | [答案链接](src/剑指Offer/O55_ping_heng_er_cha_shu_lcof.java) | 剑指Offer |
+| 56 | shu zu zhong shu zi chu xian de ci shu ii lcof | [答案链接](src/剑指Offer/O56_shu_zu_zhong_shu_zi_chu_xian_de_ci_shu_ii_lcof.java) | 剑指Offer |
+| 56 | shu zu zhong shu zi chu xian de ci shu lcof | [答案链接](src/剑指Offer/O56_shu_zu_zhong_shu_zi_chu_xian_de_ci_shu_lcof.java) | 剑指Offer |
+| 57 | he wei sde liang ge shu zi lcof | [答案链接](src/剑指Offer/O57_he_wei_sde_liang_ge_shu_zi_lcof.java) | 剑指Offer |
+| 57 | he wei sde lian xu zheng shu xu lie lcof | [答案链接](src/剑指Offer/O57_he_wei_sde_lian_xu_zheng_shu_xu_lie_lcof.java) | 剑指Offer |
+| 58 | zuo xuan zhuan zi fu chuan lcof | [答案链接](src/剑指Offer/O58_zuo_xuan_zhuan_zi_fu_chuan_lcof.java) | 剑指Offer |
+| 58 | fan zhuan dan ci shun xu lcof | [答案链接](src/剑指Offer/O58_fan_zhuan_dan_ci_shun_xu_lcof.java) | 剑指Offer |
+| 59 | hua dong chuang kou de zui da zhi lcof | [答案链接](src/剑指Offer/O59_hua_dong_chuang_kou_de_zui_da_zhi_lcof.java) | 剑指Offer |
+| 59 | dui lie de zui da zhi lcof | [答案链接](src/剑指Offer/O59_dui_lie_de_zui_da_zhi_lcof.java) | 剑指Offer |
+| 60 | nge tou zi de dian shu lcof | [答案链接](src/剑指Offer/O60_nge_tou_zi_de_dian_shu_lcof.java) | 剑指Offer |
+| 61 | bu ke pai zhong de shun zi lcof | [答案链接](src/剑指Offer/O61_bu_ke_pai_zhong_de_shun_zi_lcof.java) | 剑指Offer |
+| 62 | yuan quan zhong zui hou sheng xia de shu zi lcof | [答案链接](src/剑指Offer/O62_yuan_quan_zhong_zui_hou_sheng_xia_de_shu_zi_lcof.java) | 剑指Offer |
+| 63 | gu piao de zui da li run lcof | [答案链接](src/剑指Offer/O63_gu_piao_de_zui_da_li_run_lcof.java) | 剑指Offer |
+| 64 | qiu 12n lcof | [答案链接](src/剑指Offer/O64_qiu_12n_lcof.java) | 剑指Offer |
+| 65 | bu yong jia jian cheng chu zuo jia fa lcof | [答案链接](src/剑指Offer/O65_bu_yong_jia_jian_cheng_chu_zuo_jia_fa_lcof.java) | 剑指Offer |
+| 66 | gou jian cheng ji shu zu lcof | [答案链接](src/剑指Offer/O66_gou_jian_cheng_ji_shu_zu_lcof.java) | 剑指Offer |
+| 67 | ba zi fu chuan zhuan huan cheng zheng shu lcof | [答案链接](src/剑指Offer/O67_ba_zi_fu_chuan_zhuan_huan_cheng_zheng_shu_lcof.java) | 剑指Offer |
+| 68 | er cha sou suo shu de zui jin gong gong zu xian lcof | [答案链接](src/剑指Offer/O68_er_cha_sou_suo_shu_de_zui_jin_gong_gong_zu_xian_lcof.java) | 剑指Offer |
+| 68 | er cha shu de zui jin gong gong zu xian lcof | [答案链接](src/剑指Offer/O68_er_cha_shu_de_zui_jin_gong_gong_zu_xian_lcof.java) | 剑指Offer |
+
+
+
