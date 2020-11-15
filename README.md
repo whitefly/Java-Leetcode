@@ -1,6 +1,6 @@
 # Java的刷题本
 
-题库:LeetCode  已刷:349
+题库:LeetCode  已刷:350
 
 
 | 题号 | Title |java|类别|
@@ -269,6 +269,7 @@
 | 508 | most frequent subtree sum | [答案链接](src/树递归/Q508_most_frequent_subtree_sum.java) | 树递归 |
 | 509 | fibonacci number | [答案链接](src/动态规划/Q509_fibonacci_number.java) | 动态规划 |
 | 513 | find bottom left tree value | [答案链接](src/树递归/Q513_find_bottom_left_tree_value.java) | 树递归 |
+| 514 | freedom trail | [答案链接](src/动态规划/Q514_freedom_trail.java) | 动态规划 |
 | 515 | find largest value in each tree row | [答案链接](src/树递归/Q515_find_largest_value_in_each_tree_row.java) | 树递归 |
 | 516 | longest palindromic subsequence | [答案链接](src/动态规划/Q516_longest_palindromic_subsequence.java) | 动态规划 |
 | 518 | coin change 2 | [答案链接](src/动态规划/Q518_coin_change_2.java) | 动态规划 |

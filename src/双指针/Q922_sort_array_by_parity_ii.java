@@ -19,6 +19,18 @@ public class Q922_sort_array_by_parity_ii {
         return A;
     }
 
+    public int[] sortArrayByParityII2(int[] A) {
+        //只需要扫偶数位,把不合适的交换一下集合
+        int odd = 1;
+        for (int i = 0; i < A.length; i += 2) {
+            while ((A[i] & 1) == 1) {
+                swap(A, i, odd);
+                odd += 2;
+            }
+        }
+        return A;
+    }
+
     private void swap(int[] nums, int a, int b) {
         int temp = nums[a];
         nums[a] = nums[b];
@@ -28,7 +40,7 @@ public class Q922_sort_array_by_parity_ii {
     public static void main(String[] args) {
         int[] nums = {4, 2, 5, 7};
         Q922_sort_array_by_parity_ii s = new Q922_sort_array_by_parity_ii();
-        s.sortArrayByParityII(nums);
+        s.sortArrayByParityII2(nums);
         System.out.println(Arrays.toString(nums));
     }
 }
