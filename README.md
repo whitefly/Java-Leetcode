@@ -1,6 +1,6 @@
 # Java的刷题本
 
-题库:LeetCode  已刷:350
+题库:LeetCode  已刷:351
 
 
 | 题号 | Title |java|类别|
@@ -345,6 +345,7 @@
 | 986 | interval list intersections | [答案链接](src/区间问题/Q986_interval_list_intersections.java) | 区间问题 |
 | 1004 | max consecutive ones iii | [答案链接](src/滑动窗口/Q1004_max_consecutive_ones_iii.java) | 滑动窗口 |
 | 1019 | next greater node in linked list | [答案链接](src/栈/Q1019_next_greater_node_in_linked_list.java) | 栈 |
+| 1030 | matrix cells in distance order | [答案链接](src/图论/Q1030_matrix_cells_in_distance_order.java) | 图论 |
 | 1114 | print in order | [答案链接](src/多线程/Q1114_print_in_order.java) | 多线程 |
 | 1115 | print foobar alternately | [答案链接](src/多线程/Q1115_print_foobar_alternately.java) | 多线程 |
 | 1116 | print zero even odd | [答案链接](src/多线程/Q1116_print_zero_even_odd.java) | 多线程 |
