@@ -107,7 +107,7 @@ public class createSheetV2 extends SimpleFileVisitor<Path> {
             result.append(getSheetHeader());
             list.forEach(x -> result.append(getSheetRow(x)));
             result.append("\n\n\n");
-            System.out.println(letter2Name.get(item.getKey()) + "题: 填充完毕");
+            System.out.println(letter2Name.get(item.getKey()) + "题: 填充完毕 " + item.getValue().size());
         }
     }
 

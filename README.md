@@ -1,6 +1,6 @@
 # Java的刷题本
 
-题库:LeetCode  已刷:351
+题库:LeetCode  已刷:356
 
 
 | 题号 | Title |java|类别|
@@ -140,6 +140,7 @@
 | 157 | read n characters given read4 | [答案链接](src/IO/Q157_read_n_characters_given_read4.java) | IO |
 | 161 | one edit distance | [答案链接](src/字符串距离/Q161_one_edit_distance.java) | 字符串距离 |
 | 162 | find peak element | [答案链接](src/二分/Q162_find_peak_element.java) | 二分 |
+| 164 | maximum gap | [答案链接](src/桶思想/Q164_maximum_gap.java) | 桶思想 |
 | 165 | compare version numbers | [答案链接](src/字符串/Q165_compare_version_numbers.java) | 字符串 |
 | 169 | majority element | [答案链接](src/重复元素/Q169_majority_element.java) | 重复元素 |
 | 174 | dungeon game | [答案链接](src/动态规划/Q174_dungeon_game.java) | 动态规划 |
@@ -250,6 +251,7 @@
 | 451 | sort characters by frequency | [答案链接](src/哈希/Q451_sort_characters_by_frequency.java) | 哈希 |
 | 452 | minimum number of arrows to burst balloons | [答案链接](src/区间问题/Q452_minimum_number_of_arrows_to_burst_balloons.java) | 区间问题 |
 | 455 | assign cookies | [答案链接](src/双指针/Q455_assign_cookies.java) | 双指针 |
+| 456 | 132 pattern | [答案链接](src/栈/Q456_132_pattern.java) | 栈 |
 | 459 | repeated substring pattern | [答案链接](src/KMP/Q459_repeated_substring_pattern.java) | KMP |
 | 467 | unique substrings in wraparound string | [答案链接](src/动态规划/Q467_unique_substrings_in_wraparound_string.java) | 动态规划 |
 | 468 | validate ip address | [答案链接](src/字符串/Q468_validate_ip_address.java) | 字符串 |
@@ -292,6 +294,7 @@
 | 590 | n ary tree postorder traversal | [答案链接](src/树递归/Q590_n_ary_tree_postorder_traversal.java) | 树递归 |
 | 592 | fraction addition and subtraction | [答案链接](src/数学结论/Q592_fraction_addition_and_subtraction.java) | 数学结论 |
 | 606 | construct string from binary tree | [答案链接](src/树递归/Q606_construct_string_from_binary_tree.java) | 树递归 |
+| 621 | task scheduler | [答案链接](src/桶思想/Q621_task_scheduler.java) | 桶思想 |
 | 623 | add one row to tree | [答案链接](src/树递归/Q623_add_one_row_to_tree.java) | 树递归 |
 | 637 | average of levels in binary tree | [答案链接](src/树递归/Q637_average_of_levels_in_binary_tree.java) | 树递归 |
 | 638 | shopping offers | [答案链接](src/背包问题/Q638_shopping_offers.java) | 背包问题 |
@@ -303,6 +306,7 @@
 | 662 | maximum width of binary tree | [答案链接](src/树递归/Q662_maximum_width_of_binary_tree.java) | 树递归 |
 | 669 | trim a binary search tree | [答案链接](src/树递归/Q669_trim_a_binary_search_tree.java) | 树递归 |
 | 671 | second minimum node in a binary tree | [答案链接](src/树递归/Q671_second_minimum_node_in_a_binary_tree.java) | 树递归 |
+| 673 | number of longest increasing subsequence | [答案链接](src/子序列/Q673_number_of_longest_increasing_subsequence.java) | 子序列 |
 | 677 | map sum pairs | [答案链接](src/前缀树/Q677_map_sum_pairs.java) | 前缀树 |
 | 680 | valid palindrome ii | [答案链接](src/字符串/Q680_valid_palindrome_ii.java) | 字符串 |
 | 687 | longest univalue path | [答案链接](src/树递归/Q687_longest_univalue_path.java) | 树递归 |
@@ -340,6 +344,7 @@
 | 921 | minimum add to make parentheses valid | [答案链接](src/栈/Q921_minimum_add_to_make_parentheses_valid.java) | 栈 |
 | 922 | sort array by parity ii | [答案链接](src/双指针/Q922_sort_array_by_parity_ii.java) | 双指针 |
 | 938 | range sum of bst | [答案链接](src/树递归/Q938_range_sum_of_bst.java) | 树递归 |
+| 941 | valid mountain array | [答案链接](src/双指针/Q941_valid_mountain_array.java) | 双指针 |
 | 946 | validate stack sequences | [答案链接](src/回溯剪枝/Q946_validate_stack_sequences.java) | 回溯剪枝 |
 | 974 | subarray sums divisible by k | [答案链接](src/子数组/Q974_subarray_sums_divisible_by_k.java) | 子数组 |
 | 986 | interval list intersections | [答案链接](src/区间问题/Q986_interval_list_intersections.java) | 区间问题 |
