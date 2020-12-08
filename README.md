@@ -1,6 +1,6 @@
 # Java的刷题本
 
-题库:LeetCode  已刷:356
+题库:LeetCode  已刷:357
 
 
 | 题号 | Title |java|类别|
@@ -332,6 +332,7 @@
 | 795 | number of subarrays with bounded maximum | [答案链接](src/子数组/Q795_number_of_subarrays_with_bounded_maximum.java) | 子数组 |
 | 796 | rotate string | [答案链接](src/KMP/Q796_rotate_string.java) | KMP |
 | 811 | subdomain visit count | [答案链接](src/哈希/Q811_subdomain_visit_count.java) | 哈希 |
+| 842 | split array into fibonacci sequence | [答案链接](src/回溯剪枝/Q842_split_array_into_fibonacci_sequence.java) | 回溯剪枝 |
 | 844 | backspace string compare | [答案链接](src/栈/Q844_backspace_string_compare.java) | 栈 |
 | 853 | car fleet | [答案链接](src/数学结论/Q853_car_fleet.java) | 数学结论 |
 | 856 | score of parentheses | [答案链接](src/栈/Q856_score_of_parentheses.java) | 栈 |
