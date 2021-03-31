@@ -1,7 +1,5 @@
 package 字符串;
 
-import com.sun.tools.javac.util.Assert;
-
 public class Q640_solve_the_equation {
     public String solveEquation(String equation) {
         /*

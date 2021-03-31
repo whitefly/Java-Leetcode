@@ -1,11 +1,8 @@
 package bitmap;
 
-import com.sun.tools.classfile.ConstantPool;
-
 import java.util.BitSet;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.IntStream;
 
 /**
  * 实现文件描述符中的open和close操作,
@@ -65,5 +62,9 @@ public class FdManager {
 
         String path = fdManager.getPath(open3);
         System.out.println("get " + open3 + "  path: " + path);
+
+        long i = 8L ; //预期为3
+        int i1 = Long.numberOfTrailingZeros(i);
+        System.out.println(i1);
     }
 }

@@ -1,10 +1,6 @@
 package 链表;
 
-import jdk.internal.org.objectweb.asm.tree.IincInsnNode;
-import sun.awt.image.ImageWatched;
-
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.Map;
 

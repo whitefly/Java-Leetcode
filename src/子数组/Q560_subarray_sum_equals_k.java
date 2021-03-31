@@ -1,10 +1,7 @@
 package 子数组;
 
-import org.omg.CORBA.MARSHAL;
-
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class Q560_subarray_sum_equals_k {
     public int subarraySum(int[] nums, int k) {

@@ -1,6 +1,5 @@
 package bitmap;
 
-import jdk.nashorn.internal.runtime.regexp.joni.exception.ValueException;
 
 import java.util.BitSet;
 
@@ -12,14 +11,14 @@ public class MyBitMap {
         this.bigArray = new int[(int) (size / 32 + 1)];
     }
 
-    public void set0(int num) {
-        if (num < 0) throw new ValueException("不能小于0");
+    public void set0(int num) throws Exception {
+        if (num < 0) throw new Exception("不能小于0");
         int arrayIndex = num >> 5;
         bigArray[arrayIndex] &= ~(1 << num);  //将出这位的其他位都设置为0,只需要翻转即可
     }
 
-    public void set1(int num) {
-        if (num < 0) throw new ValueException("不能小于0");
+    public void set1(int num) throws Exception {
+        if (num < 0) throw new Exception("不能小于0");
         int arrayIndex = num >> 5;
         bigArray[arrayIndex] |= 1 << num;
     }
@@ -41,7 +40,7 @@ public class MyBitMap {
         return sb.toString();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         int[] arrays = new int[]{1, 2, 35, 22, 56, 334, 245, 54};
 
         MyBitMap bigMapTest = new MyBitMap(500);
